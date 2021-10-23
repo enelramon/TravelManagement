@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/viajesListFragment">
+    <fragment
+        android:id="@+id/viajesListFragment"
+        android:name="com.sagrd.travelmanagement.ui.ViajesListFragment"
+        android:label="viajes_list_fragment"
+        tools:layout="@layout/viajes_list_fragment" >
+        <action
+            android:id="@+id/action_viajesListFragment_to_viajeEditFragment"
+            app:destination="@id/viajeEditFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/viajeEditFragment"
+        android:name="com.sagrd.travelmanagement.ui.ViajeEditFragment"
+        android:label="viaje_edit_fragment"
+        tools:layout="@layout/viaje_edit_fragment" />
+</navigation>

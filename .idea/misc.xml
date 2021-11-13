@@ -20,10 +20,11 @@
         <entry key="..\:/Users/Jesus Abreu/AndroidStudioProjects/JesusAbreuGonzalez/TravelManagement/app/src/main/res/layout/viaje_row.xml" value="0.3129528985507246" />
         <entry key="..\:/Users/Jesus Abreu/AndroidStudioProjects/JesusAbreuGonzalez/TravelManagement/app/src/main/res/layout/viajes_list_fragment.xml" value="0.3129528985507246" />
         <entry key="..\:/Users/Jesus Abreu/AndroidStudioProjects/JesusAbreuGonzalez/TravelManagement/app/src/main/res/menu/menu_main.xml" value="0.3625" />
+        <entry key="..\:/Users/Jesus Abreu/Desktop/New folder (3)/TravelManagement/app/src/main/res/layout/estado_viaje_fragment.xml" value="0.3625" />
       </map>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">

@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.EstadoViaje.EstadoViajeFragment">
+
+    <View
+        android:id="@+id/title"
+        android:layout_width="0dp"
+        android:layout_height="62dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="0dp"
+        android:background="#00A3FF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/titleTextView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="@string/title_estado_de_viajes"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="6dp"
+        app:layout_constraintBottom_toBottomOf="@+id/title"
+        app:layout_constraintEnd_toEndOf="@+id/title"
+        app:layout_constraintStart_toStartOf="@+id/title"
+        app:layout_constraintTop_toTopOf="@+id/title" />
+
+
+    <View
+        android:id="@+id/header"
+        android:layout_width="395dp"
+        android:layout_height="45dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="16dp"
+        android:background="#C4C4C4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/title" />
+
+    <TextView
+        android:id="@+id/fechaTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/fecha"
+        android:textAlignment="viewStart"
+        android:textSize="20sp"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="@+id/header"
+        app:layout_constraintStart_toStartOf="@+id/header"
+        app:layout_constraintEnd_toStartOf="@id/conceptoTextView"
+        app:layout_constraintTop_toTopOf="@+id/header" />
+
+    <TextView
+        android:id="@+id/conceptoTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/concepto"
+        android:textAlignment="viewStart"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/fechaTextView"
+        app:layout_constraintStart_toEndOf="@+id/fechaTextView"
+        app:layout_constraintEnd_toStartOf="@id/montoTextView"/>
+
+    <TextView
+        android:id="@+id/montoTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/monto"
+        android:textAlignment="viewStart"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/fechaTextView"
+        app:layout_constraintStart_toEndOf="@+id/conceptoTextView"
+        app:layout_constraintEnd_toStartOf="@id/balanceTextView"/>
+
+    <TextView
+        android:id="@+id/balanceTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/balance"
+        android:textAlignment="viewStart"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/fechaTextView"
+        app:layout_constraintEnd_toEndOf="@id/header"
+        app:layout_constraintStart_toEndOf="@+id/montoTextView" />
+
+    <Button
+        android:id="@+id/gastoButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/gasto_button"
+        app:layout_constraintHorizontal_bias="0.98"
+        app:layout_constraintBottom_toTopOf="@id/viajeButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/estadoViajeRecyclerView"/>
+
+    <Button
+        android:id="@+id/viajeButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/viaje_button"
+        app:layout_constraintBottom_toTopOf="@+id/fabEstadoViajes"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.98"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/gastoButton" />
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/estadoViajeRecyclerView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintBottom_toTopOf="@+id/gastoButton"
+        app:layout_constraintEnd_toEndOf="@+id/header"
+        app:layout_constraintStart_toStartOf="@+id/header"
+        app:layout_constraintTop_toBottomOf="@+id/header"
+        tools:listitem="@layout/estado_viaje_row" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fabEstadoViajes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.98"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/viajeButton"
+        app:srcCompat="@drawable/ic_baseline_add" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+

@@ -12,9 +12,7 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8aec2e47-1f54-4550-acd2-d9af867769cf" name="Default Changelist" comment="Creando proyecto">
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/sagrd/travelmanagement/ui/EstadoViaje/EstadoViajeFragment.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/sagrd/travelmanagement/ui/EstadoViaje/EstadoViajeViewModel.kt" afterDir="false" />
+    <list default="true" id="8aec2e47-1f54-4550-acd2-d9af867769cf" name="Default Changelist" comment="Agregando EstadoViajeFragment.kt y EstadoViajeViewModel.kt">
       <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/estado_viaje_fragment.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/estado_viaje_row.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" afterDir="false" />
@@ -192,7 +190,14 @@
       <option name="project" value="LOCAL" />
       <updated>1636772020192</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Agregando EstadoViajeFragment.kt y EstadoViajeViewModel.kt">
+      <created>1636772688125</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1636772688125</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -210,7 +215,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="SUBIENDO EL PROYECTO" />
     <MESSAGE value="Creando proyecto" />
-    <option name="LAST_COMMIT_MESSAGE" value="Creando proyecto" />
+    <MESSAGE value="Agregando EstadoViajeFragment.kt y EstadoViajeViewModel.kt" />
+    <option name="LAST_COMMIT_MESSAGE" value="Agregando EstadoViajeFragment.kt y EstadoViajeViewModel.kt" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>

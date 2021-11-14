@@ -14,9 +14,13 @@
     <string name="observaciones">Observaciones</string>
     <string name="title_estado_de_viajes">Estado de Viajes</string>
     <string name="fecha">Fecha</string>
-    <string name="concepto">Concepto</string>
-    <string name="monto">Monto</string>
+    <string name="conceptoViaje">Concepto de viaje</string>
+    <string name="montoViaje">Monto de viaje</string>
     <string name="balance">Balance</string>
     <string name="gasto_button">Gasto</string>
     <string name="viaje_button">Viaje</string>
+    <string name="conceptoGasto">Concepto de gasto</string>
+    <string name="montoGasto">Monto de gasto</string>
+    <string name="monto">Monto</string>
+    <string name="concepto">Concepto</string>
 </resources>

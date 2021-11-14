@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+<navigation
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav_graph"
     app:startDestination="@id/viajesListFragment">
+
     <fragment
         android:id="@+id/viajesListFragment"
         android:name="com.sagrd.travelmanagement.ui.ViajesListFragment"
@@ -16,11 +18,16 @@
     <fragment
         android:id="@+id/viajeEditFragment"
         android:name="com.sagrd.travelmanagement.ui.ViajeEditFragment"
-        android:label="viaje_edit_fragment"
+        android:label="Viajes"
         tools:layout="@layout/viaje_edit_fragment" />
     <fragment
         android:id="@+id/estadoViajeFragment"
-        android:name="com.sagrd.travelmanagement.ui.EstadoViaje.EstadoViajeFragment"
+        android:name="com.sagrd.travelmanagement.ui.estadoViaje.EstadoViajeFragment"
         android:label="estado_viaje_fragment"
         tools:layout="@layout/estado_viaje_fragment" />
+    <fragment
+        android:id="@+id/gastoViajeFragment"
+        android:name="com.sagrd.travelmanagement.ui.GastoViaje.GastoViajeFragment"
+        android:label="gasto_viaje_fragment"
+        tools:layout="@layout/gasto_viaje_fragment" />
 </navigation>

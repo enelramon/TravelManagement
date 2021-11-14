@@ -12,7 +12,12 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8aec2e47-1f54-4550-acd2-d9af867769cf" name="Default Changelist" comment="Borrando pantallas de Estado de viaje" />
+    <list default="true" id="8aec2e47-1f54-4550-acd2-d9af867769cf" name="Default Changelist" comment="Agregando Pantallas estado_viaje_fragment.xml y archivos EstadoViajeViewModel.kt, EstadoViajeFragment.kt">
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/sagrd/travelmanagement/model/Gasto.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/gasto_viaje.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -131,9 +136,15 @@
     <property name="android-custom-viewC:/Users/Jesus Abreu/.gradle/caches/modules-2/files-2.1/com.google.android.material/material/1.4.0/51035a8f6342c20d4d8f242d100e6f25e0c271ac/material-1.4.0-sources.jar!/com/google/android/material/floatingactionbutton/FloatingActionButton.java_SELECTED" value="FloatingActionButton" />
     <property name="com.intellij.openapi.externalSystem.service.settings.ExternalSystemGroupConfigurable" value="ALL" />
     <property name="dart.analysis.tool.window.visible" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/res/layout" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.CommitDialog" />
     <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Jesus Abreu\AndroidStudioProjects\JesusAbreuGonzalez\TravelManagement\app\src\main\res\layout" />
+      <recent name="C:\Users\Jesus Abreu\AndroidStudioProjects\JesusAbreuGonzalez\TravelManagement\app\src\main\java\com\sagrd\travelmanagement\ui" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
@@ -196,6 +207,9 @@
     </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\Jesus Abreu\AppData\Roaming\Subversion</configuration>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="8aec2e47-1f54-4550-acd2-d9af867769cf" name="Default Changelist" comment="" />
@@ -246,7 +260,14 @@
       <option name="project" value="LOCAL" />
       <updated>1636777883770</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Agregando Pantallas estado_viaje_fragment.xml y archivos EstadoViajeViewModel.kt, EstadoViajeFragment.kt">
+      <created>1636778139119</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1636778139119</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -282,7 +303,8 @@
     <MESSAGE value="Agregando EstadoViajeFragment.kt y EstadoViajeViewModel.kt" />
     <MESSAGE value="Eliminando Pantallas estado_viaje_fragment.xml y estado_viaje_row.xml" />
     <MESSAGE value="Borrando pantallas de Estado de viaje" />
-    <option name="LAST_COMMIT_MESSAGE" value="Borrando pantallas de Estado de viaje" />
+    <MESSAGE value="Agregando Pantallas estado_viaje_fragment.xml y archivos EstadoViajeViewModel.kt, EstadoViajeFragment.kt" />
+    <option name="LAST_COMMIT_MESSAGE" value="Agregando Pantallas estado_viaje_fragment.xml y archivos EstadoViajeViewModel.kt, EstadoViajeFragment.kt" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>

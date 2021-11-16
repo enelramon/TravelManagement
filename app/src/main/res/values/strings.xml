@@ -22,4 +22,15 @@
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="balance_viaje">Balance Viaje</string>
+
+    <string-array name="estado">
+        <item>Continúa</item>
+        <item>Finaliza</item>
+    </string-array>
+
+    <string-array name="lista">
+        <item>Llamada</item>
+        <item>Correo</item>
+        <item>Visita</item>
+    </string-array>
 </resources>

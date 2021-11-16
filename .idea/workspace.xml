@@ -12,10 +12,7 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8aec2e47-1f54-4550-acd2-d9af867769cf" name="Default Changelist" comment="Agregando EstadoViajeFragment.kt y EstadoViajeViewModel.kt">
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/sagrd/travelmanagement/ui/SeguimientoClienteFragment.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/dropdown_item.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/seguimiento_cliente_fragment.xml" afterDir="false" />
+    <list default="true" id="8aec2e47-1f54-4550-acd2-d9af867769cf" name="Default Changelist" comment="Agregando seguimiento_cliente_fragment.xml y SeguimientoClienteFragment.kt">
       <change beforePath="$PROJECT_DIR$/.gradle/7.0.2/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.0.2/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.0.2/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.0.2/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.0.2/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.0.2/fileHashes/fileHashes.bin" afterDir="false" />
@@ -30,11 +27,6 @@
       <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/app/Travel_Management.app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/app/Travel_Management.app.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/local.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,6 +79,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitSEFilterConfiguration">
@@ -218,7 +215,14 @@
       <option name="project" value="LOCAL" />
       <updated>1636772688125</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Agregando seguimiento_cliente_fragment.xml y SeguimientoClienteFragment.kt">
+      <created>1637099343150</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1637099343150</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -240,7 +244,8 @@
     <MESSAGE value="SUBIENDO EL PROYECTO" />
     <MESSAGE value="Creando proyecto" />
     <MESSAGE value="Agregando EstadoViajeFragment.kt y EstadoViajeViewModel.kt" />
-    <option name="LAST_COMMIT_MESSAGE" value="Agregando EstadoViajeFragment.kt y EstadoViajeViewModel.kt" />
+    <MESSAGE value="Agregando seguimiento_cliente_fragment.xml y SeguimientoClienteFragment.kt" />
+    <option name="LAST_COMMIT_MESSAGE" value="Agregando seguimiento_cliente_fragment.xml y SeguimientoClienteFragment.kt" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>

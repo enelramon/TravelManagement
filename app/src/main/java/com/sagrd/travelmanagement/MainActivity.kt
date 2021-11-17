@@ -26,8 +26,6 @@ class MainActivity : AppCompatActivity() {
         val navController = findNavController(R.id.nav_host_fragment_content_main)
         appBarConfiguration = AppBarConfiguration(navController.graph)
         setupActionBarWithNavController(navController, appBarConfiguration)
-
-
     }
 
     override fun onCreateOptionsMenu(menu: Menu): Boolean {
@@ -41,7 +39,7 @@ class MainActivity : AppCompatActivity() {
         // automatically handle clicks on the Home/Up button, so long
         // as you specify a parent activity in AndroidManifest.xml.
         return when (item.itemId) {
-            R.id.action_settings -> true
+            R.id.balancesDeViajeFragment-> true
             else -> super.onOptionsItemSelected(item)
         }
     }

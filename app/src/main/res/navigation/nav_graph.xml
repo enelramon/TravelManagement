@@ -12,10 +12,18 @@
         <action
             android:id="@+id/action_viajesListFragment_to_viajeEditFragment"
             app:destination="@id/viajeEditFragment" />
+        <action
+            android:id="@+id/action_viajesListFragment_to_balancesDeViajeFragment"
+            app:destination="@id/balancesDeViajeFragment" />
     </fragment>
     <fragment
         android:id="@+id/viajeEditFragment"
         android:name="com.sagrd.travelmanagement.ui.ViajeEditFragment"
         android:label="viaje_edit_fragment"
         tools:layout="@layout/viaje_edit_fragment" />
+    <fragment
+        android:id="@+id/balancesDeViajeFragment"
+        android:name="com.sagrd.travelmanagement.ui.BalancesDeViajeFragment"
+        android:label="balances_de_viaje_fragment"
+        tools:layout="@layout/balances_de_viaje_fragment" />
 </navigation>

@@ -30,6 +30,19 @@
         <entry key="..\:/Users/Mario/AndroidStudioProjects/TravelManagement/app/src/main/res/layout/viaje_row.xml" value="0.17760416666666667" />
         <entry key="..\:/Users/Mario/AndroidStudioProjects/TravelManagement/app/src/main/res/layout/viajes_list_fragment.xml" value="0.17760416666666667" />
         <entry key="..\:/Users/Mario/AndroidStudioProjects/TravelManagement/app/src/main/res/menu/menu_main.xml" value="0.14270833333333333" />
+        <entry key="..\:/Users/josed/Desktop/folder/TravelManagement/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.240625" />
+        <entry key="..\:/Users/josed/Desktop/folder/TravelManagement/app/src/main/res/drawable/ic_baseline_add.xml" value="0.240625" />
+        <entry key="..\:/Users/josed/Desktop/folder/TravelManagement/app/src/main/res/drawable/ic_launcher_background.xml" value="0.240625" />
+        <entry key="..\:/Users/josed/Desktop/folder/TravelManagement/app/src/main/res/drawable/ic_my_icon.xml" value="0.240625" />
+        <entry key="..\:/Users/josed/Desktop/folder/TravelManagement/app/src/main/res/drawable/ic_plus.xml" value="0.240625" />
+        <entry key="..\:/Users/josed/Desktop/folder/TravelManagement/app/src/main/res/layout/activity_main.xml" value="0.18885869565217392" />
+        <entry key="..\:/Users/josed/Desktop/folder/TravelManagement/app/src/main/res/layout/balance_viaje_row.xml" value="0.18" />
+        <entry key="..\:/Users/josed/Desktop/folder/TravelManagement/app/src/main/res/layout/balances_de_viaje_fragment.xml" value="0.11820652173913043" />
+        <entry key="..\:/Users/josed/Desktop/folder/TravelManagement/app/src/main/res/layout/dropdown_item.xml" value="0.25" />
+        <entry key="..\:/Users/josed/Desktop/folder/TravelManagement/app/src/main/res/layout/seguimiento_cliente_fragment.xml" value="0.33" />
+        <entry key="..\:/Users/josed/Desktop/folder/TravelManagement/app/src/main/res/layout/viaje_edit_fragment.xml" value="0.14" />
+        <entry key="..\:/Users/josed/Desktop/folder/TravelManagement/app/src/main/res/layout/viajes_list_fragment.xml" value="0.11820652173913043" />
+        <entry key="..\:/Users/josed/Desktop/folder/TravelManagement/app/src/main/res/menu/menu_main.xml" value="0.22447916666666667" />
       </map>
     </option>
   </component>

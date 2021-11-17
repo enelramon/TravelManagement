@@ -8,6 +8,7 @@ import androidx.fragment.app.Fragment
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import androidx.navigation.fragment.findNavController
+import com.sagrd.travelmanagement.R
 import com.sagrd.travelmanagement.databinding.ViajeEditFragmentBinding
 import com.sagrd.travelmanagement.model.Viaje
 import com.sagrd.travelmanagement.utils.getFloat
@@ -40,17 +41,18 @@ class ViajeEditFragment : Fragment() {
                 .get(ViajeEditViewModel::class.java)
 
         viewModel.listaSolares.observe(viewLifecycleOwner, Observer{
-            binding.millasTextInputEditText.setText("${it.size}")
+            binding.conceptoTextInputEditText.setText("${it.size}")
         })
 
         binding.guardarButton.setOnClickListener {
-            if (!Validar()) {
+            findNavController().navigate(R.id.estadoViajeFragment)
+            /*if (!Validar()) {
                 it.showMessage("Verifique los errores para continuar")
             } else {
-                viewModel.Insert(LlenaClase())
+               // viewModel.Insert(LlenaClase())
                 it.showMessage("Viaje guardado")
-                findNavController().navigateUp()
-            }
+
+            }*/
         }
 
 
@@ -68,7 +70,7 @@ class ViajeEditFragment : Fragment() {
 
     fun Validar(): Boolean {
         var esValido = true;
-
+/*
         binding.millasTextInputEditText.let {
             if (it.text.getFloat() <= 0) {
                 it.error = "Debe introducir una cantidad de millas"
@@ -84,10 +86,10 @@ class ViajeEditFragment : Fragment() {
             } else
                 it.error = null
         }
-
+*/
         return esValido
     }
-
+/*
     fun LlenaClase(): Viaje {
         return Viaje(
             0,
@@ -98,7 +100,7 @@ class ViajeEditFragment : Fragment() {
     fun LlenaCampos(viaje: Viaje)  {
             binding.millasTextInputEditText.setText(viaje.ViajeId.toString())
             binding.observacionesTextInputEditText.setText(viaje.Observaciones.toString())
-    }
+    }*/
 }
 
 

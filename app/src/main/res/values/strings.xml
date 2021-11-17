@@ -23,4 +23,15 @@
     <string name="montoGasto">Monto de gasto</string>
     <string name="monto">Monto</string>
     <string name="concepto">Concepto</string>
+
+    <string-array name="estado">
+        <item>Continúa</item>
+        <item>Finaliza</item>
+    </string-array>
+
+    <string-array name="lista">
+        <item>Llamada</item>
+        <item>Correo</item>
+        <item>Visita</item>
+    </string-array>
 </resources>

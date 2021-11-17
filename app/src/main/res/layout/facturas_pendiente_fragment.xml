@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ui.FacturasPendienteFragment">
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/Enunciado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="32dp"
+        android:minHeight="48dp"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="16dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/EnunciadoTextInputEditText"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="FacturaId, Fecha, Balance" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <CheckBox
+        android:id="@+id/CheckBox1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="32dp"
+        android:minHeight="48dp"
+        android:text="100,20-10-2021        3,000.00"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Enunciado">
+    </CheckBox>
+
+    <CheckBox
+        android:id="@+id/CheckBox2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="32dp"
+        android:minHeight="48dp"
+        android:text="102,20-09-2021        1,000.00"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/CheckBox1">
+    </CheckBox>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/ResultadoTotal"
+        android:layout_width="164dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="32dp"
+        android:minHeight="48dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.989"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/CheckBox2">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/TotalTextInputEditText"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="1000"
+            android:isScrollContainer="true"
+            android:scrollbars="vertical"
+            android:textSize="16sp"
+            tools:ignore="TouchTargetSizeCheck" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <TextView
+        android:id="@+id/TotalTextView"
+        android:layout_width="58dp"
+        android:layout_height="19dp"
+        android:layout_marginTop="40dp"
+        android:text="Total:"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toStartOf="@+id/ResultadoTotal"
+        app:layout_constraintHorizontal_bias="0.829"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/CheckBox2" />
+
+    <Button
+        android:id="@+id/Guardarbutton"
+        android:layout_width="118dp"
+        android:layout_height="49dp"
+        android:text="Guardar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ResultadoTotal" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

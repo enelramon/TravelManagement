@@ -12,4 +12,14 @@
     <string name="guardar">Guardar</string>
     <string name="millas">Millas</string>
     <string name="observaciones">Observaciones</string>
+    <string name="title_estado_de_viajes">Estado de Viajes</string>
+    <string name="fecha">Fecha</string>
+    <string name="concepto">Concepto</string>
+    <string name="monto">Monto</string>
+    <string name="balance">Balance</string>
+    <string name="gasto_button">Gasto</string>
+    <string name="viaje_button">Viaje</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="balance_viaje">Balance Viaje</string>
 </resources>

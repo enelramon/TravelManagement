@@ -15,7 +15,7 @@ import com.sagrd.travelmanagement.model.Viaje
     version = 2,
     exportSchema = false
 )
-//@TypeConverters(Converters::class)
+@TypeConverters(Converters::class)
 abstract class AppDataBase : RoomDatabase() {
 
     abstract val viajeDao: ViajeDao

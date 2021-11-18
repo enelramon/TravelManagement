@@ -1,4 +1,4 @@
-package com.sagrd.travelmanagement.ui.estadoViaje
+package com.sagrd.travelmanagement.ui.estadoviaje
 
 import android.app.Application
 import androidx.lifecycle.ViewModel

@@ -22,12 +22,12 @@
         tools:layout="@layout/viaje_edit_fragment" />
     <fragment
         android:id="@+id/estadoViajeFragment"
-        android:name="com.sagrd.travelmanagement.ui.estadoViaje.EstadoViajeFragment"
+        android:name="com.sagrd.travelmanagement.ui.estadoviaje.EstadoViajeFragment"
         android:label="estado_viaje_fragment"
         tools:layout="@layout/estado_viaje_fragment" />
     <fragment
         android:id="@+id/gastoViajeFragment"
-        android:name="com.sagrd.travelmanagement.ui.GastoViaje.GastoViajeFragment"
+        android:name="com.sagrd.travelmanagement.ui.gastoviaje.GastoViajeFragment"
         android:label="gasto_viaje_fragment"
         tools:layout="@layout/gasto_viaje_fragment" />
 </navigation>

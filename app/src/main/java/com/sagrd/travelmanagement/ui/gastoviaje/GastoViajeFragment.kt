@@ -1,4 +1,4 @@
-package com.sagrd.travelmanagement.ui.GastoViaje
+package com.sagrd.travelmanagement.ui.gastoviaje
 
 import androidx.lifecycle.ViewModelProvider
 import android.os.Bundle

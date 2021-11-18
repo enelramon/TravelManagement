@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.estadoViaje.EstadoViajeFragment">
+    tools:context=".ui.estadoviaje.EstadoViajeFragment">
 
     <View
         android:id="@+id/header"

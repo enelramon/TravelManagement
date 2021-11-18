@@ -12,8 +12,8 @@
         android:label="viajes_list_fragment"
         tools:layout="@layout/viajes_list_fragment" >
         <action
-            android:id="@+id/action_viajesListFragment_to_viajeEditFragment"
-            app:destination="@id/viajeEditFragment" />
+            android:id="@+id/action_viajesListFragment_to_estadoViajeFragment"
+            app:destination="@id/estadoViajeFragment" />
     </fragment>
     <fragment
         android:id="@+id/viajeEditFragment"
@@ -24,7 +24,14 @@
         android:id="@+id/estadoViajeFragment"
         android:name="com.sagrd.travelmanagement.ui.estadoviaje.EstadoViajeFragment"
         android:label="estado_viaje_fragment"
-        tools:layout="@layout/estado_viaje_fragment" />
+        tools:layout="@layout/estado_viaje_fragment" >
+        <action
+            android:id="@+id/action_estadoViajeFragment_to_viajeEditFragment"
+            app:destination="@id/viajeEditFragment" />
+        <action
+            android:id="@+id/action_estadoViajeFragment_to_gastoViajeFragment"
+            app:destination="@id/gastoViajeFragment" />
+    </fragment>
     <fragment
         android:id="@+id/gastoViajeFragment"
         android:name="com.sagrd.travelmanagement.ui.gastoviaje.GastoViajeFragment"

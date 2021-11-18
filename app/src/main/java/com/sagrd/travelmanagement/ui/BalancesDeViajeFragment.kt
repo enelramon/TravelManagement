@@ -18,7 +18,7 @@ class BalancesDeViajeFragment : Fragment() {
     companion object {
         fun newInstance() = BalancesDeViajeFragment()
     }
-
+    //klk klk
     private lateinit var viewModel: BalancesDeViajeViewModel
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?,

@@ -34,16 +34,6 @@ class ViajeEditViewModel(application: Application) : ViewModel() {
         viajeRepository.Insert(viaje)
     }
 
-    fun getBancos() {
-        /* viewModelScope.launch {
-             try {
-                val listResult = SagApi.RETROFI_SERVICE.getBancos()
-                 _response.value = "Success: ${listResult.size} Bancos recibidos"
-             } catch (e: Exception) {
-                 _response.value = "Failure: ${e.message}"
-             }
-         }*/
-    }
 
     fun getSolares() {
         viewModelScope.launch {

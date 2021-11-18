@@ -4,8 +4,6 @@ import android.app.Application
 import androidx.lifecycle.*
 import com.sagrd.travelmanagement.data.AppDataBase
 import com.sagrd.travelmanagement.model.Viaje
-import com.sagrd.travelmanagement.network.Solares
-import com.sagrd.travelmanagement.network.SolaresApi
 import com.sagrd.travelmanagement.repository.ViajeRepository
 import kotlinx.coroutines.launch
 
@@ -22,9 +20,9 @@ class ViajeEditViewModel(application: Application) : ViewModel() {
     val response: LiveData<String>
         get() = _response
 
-    private var _listaSolares = MutableLiveData<List<Solares>>()
-    val listaSolares: LiveData<List<Solares>>
-        get() = _listaSolares
+//    private var _listaSolares = MutableLiveData<List<Solares>>()
+//    val listaSolares: LiveData<List<Solares>>
+//        get() = _listaSolares
 
     init {
         getSolares()
@@ -38,7 +36,7 @@ class ViajeEditViewModel(application: Application) : ViewModel() {
     fun getSolares() {
         viewModelScope.launch {
             try {
-                _listaSolares.value = SolaresApi.RetrofitApi.getSolares()
+//                _listaSolares.value = SolaresApi.RetrofitApi.getSolares()
                 _response.value = "Solares encontrados: "
             } catch (e: Exception) {
                 _response.value = "fallo al buscar solares${e.message}"

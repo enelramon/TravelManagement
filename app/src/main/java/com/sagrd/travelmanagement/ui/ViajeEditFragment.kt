@@ -1,11 +1,11 @@
 package com.sagrd.travelmanagement.ui
 
+import android.icu.util.Calendar
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
-import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import androidx.navigation.fragment.findNavController
 import com.sagrd.travelmanagement.R
@@ -13,7 +13,6 @@ import com.sagrd.travelmanagement.databinding.ViajeEditFragmentBinding
 import com.sagrd.travelmanagement.model.Viaje
 import com.sagrd.travelmanagement.utils.getFloat
 import com.sagrd.travelmanagement.utils.showMessage
-import java.time.LocalDateTime
 
 class ViajeEditFragment : Fragment() {
     companion object {
@@ -49,7 +48,7 @@ class ViajeEditFragment : Fragment() {
             if (!Validar()) {
                 it.showMessage("Verifique los errores para continuar")
             } else {
-                LlenaClase()
+                viewModel.Insert(LlenaClase())
                 it.showMessage("Viaje guardado")
                 findNavController().navigate(R.id.estadoViajeFragment)
             }
@@ -93,11 +92,12 @@ class ViajeEditFragment : Fragment() {
     fun LlenaClase() : Viaje {
         return Viaje(
             0,
-            LocalDateTime.now(),
+            Calendar.getInstance().time as java.util.Date,
             binding.conceptoTextInputEditText.text.toString(),
             binding.montoTextInputEditText.text.getFloat()
         )
     }
+
 }
 
 

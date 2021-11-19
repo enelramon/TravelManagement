@@ -47,8 +47,8 @@ class ViajesListFragment : Fragment() {
         })
         binding.listaRecyclerView.adapter = adapter
 
-        binding.fab.setOnClickListener { view ->
-            findNavController().navigate(R.id.action_viajesListFragment_to_viajeEditFragment)
+        binding.fab.setOnClickListener {
+            findNavController().navigate(R.id.action_viajesListFragment_to_estadoViajeFragment)
         }
     }
 

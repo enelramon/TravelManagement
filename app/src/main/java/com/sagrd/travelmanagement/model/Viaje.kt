@@ -9,6 +9,7 @@ import java.util.*
 data class Viaje(
     @PrimaryKey(autoGenerate = true)
     var ViajeId:Long,
+    var fecha:Date,
     var Millas: Float,
     var Observaciones: String
 )

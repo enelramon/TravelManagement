@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:id="@+id/fechaTextView"
+        android:layout_width="0dp"
+        android:layout_height="45dp"
+        android:layout_weight="1"
+        android:background="#C4C4C4"
+        android:gravity="center"
+        android:text="12-09-2021"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toStartOf="@id/conceptoTextView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/conceptoTextView"
+        android:layout_width="115dp"
+        android:layout_height="45dp"
+        android:layout_weight="3"
+        android:background="#C4C4C4"
+        android:gravity="center"
+        android:text="Tenares"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/fechaTextView"
+        app:layout_constraintEnd_toStartOf="@id/montoTextView"
+        app:layout_constraintStart_toEndOf="@id/fechaTextView"
+        tools:ignore="RtlCompat" />
+
+    <TextView
+        android:id="@+id/montoTextView"
+        android:layout_width="0dp"
+        android:layout_height="45dp"
+        android:layout_weight="1"
+        android:background="#C4C4C4"
+        android:gravity="center"
+        android:text="300.00"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/fechaTextView"
+        app:layout_constraintEnd_toStartOf="@id/balanceTextView"
+        app:layout_constraintStart_toEndOf="@id/conceptoTextView"
+        tools:ignore="RtlCompat" />
+
+    <TextView
+        android:id="@+id/balanceTextView"
+        android:layout_width="0dp"
+        android:layout_height="45dp"
+        android:layout_weight="1"
+        android:background="#C4C4C4"
+        android:gravity="center"
+        android:text="300.00"
+        android:textAlignment="viewStart"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/fechaTextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/montoTextView"
+        tools:ignore="RtlCompat" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

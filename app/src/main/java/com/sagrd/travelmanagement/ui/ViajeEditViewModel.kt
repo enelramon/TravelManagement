@@ -2,14 +2,19 @@ package com.sagrd.travelmanagement.ui
 
 import android.app.Application
 import androidx.lifecycle.*
+import androidx.room.Update
 import com.sagrd.travelmanagement.data.AppDataBase
+import com.sagrd.travelmanagement.databinding.ViajeEditFragmentBinding
 import com.sagrd.travelmanagement.model.Viaje
 import com.sagrd.travelmanagement.repository.ViajeRepository
+import com.sagrd.travelmanagement.utils.getFloat
 import kotlinx.coroutines.launch
+import java.time.LocalDateTime
 
 class ViajeEditViewModel(application: Application) : ViewModel() {
 
     private val viajeRepository = ViajeRepository(AppDataBase.getInstance(application))
+    private lateinit var binding : ViajeEditFragmentBinding
 
    /* val viaje: LiveData<Viaje>
         get() = viajeRepository.Find(1)
@@ -28,9 +33,14 @@ class ViajeEditViewModel(application: Application) : ViewModel() {
 //        getSolares()
 //    }
 //
-//    fun Insert(viaje: Viaje) = viewModelScope.launch {
-//        viajeRepository.Insert(viaje)
-//    }
+    fun Insert(viaje: Viaje) = viewModelScope.launch {
+        viajeRepository.Insert(viaje)
+    }
+
+    fun Update(viaje: Viaje) = viewModelScope.launch {
+        viajeRepository.Update(viaje)
+    }
+
 //
 //
 //    fun getSolares() {
@@ -43,6 +53,9 @@ class ViajeEditViewModel(application: Application) : ViewModel() {
 //            }
 //        }
 //    }
+
+
+
 
     //Factory for constructing DevByteViewModel with parameter
     class Factory(val app: Application) : ViewModelProvider.Factory {

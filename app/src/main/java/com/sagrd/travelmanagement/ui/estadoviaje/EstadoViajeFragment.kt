@@ -9,6 +9,9 @@ import android.view.ViewGroup
 import androidx.navigation.fragment.findNavController
 import com.sagrd.travelmanagement.R
 import com.sagrd.travelmanagement.databinding.EstadoViajeFragmentBinding
+import com.sagrd.travelmanagement.model.Viaje
+import java.time.LocalDateTime
+import com.sagrd. travelmanagement.utils.*
 
 class EstadoViajeFragment : Fragment() {
 
@@ -51,5 +54,4 @@ class EstadoViajeFragment : Fragment() {
         super.onDestroyView()
         _binding = null
     }
-
 }

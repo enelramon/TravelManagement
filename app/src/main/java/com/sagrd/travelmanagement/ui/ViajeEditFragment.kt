@@ -13,6 +13,7 @@ import com.sagrd.travelmanagement.databinding.ViajeEditFragmentBinding
 import com.sagrd.travelmanagement.model.Viaje
 import com.sagrd.travelmanagement.utils.getFloat
 import com.sagrd.travelmanagement.utils.showMessage
+import java.time.LocalDateTime
 
 class ViajeEditFragment : Fragment() {
     companion object {
@@ -40,19 +41,18 @@ class ViajeEditFragment : Fragment() {
             ViewModelProvider(this, ViajeEditViewModel.Factory(requireActivity().application))
                 .get(ViajeEditViewModel::class.java)
 
-        viewModel.listaSolares.observe(viewLifecycleOwner, Observer{
-            binding.conceptoTextInputEditText.setText("${it.size}")
-        })
+//        viewModel.listaSolares.observe(viewLifecycleOwner, Observer{
+//            binding.conceptoTextInputEditText.setText("${it.size}")
+//        })
 
         binding.guardarButton.setOnClickListener {
-            findNavController().navigate(R.id.estadoViajeFragment)
-            /*if (!Validar()) {
+            if (!Validar()) {
                 it.showMessage("Verifique los errores para continuar")
             } else {
-               // viewModel.Insert(LlenaClase())
+                LlenaClase()
                 it.showMessage("Viaje guardado")
-
-            }*/
+                findNavController().navigate(R.id.estadoViajeFragment)
+            }
         }
 
 
@@ -70,37 +70,34 @@ class ViajeEditFragment : Fragment() {
 
     fun Validar(): Boolean {
         var esValido = true;
-/*
-        binding.millasTextInputEditText.let {
+
+        binding.montoTextInputEditText.let {
             if (it.text.getFloat() <= 0) {
-                it.error = "Debe introducir una cantidad de millas"
+                it.error = "Debe introducir un monto válido"
                 esValido = false
             } else
                 it.error = null
         }
 
-        binding.observacionesTextInputEditText.let {
+        binding.conceptoTextInputEditText.let {
             if (it.text.isNullOrEmpty()) {
                 it.error = "Debe introducir una observación valida"
                 esValido = false
             } else
                 it.error = null
         }
-*/
+
         return esValido
     }
-/*
-    fun LlenaClase(): Viaje {
+
+    fun LlenaClase() : Viaje {
         return Viaje(
             0,
-            binding.millasTextInputEditText.text.getFloat(),
-            binding.observacionesTextInputEditText.text.toString()
+            LocalDateTime.now(),
+            binding.conceptoTextInputEditText.text.toString(),
+            binding.montoTextInputEditText.text.getFloat()
         )
     }
-    fun LlenaCampos(viaje: Viaje)  {
-            binding.millasTextInputEditText.setText(viaje.ViajeId.toString())
-            binding.observacionesTextInputEditText.setText(viaje.Observaciones.toString())
-    }*/
 }
 
 

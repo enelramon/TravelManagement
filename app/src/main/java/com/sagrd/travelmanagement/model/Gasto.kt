@@ -5,10 +5,11 @@ import androidx.room.PrimaryKey
 import java.util.Date
 
 @Entity
-data class Viaje(
+data class Gasto(
     @PrimaryKey(autoGenerate = true)
-    var ViajeId: Long,
+    var GastoId: Long,
     var Fecha: Date,
     var Concepto: String,
-    var Monto: Float
+    var Monto: Float,
+
 )

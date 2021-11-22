@@ -4,7 +4,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav_graph"
-    app:startDestination="@id/estadoViajeFragment">
+    app:startDestination="@id/homeFragment">
 
     <fragment
         android:id="@+id/viajesListFragment"
@@ -37,4 +37,14 @@
         android:name="com.sagrd.travelmanagement.ui.gastoviaje.GastoViajeFragment"
         android:label="gasto_viaje_fragment"
         tools:layout="@layout/gasto_viaje_fragment" />
+    <fragment
+        android:id="@+id/balancesDeViajeFragment2"
+        android:name="com.sagrd.travelmanagement.ui.BalancesDeViajeFragment"
+        android:label="balances_de_viaje_fragment"
+        tools:layout="@layout/balances_de_viaje_fragment" />
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.sagrd.travelmanagement.ui.home.homeFragment"
+        android:label="home_fragment"
+        tools:layout="@layout/home_fragment" />
 </navigation>

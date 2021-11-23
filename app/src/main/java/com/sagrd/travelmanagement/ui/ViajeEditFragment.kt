@@ -14,6 +14,7 @@ import com.sagrd.travelmanagement.model.Viaje
 import com.sagrd.travelmanagement.utils.getFloat
 import com.sagrd.travelmanagement.utils.showMessage
 import java.time.LocalDateTime
+import java.util.*
 
 class ViajeEditFragment : Fragment() {
     companion object {
@@ -93,7 +94,7 @@ class ViajeEditFragment : Fragment() {
     fun LlenaClase() : Viaje {
         return Viaje(
             0,
-            LocalDateTime.now(),
+            Calendar.getInstance().time as java.util.Date,
             binding.conceptoTextInputEditText.text.toString(),
             binding.montoTextInputEditText.text.getFloat()
         )

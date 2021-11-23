@@ -3,8 +3,8 @@ package com.sagrd.travelmanagement.adapters
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.sagrd.travelmanagement.databinding.ViajeRowBinding
-import com.sagrd.travelmanagement.databinding.ViajeRowBinding.inflate
+import com.sagrd.travelmanagement.databinding.FacturasPendienteRowBinding
+import com.sagrd.travelmanagement.databinding.FacturasPendienteRowBinding.inflate
 import com.sagrd.travelmanagement.model.Viaje
 
 class ViajeAdapter(  ) : RecyclerView.Adapter<ViajeAdapter.ViajeViewHolder>() {
@@ -30,13 +30,13 @@ class ViajeAdapter(  ) : RecyclerView.Adapter<ViajeAdapter.ViajeViewHolder>() {
         notifyDataSetChanged()
     }
 
-    inner class ViajeViewHolder(private val binding: ViajeRowBinding) :
+    inner class ViajeViewHolder(private val binding: FacturasPendienteRowBinding) :
         RecyclerView.ViewHolder(binding.root) {
 
         fun bind(item: Viaje) {
-            binding.idTextView.text = item.ViajeId.toString()
-            binding.observacionesTextView.text = item.Observaciones
-            binding.millasTextView.text = item.Millas.toString()
+            binding.facturaIdCheckBox.text = item.ViajeId.toString()
+            binding.fechaTextView.text = item.Fecha.toString()
+            binding.balanceTextView.text = item.Monto.toString()
         }
     }
 }

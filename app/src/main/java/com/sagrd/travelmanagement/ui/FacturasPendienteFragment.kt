@@ -6,7 +6,10 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.lifecycle.Observer
 import com.sagrd.travelmanagement.R
+import com.sagrd.travelmanagement.adapters.ViajeAdapter
+import com.sagrd.travelmanagement.databinding.FacturasPendienteFragmentBinding
 
 class FacturasPendienteFragment : Fragment() {
 
@@ -15,18 +18,34 @@ class FacturasPendienteFragment : Fragment() {
     }
 
     private lateinit var viewModel: FacturasPendienteViewModel
+    private var _binding : FacturasPendienteFragmentBinding? = null
+    private val binding get() = _binding!!
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        return inflater.inflate(R.layout.facturas_pendiente_fragment, container, false)
+
+        _binding = FacturasPendienteFragmentBinding.inflate(inflater, container, false)
+        viewModel =
+            ViewModelProvider(this, FacturasPendienteViewModel.Factory(requireActivity().application))
+                .get(FacturasPendienteViewModel::class.java)
+
+        return binding.root
     }
 
     override fun onActivityCreated(savedInstanceState: Bundle?) {
         super.onActivityCreated(savedInstanceState)
-        viewModel = ViewModelProvider(this).get(FacturasPendienteViewModel::class.java)
-        // TODO: Use the ViewModel
-    }
 
+        binding.facturasPendienteRecyclerView.adapter = ViajeAdapter()
+        val adapter = binding.facturasPendienteRecyclerView.adapter as ViajeAdapter
+
+        viewModel.list.observe(viewLifecycleOwner, Observer{
+            adapter.submitList(it)
+        })
+    }
+    override fun onDestroyView() {
+        super.onDestroyView()
+        _binding = null
+    }
 }

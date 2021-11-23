@@ -4,7 +4,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav_graph"
-    app:startDestination="@id/viajesListFragment">
+    app:startDestination="@id/facturasPendienteFragment">
 
     <fragment
         android:id="@+id/viajesListFragment"
@@ -37,4 +37,9 @@
         android:name="com.sagrd.travelmanagement.ui.gastoviaje.GastoViajeFragment"
         android:label="gasto_viaje_fragment"
         tools:layout="@layout/gasto_viaje_fragment" />
+    <fragment
+        android:id="@+id/facturasPendienteFragment"
+        android:name="com.sagrd.travelmanagement.ui.FacturasPendienteFragment"
+        android:label="facturas_pendiente_fragment"
+        tools:layout="@layout/facturas_pendiente_fragment" />
 </navigation>

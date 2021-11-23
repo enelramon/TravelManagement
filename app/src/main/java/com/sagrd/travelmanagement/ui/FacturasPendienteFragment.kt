@@ -10,6 +10,7 @@ import androidx.lifecycle.Observer
 import com.sagrd.travelmanagement.R
 import com.sagrd.travelmanagement.adapters.ViajeAdapter
 import com.sagrd.travelmanagement.databinding.FacturasPendienteFragmentBinding
+import com.sagrd. travelmanagement.utils.*
 
 class FacturasPendienteFragment : Fragment() {
 
@@ -34,8 +35,8 @@ class FacturasPendienteFragment : Fragment() {
         return binding.root
     }
 
-    override fun onActivityCreated(savedInstanceState: Bundle?) {
-        super.onActivityCreated(savedInstanceState)
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
 
         binding.facturasPendienteRecyclerView.adapter = ViajeAdapter()
         val adapter = binding.facturasPendienteRecyclerView.adapter as ViajeAdapter

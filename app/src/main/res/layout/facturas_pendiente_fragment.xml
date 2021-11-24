@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.FacturasPendienteFragment">
+
+    <View
+        android:id="@+id/header"
+        android:layout_width="395dp"
+        android:layout_height="45dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="16dp"
+        android:background="#C4C4C4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/facturaIdTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="FacturaId"
+        android:textAlignment="viewStart"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/header"
+        app:layout_constraintEnd_toStartOf="@id/fechaTextView"
+        app:layout_constraintStart_toStartOf="@+id/header"
+        app:layout_constraintTop_toTopOf="@+id/header" />
+
+    <TextView
+        android:id="@+id/fechaTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fecha"
+        android:textAlignment="viewStart"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/facturaIdTextView"
+        app:layout_constraintEnd_toStartOf="@id/balanceTextView"
+        app:layout_constraintStart_toEndOf="@+id/facturaIdTextView" />
+
+    <TextView
+        android:id="@+id/balanceTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Balance"
+        android:textAlignment="viewStart"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/facturaIdTextView"
+        app:layout_constraintEnd_toEndOf="@id/header"
+        app:layout_constraintStart_toEndOf="@+id/fechaTextView" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/facturasPendienteRecyclerView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintBottom_toTopOf="@+id/resultadoTotal"
+        app:layout_constraintEnd_toEndOf="@+id/header"
+        app:layout_constraintStart_toStartOf="@+id/header"
+        app:layout_constraintTop_toBottomOf="@+id/header"
+        app:layout_constraintVertical_bias="0.0"
+        tools:listitem="@layout/facturas_pendiente_row" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/resultadoTotal"
+        android:layout_width="164dp"
+        android:layout_height="44dp"
+        android:minHeight="48dp"
+        app:layout_constraintBottom_toTopOf="@+id/guardarButton"
+        app:layout_constraintEnd_toEndOf="@+id/facturasPendienteRecyclerView"
+        app:layout_constraintHorizontal_bias="0.98"
+        app:layout_constraintStart_toStartOf="@+id/facturasPendienteRecyclerView"
+        app:layout_constraintTop_toBottomOf="@+id/facturasPendienteRecyclerView">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/totalTextInputEditText"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="1000"
+            android:isScrollContainer="true"
+            android:scrollbars="vertical"
+            android:textSize="16sp"
+            tools:ignore="TouchTargetSizeCheck" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <TextView
+        android:id="@+id/totalTextView"
+        android:layout_width="58dp"
+        android:layout_height="wrap_content"
+        android:text="Total:"
+        android:textSize="22sp"
+        app:layout_constraintEnd_toStartOf="@+id/resultadoTotal"
+        app:layout_constraintHorizontal_bias="0.79"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/facturasPendienteRecyclerView" />
+
+    <Button
+        android:id="@+id/guardarButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="228dp"
+        android:text="Guardar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

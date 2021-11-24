@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/estadoViajeFragment"
+            android:icon="@drawable/ic_baseline_add"
+            android:title="Estados de viajes" />
+        <item
+            android:id="@+id/viajeEditFragment"
+            android:icon="@drawable/ic_baseline_add"
+            android:title="Agregar viaje" />
+        <item
+            android:id="@+id/gastoViajeFragment"
+            android:icon="@drawable/ic_baseline_add"
+            android:title="Agregar gasto" />
+        <item
+            android:id="@+id/balancesDeViajeFragment"
+            android:icon="@drawable/ic_login_64"
+            android:title="Balance de viajes"/>
+    </group>
+</menu>

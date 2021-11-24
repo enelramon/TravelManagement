@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -57,56 +58,54 @@
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/facturasPendienteRecyclerView"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
+        android:layout_width="394dp"
+        android:layout_height="289dp"
+        android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
-        app:layout_constraintBottom_toTopOf="@+id/resultadoTotal"
+        android:layout_marginEnd="16dp"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/header"
+        app:layout_constraintHorizontal_bias="0.516"
         app:layout_constraintStart_toStartOf="@+id/header"
         app:layout_constraintTop_toBottomOf="@+id/header"
         app:layout_constraintVertical_bias="0.0"
         tools:listitem="@layout/facturas_pendiente_row" />
 
-    <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/resultadoTotal"
-        android:layout_width="164dp"
-        android:layout_height="44dp"
-        android:minHeight="48dp"
-        app:layout_constraintBottom_toTopOf="@+id/guardarButton"
-        app:layout_constraintEnd_toEndOf="@+id/facturasPendienteRecyclerView"
-        app:layout_constraintHorizontal_bias="0.98"
-        app:layout_constraintStart_toStartOf="@+id/facturasPendienteRecyclerView"
-        app:layout_constraintTop_toBottomOf="@+id/facturasPendienteRecyclerView">
-
-        <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/totalTextInputEditText"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:hint="1000"
-            android:isScrollContainer="true"
-            android:scrollbars="vertical"
-            android:textSize="16sp"
-            tools:ignore="TouchTargetSizeCheck" />
-    </com.google.android.material.textfield.TextInputLayout>
-
-    <TextView
-        android:id="@+id/totalTextView"
-        android:layout_width="58dp"
-        android:layout_height="wrap_content"
-        android:text="Total:"
-        android:textSize="22sp"
-        app:layout_constraintEnd_toStartOf="@+id/resultadoTotal"
-        app:layout_constraintHorizontal_bias="0.79"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/facturasPendienteRecyclerView" />
-
     <Button
         android:id="@+id/guardarButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="228dp"
+        android:layout_marginBottom="44dp"
         android:text="Guardar"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/totaltextView"
+        android:layout_width="51dp"
+        android:layout_height="29dp"
+        android:text="Total"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/guardarButton"
+        app:layout_constraintEnd_toStartOf="@+id/totalResultadotextView"
+        app:layout_constraintTop_toBottomOf="@+id/facturasPendienteRecyclerView"
+        app:layout_constraintVertical_bias="0.278" />
+
+    <TextView
+        android:id="@+id/totalResultadotextView"
+        android:layout_width="115dp"
+        android:layout_height="31dp"
+        android:autoSizeTextType="uniform"
+        android:background="@drawable/textview_border"
+        android:text="1000"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toTopOf="@+id/guardarButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.962"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/facturasPendienteRecyclerView"
+        app:layout_constraintVertical_bias="0.265" />
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -4,7 +4,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav_graph"
-    app:startDestination="@id/facturasPendienteFragment">
+    app:startDestination="@id/homeFragment">
 
     <fragment
         android:id="@+id/viajesListFragment"
@@ -19,7 +19,11 @@
         android:id="@+id/viajeEditFragment"
         android:name="com.sagrd.travelmanagement.ui.ViajeEditFragment"
         android:label="Viajes"
-        tools:layout="@layout/viaje_edit_fragment" />
+        tools:layout="@layout/viaje_edit_fragment" >
+        <action
+            android:id="@+id/action_viajeEditFragment_to_viajesListFragment"
+            app:destination="@id/viajesListFragment" />
+    </fragment>
     <fragment
         android:id="@+id/estadoViajeFragment"
         android:name="com.sagrd.travelmanagement.ui.estadoviaje.EstadoViajeFragment"
@@ -38,8 +42,13 @@
         android:label="gasto_viaje_fragment"
         tools:layout="@layout/gasto_viaje_fragment" />
     <fragment
-        android:id="@+id/facturasPendienteFragment"
-        android:name="com.sagrd.travelmanagement.ui.FacturasPendienteFragment"
-        android:label="facturas_pendiente_fragment"
-        tools:layout="@layout/facturas_pendiente_fragment" />
+        android:id="@+id/balancesDeViajeFragment2"
+        android:name="com.sagrd.travelmanagement.ui.BalancesDeViajeFragment"
+        android:label="balances_de_viaje_fragment"
+        tools:layout="@layout/balances_de_viaje_fragment" />
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.sagrd.travelmanagement.ui.home.homeFragment"
+        android:label="home_fragment"
+        tools:layout="@layout/home_fragment" />
 </navigation>

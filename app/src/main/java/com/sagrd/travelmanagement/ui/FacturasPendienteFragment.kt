@@ -19,6 +19,7 @@ class FacturasPendienteFragment : Fragment() {
     }
 
     private lateinit var viewModel: FacturasPendienteViewModel
+
     private var _binding : FacturasPendienteFragmentBinding? = null
     private val binding get() = _binding!!
 
@@ -45,6 +46,7 @@ class FacturasPendienteFragment : Fragment() {
             adapter.submitList(it)
         })
     }
+
     override fun onDestroyView() {
         super.onDestroyView()
         _binding = null

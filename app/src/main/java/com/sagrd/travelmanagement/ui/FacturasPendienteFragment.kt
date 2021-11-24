@@ -19,7 +19,6 @@ class FacturasPendienteFragment : Fragment() {
     }
 
     private lateinit var viewModel: FacturasPendienteViewModel
-
     private var _binding : FacturasPendienteFragmentBinding? = null
     private val binding get() = _binding!!
 
@@ -29,6 +28,7 @@ class FacturasPendienteFragment : Fragment() {
     ): View? {
 
         _binding = FacturasPendienteFragmentBinding.inflate(inflater, container, false)
+
         viewModel =
             ViewModelProvider(this, FacturasPendienteViewModel.Factory(requireActivity().application))
                 .get(FacturasPendienteViewModel::class.java)
@@ -46,7 +46,6 @@ class FacturasPendienteFragment : Fragment() {
             adapter.submitList(it)
         })
     }
-
     override fun onDestroyView() {
         super.onDestroyView()
         _binding = null

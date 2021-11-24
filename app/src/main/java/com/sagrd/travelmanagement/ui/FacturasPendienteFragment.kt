@@ -7,6 +7,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.lifecycle.Observer
+import java.time.LocalDateTime
 import com.sagrd.travelmanagement.R
 import com.sagrd.travelmanagement.adapters.ViajeAdapter
 import com.sagrd.travelmanagement.databinding.FacturasPendienteFragmentBinding

@@ -19,9 +19,7 @@
         android:textSize="18sp"
         app:layout_constraintEnd_toStartOf="@id/fechaTextView"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
-
-    </CheckBox>
+        app:layout_constraintTop_toTopOf="parent"/>
 
     <TextView
         android:id="@+id/fechaTextView"

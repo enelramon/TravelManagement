@@ -12,7 +12,7 @@ import com.sagrd.travelmanagement.model.Viaje
 
 @Database(
     entities = [Viaje::class],
-    version = 2,
+    version = 3,
     exportSchema = false
 )
 @TypeConverters(Converters::class)

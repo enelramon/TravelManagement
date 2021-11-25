@@ -9,6 +9,7 @@ data class Gasto(
     @PrimaryKey(autoGenerate = true)
     var GastoId: Long,
     var Fecha: Date,
+    //falta TarjetaId
     var Concepto: String,
     var Monto: Float,
 

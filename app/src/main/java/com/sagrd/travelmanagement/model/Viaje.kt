@@ -9,6 +9,8 @@ data class Viaje(
     @PrimaryKey(autoGenerate = true)
     var ViajeId: Long,
     var Fecha: Date,
+    //falta TarjetaId
     var Concepto: String,
-    var Monto: Float
+    //millas, tasadolar
+    var Monto: Float //= precioxMillas * Millas * TasaDolar
 )

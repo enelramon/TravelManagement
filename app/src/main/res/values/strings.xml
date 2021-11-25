@@ -26,6 +26,7 @@
     <string name="conceptoViaje">Concepto de viaje</string>
     <string name="montoViaje">Monto de viaje</string>
     <string name="balance_viaje">Balance Viaje</string>
+    <string name="millasViaje">Millas del viaje</string>
 
     <string-array name="estado">
         <item>Continúa</item>

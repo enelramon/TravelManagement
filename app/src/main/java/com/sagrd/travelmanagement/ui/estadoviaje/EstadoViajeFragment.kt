@@ -6,14 +6,15 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.core.view.isVisible
 import androidx.lifecycle.Observer
 import androidx.navigation.fragment.findNavController
 import com.sagrd.travelmanagement.R
 import com.sagrd.travelmanagement.adapters.ViajeAdapter
+import com.sagrd.travelmanagement.adapters.documentosAdapter
+import com.sagrd.travelmanagement.adapters.gastoAdapter
 import com.sagrd.travelmanagement.databinding.EstadoViajeFragmentBinding
-import com.sagrd.travelmanagement.model.Viaje
-import java.time.LocalDateTime
-import com.sagrd. travelmanagement.utils.*
+import com.sagrd.travelmanagement.model.Documentos
 
 class EstadoViajeFragment : Fragment() {
 
@@ -55,6 +56,21 @@ class EstadoViajeFragment : Fragment() {
 
         binding.viajeButton.setOnClickListener{
             findNavController().navigate(R.id.viajeEditFragment)
+        }
+
+        var contador = 0
+        binding.fabEstadoViajes.setOnClickListener{
+            if(contador.mod(2)!=0)
+            {
+                binding.gastoButton.isVisible = false
+                binding.viajeButton.isVisible = false
+            }
+            else
+            {
+                binding.gastoButton.isVisible = true
+                binding.viajeButton.isVisible = true
+            }
+            contador++
         }
 
     }

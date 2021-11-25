@@ -40,12 +40,12 @@ class ViajesListFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        val adapter =ViajeAdapter()
+//        val adapter =ViajeAdapter()
 
-        viewModel.list.observe(viewLifecycleOwner, Observer {
-            adapter.submitList(it)
-        })
-        binding.listaRecyclerView.adapter = adapter
+//        viewModel.list.observe(viewLifecycleOwner, Observer {
+//            adapter.submitList(it)
+//        })
+//        binding.listaRecyclerView.adapter = adapter
 
         binding.fab.setOnClickListener {
             findNavController().navigate(R.id.action_viajesListFragment_to_estadoViajeFragment)

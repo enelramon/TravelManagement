@@ -7,19 +7,21 @@ import androidx.room.Room
 import androidx.room.Room.databaseBuilder
 import androidx.room.RoomDatabase
 import androidx.room.TypeConverters
+import com.sagrd.travelmanagement.model.Gasto
 import com.sagrd.travelmanagement.model.Viaje
 
 
 @Database(
-    entities = [Viaje::class],
-    version = 3,
+    entities = [Viaje::class, Gasto::class],
+    version = 4,
     exportSchema = false
 )
 @TypeConverters(Converters::class)
 abstract class AppDataBase : RoomDatabase() {
 
     abstract val viajeDao: ViajeDao
-
+    abstract val gastoDao: GastoDao
+    abstract val documentosDao: DocumentosDao
     companion object {
         @Volatile
         private var INSTANCE: AppDataBase? = null

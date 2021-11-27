@@ -6,20 +6,23 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.Toast
 import androidx.lifecycle.Observer
-import java.time.LocalDateTime
-import com.sagrd.travelmanagement.R
+import androidx.recyclerview.widget.DividerItemDecoration
+import com.sagrd.travelmanagement.adapters.VentaAdapter
 import com.sagrd.travelmanagement.adapters.ViajeAdapter
 import com.sagrd.travelmanagement.databinding.FacturasPendienteFragmentBinding
-import com.sagrd. travelmanagement.utils.*
+import com.sagrd.travelmanagement.databinding.FacturasPendienteRowBinding
 
-class FacturasPendienteFragment : Fragment() {
+class FacturasPendienteFragment : Fragment(), VentaAdapter.onVentaClickListener {
 
     companion object {
         fun newInstance() = FacturasPendienteFragment()
     }
 
     private lateinit var viewModel: FacturasPendienteViewModel
+    private lateinit var row: FacturasPendienteRowBinding
+
     private var _binding : FacturasPendienteFragmentBinding? = null
     private val binding get() = _binding!!
 
@@ -40,15 +43,25 @@ class FacturasPendienteFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        binding.facturasPendienteRecyclerView.adapter = ViajeAdapter()
-        val adapter = binding.facturasPendienteRecyclerView.adapter as ViajeAdapter
+        val adapter = VentaAdapter(this)
+        binding.facturasPendienteRecyclerView.adapter = adapter
 
         viewModel.list.observe(viewLifecycleOwner, Observer{
             adapter.submitList(it)
         })
+
+        binding.facturasPendienteRecyclerView.
+        addItemDecoration(DividerItemDecoration(context,DividerItemDecoration.VERTICAL))
     }
+
     override fun onDestroyView() {
         super.onDestroyView()
         _binding = null
+    }
+
+    override fun onCheckClick(ViajeId: Long) {
+        //row.facturaCheckBox.isChecked = true
+        binding.totalResultadotextView.text = "100"
+        Toast.makeText(context,"Funciona", Toast.LENGTH_SHORT).show()
     }
 }

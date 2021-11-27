@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:orientation="horizontal"
     android:layout_height="wrap_content"
@@ -7,50 +8,66 @@
     xmlns:tools="http://schemas.android.com/tools">
 
     <CheckBox
-        android:id="@+id/facturaIdCheckBox"
-        android:layout_width="0dp"
-        android:layout_height="48dp"
+        android:id="@+id/facturaCheckBox"
+        android:layout_width="18dp"
+        android:layout_height="55dp"
+        android:layout_weight="1"
+        android:background="#C4C4C4"
+        android:buttonTint="@color/purple_500"
+        android:checked="false"
+        android:gravity="center"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toStartOf="@id/facturaIdTextView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/facturaIdTextView"
+        android:layout_width="3dp"
+        android:layout_height="match_parent"
         android:layout_weight="1"
         android:background="#C4C4C4"
         android:gravity="center"
-        android:text="100 "
+        android:text="100"
         android:textAlignment="center"
         android:textColor="#000000"
-        android:textSize="18sp"
+        android:textSize="16sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/facturaCheckBox"
         app:layout_constraintEnd_toStartOf="@id/fechaTextView"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"/>
+        app:layout_constraintStart_toEndOf="@id/facturaCheckBox"
+        tools:ignore="RtlCompat" />
 
     <TextView
         android:id="@+id/fechaTextView"
-        android:layout_width="0dp"
-        android:layout_height="48dp"
+        android:layout_width="46dp"
+        android:layout_height="match_parent"
         android:layout_weight="1"
         android:background="#C4C4C4"
         android:gravity="center"
-        android:text="20-10-2021"
+        android:text="20/10/2021"
         android:textAlignment="center"
         android:textColor="#000000"
-        android:textSize="18sp"
-        app:layout_constraintBaseline_toBaselineOf="@+id/facturaIdCheckBox"
+        android:textSize="16sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/facturaCheckBox"
         app:layout_constraintEnd_toStartOf="@id/balanceTextView"
-        app:layout_constraintStart_toEndOf="@id/facturaIdCheckBox"
-        tools:ignore="RtlCompat"/>
+        app:layout_constraintStart_toEndOf="@id/facturaCheckBox"
+        tools:ignore="RtlCompat" />
 
     <TextView
         android:id="@+id/balanceTextView"
-        android:layout_width="0dp"
-        android:layout_height="48dp"
+        android:layout_width="37dp"
+        android:layout_height="55dp"
         android:layout_weight="1"
         android:background="#C4C4C4"
         android:gravity="center"
         android:text="3,000.00"
-        android:textAlignment="viewStart"
+        android:textAlignment="center"
         android:textColor="#000000"
-        android:textSize="18sp"
-        app:layout_constraintBaseline_toBaselineOf="@+id/facturaIdCheckBox"
+        android:textSize="16sp"
+
+        app:layout_constraintBaseline_toBaselineOf="@+id/facturaCheckBox"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@id/fechaTextView"
         tools:ignore="RtlCompat" />
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

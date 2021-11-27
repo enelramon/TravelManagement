@@ -18,6 +18,6 @@ interface ViajeDao {
     @Query("SELECT * FROM Viaje WHERE ViajeId= :key")
      fun Find(key:Long): LiveData<Viaje>
 
-    @Query("SELECT * FROM Viaje ORDER BY ViajeId DESC")
+    @Query("SELECT * FROM Viaje ORDER BY ViajeId ASC")
      fun Lista() :LiveData<List<Viaje>>
 }

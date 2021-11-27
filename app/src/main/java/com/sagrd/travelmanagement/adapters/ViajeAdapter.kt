@@ -2,14 +2,16 @@ package com.sagrd.travelmanagement.adapters
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
-import androidx.annotation.NonNull
 import androidx.recyclerview.widget.RecyclerView
-import com.sagrd.travelmanagement.databinding.EstadoViajeRowBinding
-import com.sagrd.travelmanagement.databinding.EstadoViajeRowBinding.inflate
+import com.sagrd.travelmanagement.databinding.FacturasPendienteRowBinding
+import com.sagrd.travelmanagement.databinding.FacturasPendienteRowBinding.inflate
 import com.sagrd.travelmanagement.model.Viaje
+import java.text.DateFormat
 
-class ViajeAdapter(  ) : RecyclerView.Adapter<ViajeAdapter.ViajeViewHolder>() {
+class ViajeAdapter() : RecyclerView.Adapter<ViajeAdapter.ViajeViewHolder>() {
+
     private var viajesList = emptyList<Viaje>()
+
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViajeViewHolder {
         val binding = inflate(LayoutInflater.from(parent.context), parent, false)
@@ -31,14 +33,14 @@ class ViajeAdapter(  ) : RecyclerView.Adapter<ViajeAdapter.ViajeViewHolder>() {
         notifyDataSetChanged()
     }
 
-    inner class ViajeViewHolder(private val binding: EstadoViajeRowBinding) :
+    inner class ViajeViewHolder(private val binding: FacturasPendienteRowBinding) :
         RecyclerView.ViewHolder(binding.root) {
 
         fun bind(item: Viaje) {
-            //binding.idTextView.text = item.ViajeId.toString()
-            binding.fechaTextView.text = item.Fecha.toString()
-            binding.conceptoTextView.text = item.Concepto
-            binding.montoTextView.text = item.Monto.toString()
+            binding.facturaCheckBox.isChecked = false
+            binding.facturaIdTextView.text = item.ViajeId.toString()
+            binding.fechaTextView.text = DateFormat.getDateInstance(DateFormat.SHORT).format(item.Fecha)
+            binding.balanceTextView.text = item.Monto.toString()
         }
     }
 }

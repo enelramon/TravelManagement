@@ -13,7 +13,6 @@ class EstadoViajeViewModel(application: Application): ViewModel() {
 
     private val viajeRepository = ViajeRepository(AppDataBase.getInstance(application))
     private val gastoRepository = gastoRepository(AppDataBase.getInstance(application))
-    private val documentoRepository = documentosRepository(AppDataBase.getInstance(application))
     lateinit var item : Viaje
     lateinit var item2 : Gasto
     val list = viajeRepository.Lista()

@@ -9,7 +9,7 @@ import java.util.*
 @Entity
 data class Cobro(
     @PrimaryKey(autoGenerate = true)
-    var CobroId: Long,
+    var CobroId: Long=0,
     var Fecha: Date,
     var ClienteId: Long,
     var Monto: Float,
@@ -18,5 +18,5 @@ data class Cobro(
         parentColumn = "cobroId",
         entityColumn = "cobroId"
     )
-    val detalle : List<CobroDetalle>
+    var detalle : List<CobroDetalle>
 )

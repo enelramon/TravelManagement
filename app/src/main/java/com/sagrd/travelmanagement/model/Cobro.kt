@@ -7,9 +7,8 @@ import java.util.*
 @Entity
 data class Cobro(
     @PrimaryKey(autoGenerate = true)
-    var GastoId: Long,
+    var CobroId: Long,
     var Fecha: Date,
-    //falta TarjetaId
-    var Concepto: String,
+    var ClienteId: Long,
     var Monto: Float,
 )

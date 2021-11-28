@@ -29,6 +29,7 @@ class ViajeAdapter : RecyclerView.Adapter<ViajeAdapter.ViajeViewHolder>() {
             binding.montoTextView.text = round(item.monto).toString()
         }
     }
+//    DateFormat.getDateInstance(DateFormat.SHORT).format(item.fecha).toString()
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViajeViewHolder {
         val inflater = LayoutInflater.from(parent.context)
         val binding = inflate(inflater, parent, false)

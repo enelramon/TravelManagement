@@ -36,10 +36,10 @@ class documentosAdapter(): RecyclerView.Adapter<documentosAdapter.DocumentoViewH
         RecyclerView.ViewHolder(binding.root) {
 
         fun bind(item: Documentos) {
-            binding.fechaTextView.text = item.Fecha.toString()
-            binding.conceptoTextView.text = item.Concepto
-            binding.montoTextView.text = item.Monto.toString()
-            binding.balanceTextView.text = item.Balance.toString()
+            binding.fechaTextView.text = item.fecha
+            binding.conceptoTextView.text = item.concepto
+            binding.montoTextView.text = item.monto.toString()
+            binding.balanceTextView.text = item.balance.toString()
         }
     }
 }

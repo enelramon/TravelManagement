@@ -48,7 +48,8 @@ class GastoViajeFragment : Fragment() {
             if (!Validar()) {
                 it.showMessage("Verifique los errores para continuar")
             } else {
-                viewModel.Insert(LlenaClase())
+//                viewModel.Insert(LlenaClase())
+                viewModel.Post(LlenaClase())
                 it.showMessage("Viaje guardado")
                 findNavController().navigate(R.id.estadoViajeFragment)
             }
@@ -87,10 +88,10 @@ class GastoViajeFragment : Fragment() {
     fun LlenaClase() : Gasto {
         return Gasto(
             0,
-            Calendar.getInstance().time as Date,
+            "2021-11-25T01:48:33",
             1,
             binding.conceptoTextInputEditText.text.toString(),
-            binding.montoTextInputEditText.text.getFloat()
+            (binding.montoTextInputEditText.text.getFloat() * -1)
         )
     }
 }

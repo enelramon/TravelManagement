@@ -7,10 +7,10 @@ import java.util.Date
 @Entity
 data class Gasto(
     @PrimaryKey(autoGenerate = true)
-    var GastoId: Long,
-    var Fecha: Date,
-    var TarjetaId: Long,
-    var Concepto: String,
-    var Monto: Float,
+    var gastoId: Long,
+    var fecha: String,
+    var tarjetaId: Long,
+    var concepto: String,
+    var monto: Float,
 
 )

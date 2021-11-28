@@ -13,7 +13,7 @@ import com.sagrd.travelmanagement.model.Viaje
 
 @Database(
     entities = [Viaje::class, Gasto::class],
-    version = 4,
+    version = 5,
     exportSchema = false
 )
 @TypeConverters(Converters::class)
@@ -21,7 +21,6 @@ abstract class AppDataBase : RoomDatabase() {
 
     abstract val viajeDao: ViajeDao
     abstract val gastoDao: GastoDao
-    abstract val documentosDao: DocumentosDao
     companion object {
         @Volatile
         private var INSTANCE: AppDataBase? = null

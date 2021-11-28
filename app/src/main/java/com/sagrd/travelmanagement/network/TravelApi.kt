@@ -11,5 +11,5 @@ interface TravelApi {
     suspend fun getTravels():List<Viaje>
 
     @POST("Viajes")
-    fun postViaje(@Body viaje: Viaje) : Call<Viaje>
+    fun postViaje(@Body viaje: Viaje?) : Call<Viaje>
 }

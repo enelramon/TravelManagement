@@ -53,34 +53,12 @@ class ViajeEditFragment : Fragment() {
             if (!Validar()) {
                 it.showMessage("Verifique los errores para continuar")
             } else {
-                //viewModel.Insert(LlenaClase())
-
-
-
-                    var viaje = LlenaClase()
-                    RetrofitInstance.api.postViaje(viaje).enqueue(object : Callback<Viaje> {
-                        override fun onResponse(call: Call<Viaje>, response: Response<Viaje>) {
-                            viaje = response.body()!!
-                            Log.i("Bueno", Gson().toJson(viaje))
-                        }
-
-                        override fun onFailure(call: Call<Viaje>, t: Throwable) {
-                            t?.printStackTrace()
-                        }
-                    })
-
-
-
-//                viewModel.Post(LlenaClase())
+                viewModel.Post(LlenaClase())
+//                viewModel.Insert(LlenaClase())
                 it.showMessage("Viaje guardado")
                 findNavController().navigate(R.id.estadoViajeFragment)
             }
         }
-
-
-    /*    viewModel.viaje.observe(viewLifecycleOwner, Observer {
-            LlenaCampos(it)
-        })*/
     }
 
 
@@ -117,7 +95,7 @@ class ViajeEditFragment : Fragment() {
         DateFormat.getDateInstance(DateFormat.SHORT).format(fecha)
         return Viaje(
             0,
-            fecha.toString(),
+            "2021-11-25T01:48:33",
             1,
             binding.conceptoTextInputEditText.text.toString(),
             binding.millasTextInputEditText.text.getFloat(),

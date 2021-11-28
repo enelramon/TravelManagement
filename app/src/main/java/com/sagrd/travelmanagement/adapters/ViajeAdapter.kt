@@ -8,6 +8,8 @@ import com.sagrd.travelmanagement.databinding.EstadoViajeRowBinding.inflate
 import com.sagrd.travelmanagement.model.Gasto
 import com.sagrd.travelmanagement.model.Viaje
 import java.text.DateFormat
+import java.text.DecimalFormat
+import kotlin.math.round
 
 class ViajeAdapter : RecyclerView.Adapter<ViajeAdapter.ViajeViewHolder>() {
     private var viajesList = emptyList<Viaje>()
@@ -24,11 +26,9 @@ class ViajeAdapter : RecyclerView.Adapter<ViajeAdapter.ViajeViewHolder>() {
         fun bind(item: Viaje) {
             binding.fechaTextView.text = item.fecha
             binding.conceptoTextView.text = item.concepto
-            binding.montoTextView.text = item.monto.toString()
-
+            binding.montoTextView.text = round(item.monto).toString()
         }
     }
-//
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViajeViewHolder {
         val inflater = LayoutInflater.from(parent.context)
         val binding = inflate(inflater, parent, false)

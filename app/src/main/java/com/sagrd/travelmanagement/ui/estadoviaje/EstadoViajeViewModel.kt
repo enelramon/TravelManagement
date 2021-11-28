@@ -29,7 +29,7 @@ class EstadoViajeViewModel(application: Application): ViewModel() {
     init {
         viewModelScope.launch {
             try{
-                _listaViajesApi.value = RetrofitInstance.api.getTravels()
+                _listaViajesApi.value = viajeRepository.GetApi()
             }
             catch (e: Exception)
             {

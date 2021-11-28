@@ -19,6 +19,7 @@ import com.sagrd.travelmanagement.utils.showMessage
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response
+import java.text.DateFormat
 
 class ViajeEditFragment : Fragment() {
 
@@ -112,9 +113,11 @@ class ViajeEditFragment : Fragment() {
     }
 
     fun LlenaClase() : Viaje {
+        var fecha = Calendar.getInstance().time as java.util.Date
+        DateFormat.getDateInstance(DateFormat.SHORT).format(fecha)
         return Viaje(
             0,
-            //Calendar.getInstance().time as java.util.Date,
+            fecha.toString(),
             1,
             binding.conceptoTextInputEditText.text.toString(),
             binding.millasTextInputEditText.text.getFloat(),

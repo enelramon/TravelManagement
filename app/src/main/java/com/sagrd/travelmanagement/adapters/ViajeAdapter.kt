@@ -22,14 +22,13 @@ class ViajeAdapter : RecyclerView.Adapter<ViajeAdapter.ViajeViewHolder>() {
         RecyclerView.ViewHolder(binding.root) {
 
         fun bind(item: Viaje) {
-
-            binding.fechaTextView.text = item.Millas.toString()
-            binding.conceptoTextView.text = item.Concepto
-            binding.montoTextView.text = item.Monto.toString()
+            binding.fechaTextView.text = item.fecha
+            binding.conceptoTextView.text = item.concepto
+            binding.montoTextView.text = item.monto.toString()
 
         }
     }
-
+//
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViajeViewHolder {
         val inflater = LayoutInflater.from(parent.context)
         val binding = inflate(inflater, parent, false)

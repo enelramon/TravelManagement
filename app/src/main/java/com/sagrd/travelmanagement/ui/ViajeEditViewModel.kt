@@ -2,20 +2,16 @@ package com.sagrd.travelmanagement.ui
 
 import android.app.Application
 import androidx.lifecycle.*
-import androidx.room.Update
 import com.sagrd.travelmanagement.data.AppDataBase
 import com.sagrd.travelmanagement.databinding.ViajeEditFragmentBinding
 import com.sagrd.travelmanagement.model.Viaje
+import com.sagrd.travelmanagement.network.RetrofitInstance
 import com.sagrd.travelmanagement.repository.ViajeRepository
-import com.sagrd.travelmanagement.utils.getFloat
 import kotlinx.coroutines.launch
-import java.time.LocalDateTime
-
 class ViajeEditViewModel(application: Application) : ViewModel() {
 
     private val viajeRepository = ViajeRepository(AppDataBase.getInstance(application))
     private lateinit var binding : ViajeEditFragmentBinding
-
 
     fun Insert(viaje: Viaje) = viewModelScope.launch {
         viajeRepository.Insert(viaje)
@@ -25,6 +21,9 @@ class ViajeEditViewModel(application: Application) : ViewModel() {
         viajeRepository.Update(viaje)
     }
 
+    fun Post(viaje: Viaje) = viewModelScope.launch {
+        RetrofitInstance.api.postViaje(viaje)
+    }
 
     //Factory for constructing DevByteViewModel with parameter
     class Factory(val app: Application) : ViewModelProvider.Factory {

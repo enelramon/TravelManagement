@@ -2,17 +2,23 @@ package com.sagrd.travelmanagement.ui
 
 import android.icu.util.Calendar
 import android.os.Bundle
+import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
 import androidx.navigation.fragment.findNavController
+import com.google.gson.Gson
 import com.sagrd.travelmanagement.R
 import com.sagrd.travelmanagement.databinding.ViajeEditFragmentBinding
 import com.sagrd.travelmanagement.model.Viaje
+import com.sagrd.travelmanagement.network.RetrofitInstance
 import com.sagrd.travelmanagement.utils.getFloat
 import com.sagrd.travelmanagement.utils.showMessage
+import retrofit2.Call
+import retrofit2.Callback
+import retrofit2.Response
 
 class ViajeEditFragment : Fragment() {
 
@@ -41,15 +47,30 @@ class ViajeEditFragment : Fragment() {
             ViewModelProvider(this, ViajeEditViewModel.Factory(requireActivity().application))
                 .get(ViajeEditViewModel::class.java)
 
-//        viewModel.listaSolares.observe(viewLifecycleOwner, Observer{
-//            binding.conceptoTextInputEditText.setText("${it.size}")
-//        })
 
         binding.guardarButton.setOnClickListener {
             if (!Validar()) {
                 it.showMessage("Verifique los errores para continuar")
             } else {
-                viewModel.Insert(LlenaClase())
+                //viewModel.Insert(LlenaClase())
+
+
+
+                    var viaje = LlenaClase()
+                    RetrofitInstance.api.postViaje(viaje).enqueue(object : Callback<Viaje> {
+                        override fun onResponse(call: Call<Viaje>, response: Response<Viaje>) {
+                            viaje = response.body()!!
+                            Log.i("Bueno", Gson().toJson(viaje))
+                        }
+
+                        override fun onFailure(call: Call<Viaje>, t: Throwable) {
+                            t?.printStackTrace()
+                        }
+                    })
+
+
+
+//                viewModel.Post(LlenaClase())
                 it.showMessage("Viaje guardado")
                 findNavController().navigate(R.id.estadoViajeFragment)
             }
@@ -93,7 +114,7 @@ class ViajeEditFragment : Fragment() {
     fun LlenaClase() : Viaje {
         return Viaje(
             0,
-            Calendar.getInstance().time as java.util.Date,
+            //Calendar.getInstance().time as java.util.Date,
             1,
             binding.conceptoTextInputEditText.text.toString(),
             binding.millasTextInputEditText.text.getFloat(),

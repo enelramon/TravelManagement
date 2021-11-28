@@ -18,24 +18,30 @@ import com.sagrd.travelmanagement.model.Documentos
 
 class EstadoViajeFragment : Fragment() {
 
+    private var _binding : EstadoViajeFragmentBinding? = null
+    private val binding get() = _binding!!
+
     companion object {
         fun newInstance() = EstadoViajeFragment()
     }
 
     private lateinit var viewModel: EstadoViajeViewModel
 
-    private var _binding : EstadoViajeFragmentBinding? = null
-    private val binding get() = _binding!!
-
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
 
-        _binding = EstadoViajeFragmentBinding.inflate(inflater, container, false)
+        _binding = EstadoViajeFragmentBinding.inflate(layoutInflater)
         viewModel =
             ViewModelProvider(this, EstadoViajeViewModel.Factory(requireActivity().application))
                 .get(EstadoViajeViewModel::class.java)
+
+        viewModel.listaViajeApi.observe(viewLifecycleOwner, Observer{
+            val adapter = ViajeAdapter()
+            adapter.submitList(it)
+            binding.estadoViajeRecyclerView.adapter = adapter
+        })
 
         return binding.root
     }
@@ -43,12 +49,7 @@ class EstadoViajeFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        binding.estadoViajeRecyclerView.adapter = ViajeAdapter()
-        val adapter = binding.estadoViajeRecyclerView.adapter as ViajeAdapter
 
-        viewModel.list.observe(viewLifecycleOwner, Observer{
-            adapter.submitList(it)
-        })
 
         binding.gastoButton.setOnClickListener{
             findNavController().navigate(R.id.gastoViajeFragment)
@@ -72,11 +73,12 @@ class EstadoViajeFragment : Fragment() {
             }
             contador++
         }
-
     }
 
     override fun onDestroyView() {
         super.onDestroyView()
         _binding = null
     }
+
+
 }

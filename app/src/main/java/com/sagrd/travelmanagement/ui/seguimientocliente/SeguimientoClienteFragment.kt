@@ -9,13 +9,14 @@ import android.view.ViewGroup
 import android.widget.ArrayAdapter
 import com.sagrd.travelmanagement.R
 import com.sagrd.travelmanagement.databinding.SeguimientoClienteFragmentBinding
-import java.time.Month
+import com.sagrd.travelmanagement.model.Seguimiento
 
 
 class SeguimientoClienteFragment : Fragment() {
 
     private var _binding: SeguimientoClienteFragmentBinding? = null
     private val binding get() = _binding!!
+    private lateinit var viewModel: SeguimientoClienteViewModel
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -35,4 +36,27 @@ class SeguimientoClienteFragment : Fragment() {
         return binding.root
     }
 
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
+        viewModel=
+            ViewModelProvider(this, SeguimientoClienteViewModel.Factory(requireActivity().application))
+                .get(SeguimientoClienteViewModel::class.java)
+
+        binding.guardarButton.setOnClickListener{
+            viewModel.Post(LlenaClase())
+        }
+    }
+
+    fun LlenaClase() : Seguimiento {
+        return Seguimiento(
+            0,
+            "2021-11-25T01:48:33",
+            1,
+            binding.ComentarioTextInputEditText.text.toString(),
+            binding.autoCompleteTextView2.text.toString(),
+//            binding.autoCompleteTextView2.text.toString(),
+            binding.autoCompleteTextView.text.toString(),
+            "2021-11-29T01:48:33"
+        )
+    }
 }

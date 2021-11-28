@@ -16,7 +16,7 @@
         tools:layout_editor_absoluteX="16dp">
 
         <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/valorInventarioTextInputEditText"
+            android:id="@+id/ComentarioTextInputEditText"
             android:layout_width="355dp"
             android:layout_height="150dp"
             android:hint="@string/comentario" />

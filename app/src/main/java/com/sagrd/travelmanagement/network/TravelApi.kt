@@ -1,11 +1,9 @@
-package com.sagrd.travelmanagement.network
-
-
-import com.sagrd.travelmanagement.model.Viaje
-import retrofit2.http.GET
+import com.sagrd.travelmanagement.model.Seguimiento
+import retrofit2.http.*
+import retrofit2.Call
 
 interface TravelApi {
 
-    @GET("Viaje")
-    suspend fun getTravels():List<Viaje>
+    @POST("Seguimientos")
+    fun postSeguimiento(@Body seguimiento: Seguimiento?) : Call<Seguimiento>
 }

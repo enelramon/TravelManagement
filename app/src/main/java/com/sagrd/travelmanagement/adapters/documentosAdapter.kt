@@ -6,6 +6,8 @@ import androidx.recyclerview.widget.RecyclerView
 import com.sagrd.travelmanagement.databinding.EstadoViajeRowBinding
 import com.sagrd.travelmanagement.model.Documentos
 import com.sagrd.travelmanagement.model.Gasto
+import java.text.SimpleDateFormat
+import java.util.*
 
 class documentosAdapter(): RecyclerView.Adapter<documentosAdapter.DocumentoViewHolder>() {
     private var documentosList = emptyList<Documentos>()
@@ -36,7 +38,9 @@ class documentosAdapter(): RecyclerView.Adapter<documentosAdapter.DocumentoViewH
         RecyclerView.ViewHolder(binding.root) {
 
         fun bind(item: Documentos) {
-            binding.fechaTextView.text = item.fecha
+            val fecha = SimpleDateFormat("dd-M-yyyy")
+            val fecha3 = fecha.format(Date())
+            binding.fechaTextView.text = fecha3.toString()
             binding.conceptoTextView.text = item.concepto
             binding.montoTextView.text = item.monto.toString()
             binding.balanceTextView.text = item.balance.toString()

@@ -21,6 +21,6 @@ interface TravelApi {
     @POST("Gastos")
     fun postGasto(@Body gasto: Gasto?) : Call<Gasto>
 
-    @GET("EstadoTarjetas")
+    @GET("EstadoTarjetas/1")
     suspend fun getEstado():List<Documentos>
 }

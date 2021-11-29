@@ -1,6 +1,5 @@
 package com.sagrd.travelmanagement.ui.gastoviaje
 
-import android.icu.util.Calendar
 import androidx.lifecycle.ViewModelProvider
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -11,9 +10,9 @@ import androidx.navigation.fragment.findNavController
 import com.sagrd.travelmanagement.R
 import com.sagrd.travelmanagement.databinding.GastoViajeFragmentBinding
 import com.sagrd.travelmanagement.model.Gasto
-import com.sagrd.travelmanagement.model.Viaje
 import com.sagrd.travelmanagement.utils.getFloat
 import com.sagrd.travelmanagement.utils.showMessage
+import java.text.SimpleDateFormat
 import java.util.*
 
 class GastoViajeFragment : Fragment() {
@@ -42,6 +41,7 @@ class GastoViajeFragment : Fragment() {
         viewModel =
             ViewModelProvider(this, GastoViajeViewModel.Factory(requireActivity().application))
                 .get(GastoViajeViewModel::class.java)
+
 
 
         binding.guardarButton.setOnClickListener{
@@ -86,12 +86,14 @@ class GastoViajeFragment : Fragment() {
     }
 
     fun LlenaClase() : Gasto {
+        val formatoFecha = SimpleDateFormat("yyyy-M-dd")
+        val fecha = formatoFecha.format(Date())
         return Gasto(
             0,
-            "2021-11-25T01:48:33",
+            fecha.toString()+"T01:00:00",
             1,
             binding.conceptoTextInputEditText.text.toString(),
-            (binding.montoTextInputEditText.text.getFloat() * -1)
+            (binding.montoTextInputEditText.text.getFloat())
         )
     }
 }

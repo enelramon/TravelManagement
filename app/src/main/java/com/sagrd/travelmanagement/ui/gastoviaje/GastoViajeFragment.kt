@@ -50,7 +50,7 @@ class GastoViajeFragment : Fragment() {
             } else {
 //                viewModel.Insert(LlenaClase())
                 viewModel.Post(LlenaClase())
-                it.showMessage("Viaje guardado")
+                it.showMessage("Gasto guardado")
                 findNavController().navigate(R.id.estadoViajeFragment)
             }
         }

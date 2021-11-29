@@ -93,7 +93,7 @@ class GastoViajeFragment : Fragment() {
             fecha.toString()+"T01:00:00",
             1,
             binding.conceptoTextInputEditText.text.toString(),
-            (binding.montoTextInputEditText.text.getFloat())
+            binding.montoTextInputEditText.text.getFloat()
         )
     }
 }

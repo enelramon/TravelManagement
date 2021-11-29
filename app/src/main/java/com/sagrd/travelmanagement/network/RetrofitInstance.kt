@@ -12,7 +12,6 @@ object RetrofitInstance {
             .addConverterFactory(GsonConverterFactory.create())
             .build()
             .create(TravelApi::class.java)
-
     }
 
 }

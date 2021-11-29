@@ -10,7 +10,12 @@ import com.sagrd.travelmanagement.repository.*
 import kotlinx.coroutines.launch
 
 class SeguimientoClienteViewModel(application: Application) : ViewModel() {
-    // TODO: Implement the ViewModel
+
+    private val seguimientoRepository = SeguimientoRepository(AppDataBase.getInstance(application))
+
+    fun Post(seguimiento: Seguimiento) = viewModelScope.launch {
+        seguimientoRepository.PostApi(seguimiento)
+    }
 
     class Factory(val app : Application) : ViewModelProvider.Factory{
         override fun <T : ViewModel?> create(modelClass: Class<T>): T {
@@ -21,12 +26,4 @@ class SeguimientoClienteViewModel(application: Application) : ViewModel() {
             throw IllegalAccessException("Unable to construct viewmodel")
         }
     }
-
-    private val seguimientoRepository = SeguimientoRepository(AppDataBase.getInstance(application))
-
-    fun Post(seguimiento: Seguimiento) = viewModelScope.launch {
-        seguimientoRepository.PostApi(seguimiento)
-    }
-
-
 }

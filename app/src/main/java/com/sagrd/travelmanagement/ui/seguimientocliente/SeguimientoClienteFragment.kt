@@ -1,5 +1,6 @@
 package com.sagrd.travelmanagement.ui.seguimientocliente
 
+import android.app.DatePickerDialog
 import androidx.lifecycle.ViewModelProvider
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -7,9 +8,14 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.ArrayAdapter
+import android.widget.DatePicker
 import com.sagrd.travelmanagement.R
 import com.sagrd.travelmanagement.databinding.SeguimientoClienteFragmentBinding
 import com.sagrd.travelmanagement.model.Seguimiento
+import com.sagrd.travelmanagement.ui.DatePickerFragment
+import com.sagrd.travelmanagement.utils.showMessage
+import java.text.SimpleDateFormat
+import java.util.*
 
 
 class SeguimientoClienteFragment : Fragment() {
@@ -44,19 +50,60 @@ class SeguimientoClienteFragment : Fragment() {
 
         binding.guardarButton.setOnClickListener{
             viewModel.Post(LlenaClase())
+            it.showMessage("Guardado")
+        }
+
+        agregarfecha()
+    }
+
+    fun agregarfecha(){
+        val mcurrentTime = Calendar.getInstance()
+        val year = mcurrentTime.get(Calendar.YEAR)
+        val month = mcurrentTime.get(Calendar.MONTH)
+        val day = mcurrentTime.get(Calendar.DAY_OF_MONTH)
+
+        binding.siguienteFecha.setOnClickListener(){
+            val datePicker = DatePickerDialog(it.context,android.R.style.ThemeOverlay_Material_Dialog, object : DatePickerDialog.OnDateSetListener {
+                override fun onDateSet(view: DatePicker?, year: Int, month: Int, dayOfMonth: Int) {
+                    binding.fechaTextView.setText(String.format("%d-%d-%d", year, month + 1, dayOfMonth))
+                }
+            }, year, month, day);
+            datePicker.show()
         }
     }
 
     fun LlenaClase() : Seguimiento {
+        val formatoFecha = SimpleDateFormat("yyyy-M-dd")
+        val fecha = formatoFecha.format(Date())
+
+        var opcion = 1L
+        if(binding.autoCompleteTextView2.text.toString() == "Correo")
+            opcion = 2L
+        else if (binding.autoCompleteTextView2.text.toString() == "Visita")
+                opcion = 3L
+
+        var opcion2 = 1L
+        if(binding.autoCompleteTextView.text.toString() == "Finaliza")
+            opcion2 = 2L
+
         return Seguimiento(
             0,
-            "2021-11-25T01:48:33",
+            fecha.toString()+"T01:00:00",
             1,
             binding.ComentarioTextInputEditText.text.toString(),
-            binding.autoCompleteTextView2.text.toString(),
-//            binding.autoCompleteTextView2.text.toString(),
-            binding.autoCompleteTextView.text.toString(),
-            "2021-11-29T01:48:33"
+            opcion,
+            opcion2,
+            binding.fechaTextView.text.toString() + "T01:00:00"
         )
+
+//        return Seguimiento(
+//            0,
+//            "2021-11-29T03:41:43.628Z",
+//            1,
+//            "Hola",
+//            1,
+//            1,
+//            "2021-11-29T01:00:00.628Z"
+//        )
     }
 }

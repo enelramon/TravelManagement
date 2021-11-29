@@ -8,10 +8,10 @@ import java.util.*
 data class Seguimiento(
     @PrimaryKey(autoGenerate = true)
     var seguimientoId: Long,
-    var Fecha: String,
-    var ClienteId: Long,
-    var Comentarios: String,
-    var Tipo: String,
-    var Estado: String,
-    var ProximoContacto: String
+    var fecha: String,
+    var clienteId: Long,
+    var comentarios: String,
+    var tipo: Long,
+    var estado: Long,
+    var proximoContacto: String
 )

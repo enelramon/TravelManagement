@@ -5,6 +5,7 @@ import androidx.room.Delete
 import androidx.room.Update
 import com.sagrd.travelmanagement.data.AppDataBase
 import com.sagrd.travelmanagement.model.Viaje
+import com.sagrd.travelmanagement.network.RetrofitInstance
 
 class ViajeRepository(private val database: AppDataBase) {
 
@@ -23,4 +24,8 @@ class ViajeRepository(private val database: AppDataBase) {
     fun Lista(): LiveData<List<Viaje>> {
         return  database.viajeDao.Lista()
     }
+/*
+    suspend fun GetApi(): List<Viaje>{
+        return RetrofitInstance.api.getTravels()
+    }*/
 }

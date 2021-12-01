@@ -7,9 +7,9 @@ import java.util.*
 @Entity
 data class Venta(
     @PrimaryKey(autoGenerate = true)
-    var VentaId: Long,
-    var Fecha: Date,
-    var ClienteId: Long,
-    var Monto: Float,
-    var Balance: Float
+    var ventaId: Long,
+    var fecha: String,
+    var clienteId: Long,
+    var monto: Float,
+    var balance: Float
 )

@@ -9,10 +9,10 @@ import java.util.*
 @Entity
 data class Cobro(
     @PrimaryKey(autoGenerate = true)
-    var CobroId: Long=0,
-    var Fecha: Date,
-    var ClienteId: Long,
-    var Monto: Float,
+    var cobroId: Long=0,
+    var fecha: String,
+    var clienteId: Long,
+    var monto: Float,
 
     @Relation(
         parentColumn = "cobroId",

@@ -15,7 +15,7 @@ interface CobroDao {
         val id = insertarCobro(cobro)
 
         //asignar el id al detalle
-        cobro.detalle.forEach { i -> i.CobroId = id}
+        cobro.detalle.forEach { i -> i.cobroId = id}
 
         //insertar el detalle
         insertarDetalle(cobro.detalle)

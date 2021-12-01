@@ -9,10 +9,10 @@ import java.util.*
 @Entity
 data class CobroDetalle(
     @PrimaryKey(autoGenerate = true)
-    var CobroDetalleId: Long,
-    var CobroId: Long,
-    var VentaId: Long,
-    var Cobrado: Float,
+    var cobroDetalleId: Long,
+    var cobroId: Long,
+    var ventaId: Long,
+    var cobrado: Float,
 )
 
 /*

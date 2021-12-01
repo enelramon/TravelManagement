@@ -2,31 +2,17 @@
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
+    android:id="@+id/linearLayout"
     android:orientation="horizontal"
     android:layout_height="wrap_content"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools">
 
-    <CheckBox
-        android:id="@+id/facturaCheckBox"
-        android:layout_width="18dp"
-        android:layout_height="55dp"
-        android:layout_weight="1"
-        android:background="#C4C4C4"
-        android:buttonTint="@color/purple_500"
-        android:checked="false"
-        android:gravity="center"
-        android:textSize="16sp"
-        app:layout_constraintEnd_toStartOf="@id/facturaIdTextView"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
     <TextView
         android:id="@+id/facturaIdTextView"
-        android:layout_width="3dp"
-        android:layout_height="match_parent"
+        android:layout_width="64dp"
+        android:layout_height="65dp"
         android:layout_weight="1"
-        android:background="#C4C4C4"
         android:gravity="center"
         android:text="100"
         android:textAlignment="center"
@@ -39,10 +25,9 @@
 
     <TextView
         android:id="@+id/fechaTextView"
-        android:layout_width="46dp"
-        android:layout_height="match_parent"
+        android:layout_width="115dp"
+        android:layout_height="65dp"
         android:layout_weight="1"
-        android:background="#C4C4C4"
         android:gravity="center"
         android:text="20/10/2021"
         android:textAlignment="center"
@@ -55,10 +40,9 @@
 
     <TextView
         android:id="@+id/balanceTextView"
-        android:layout_width="37dp"
-        android:layout_height="55dp"
+        android:layout_width="103dp"
+        android:layout_height="65dp"
         android:layout_weight="1"
-        android:background="#C4C4C4"
         android:gravity="center"
         android:text="3,000.00"
         android:textAlignment="center"

@@ -37,10 +37,10 @@ class ViajeAdapter() : RecyclerView.Adapter<ViajeAdapter.ViajeViewHolder>() {
         RecyclerView.ViewHolder(binding.root) {
 
         fun bind(item: Viaje) {
-            binding.facturaCheckBox.isChecked = false
-            binding.facturaIdTextView.text = item.ViajeId.toString()
-            binding.fechaTextView.text = DateFormat.getDateInstance(DateFormat.SHORT).format(item.Fecha)
-            binding.balanceTextView.text = item.Monto.toString()
+           // binding.facturaCheckBox.isChecked = false
+            //binding.facturaIdTextView.text = item.ViajeId.toString()
+            //binding.fechaTextView.text = DateFormat.getDateInstance(DateFormat.SHORT).format(item.Fecha)
+            //binding.balanceTextView.text = item.Monto.toString()
         }
     }
 }

@@ -102,7 +102,7 @@ class ViajeEditFragment : Fragment() {
             57.25F,
             (binding.millasTextInputEditText.text.getFloat() * 57.25F)
         )
-    }*/
+    }
 }
 
 

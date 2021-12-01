@@ -1,18 +1,11 @@
 package com.sagrd.travelmanagement.network
 
 
-import com.sagrd.travelmanagement.model.Cobro
-import com.sagrd.travelmanagement.model.Venta
-import com.sagrd.travelmanagement.model.Viaje
+import com.sagrd.travelmanagement.model.*
 import retrofit2.Call
 import retrofit2.http.Body
 import retrofit2.http.GET
 import retrofit2.http.POST
-import com.sagrd.travelmanagement.model.Documentos
-import com.sagrd.travelmanagement.model.Gasto
-import com.sagrd.travelmanagement.model.Viaje
-import retrofit2.http.*
-import retrofit2.Call
 
 interface TravelApi {
 
@@ -27,8 +20,6 @@ interface TravelApi {
 
     @POST("Cobros")
     fun postCobro(@Body cobro: Cobro) : Call<Cobro>
-    @POST("Viajes")
-    fun postViaje(@Body viaje: Viaje?) : Call<Viaje>
 
     @GET("Gastos")
     suspend fun getGastos():List<Gasto>
@@ -38,4 +29,7 @@ interface TravelApi {
 
     @GET("EstadoTarjetas/1")
     suspend fun getEstado():List<Documentos>
+
+    @POST("Seguimientos")
+    fun postSeguimiento(@Body seguimiento: Seguimiento?) : Call<Seguimiento>
 }

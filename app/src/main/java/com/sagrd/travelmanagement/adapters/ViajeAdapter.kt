@@ -6,6 +6,7 @@ import androidx.annotation.NonNull
 import androidx.recyclerview.widget.RecyclerView
 import com.sagrd.travelmanagement.databinding.EstadoViajeRowBinding
 import com.sagrd.travelmanagement.databinding.EstadoViajeRowBinding.inflate
+import com.sagrd.travelmanagement.model.Gasto
 import com.sagrd.travelmanagement.model.Viaje
 
 class ViajeAdapter(  ) : RecyclerView.Adapter<ViajeAdapter.ViajeViewHolder>() {
@@ -31,14 +32,14 @@ class ViajeAdapter(  ) : RecyclerView.Adapter<ViajeAdapter.ViajeViewHolder>() {
         notifyDataSetChanged()
     }
 
+
     inner class ViajeViewHolder(private val binding: EstadoViajeRowBinding) :
         RecyclerView.ViewHolder(binding.root) {
 
         fun bind(item: Viaje) {
-            //binding.idTextView.text = item.ViajeId.toString()
-            binding.fechaTextView.text = item.Fecha.toString()
-            binding.conceptoTextView.text = item.Concepto
-            binding.montoTextView.text = item.Monto.toString()
+                binding.fechaTextView.text = item.Fecha.toString()
+                binding.conceptoTextView.text = item.Concepto
+                binding.montoTextView.text = item.Monto.toString()
         }
     }
 }

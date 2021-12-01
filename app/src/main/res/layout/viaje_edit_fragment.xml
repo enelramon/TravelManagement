@@ -18,7 +18,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintBottom_toTopOf="@id/montoTextInputLayout">
+        app:layout_constraintBottom_toTopOf="@id/millasTextInputLayout">
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/conceptoTextInputEditText"
@@ -28,7 +28,7 @@
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/montoTextInputLayout"
+        android:id="@+id/millasTextInputLayout"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
@@ -39,10 +39,10 @@
         app:layout_constraintTop_toBottomOf="@+id/conceptoTextInputLayout">
 
         <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/montoTextInputEditText"
+            android:id="@+id/millasTextInputEditText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="@string/montoViaje" />
+            android:hint="@string/millasViaje" />
     </com.google.android.material.textfield.TextInputLayout>
 
     <Button

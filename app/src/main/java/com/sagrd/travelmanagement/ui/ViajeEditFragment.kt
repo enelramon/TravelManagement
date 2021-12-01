@@ -15,6 +15,7 @@ import com.sagrd.travelmanagement.utils.getFloat
 import com.sagrd.travelmanagement.utils.showMessage
 
 class ViajeEditFragment : Fragment() {
+
     companion object {
         fun newInstance() = ViajeEditFragment()
     }
@@ -70,7 +71,7 @@ class ViajeEditFragment : Fragment() {
     fun Validar(): Boolean {
         var esValido = true;
 
-        binding.montoTextInputEditText.let {
+        binding.millasTextInputEditText.let {
             if (it.text.getFloat() <= 0) {
                 it.error = "Debe introducir un monto válido"
                 esValido = false
@@ -93,8 +94,11 @@ class ViajeEditFragment : Fragment() {
         return Viaje(
             0,
             Calendar.getInstance().time as java.util.Date,
+            1,
             binding.conceptoTextInputEditText.text.toString(),
-            binding.montoTextInputEditText.text.getFloat()
+            binding.millasTextInputEditText.text.getFloat(),
+            57.25F,
+            (binding.millasTextInputEditText.text.getFloat() * 57.25F)
         )
     }
 

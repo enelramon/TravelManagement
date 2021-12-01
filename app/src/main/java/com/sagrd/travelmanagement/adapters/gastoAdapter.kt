@@ -35,9 +35,9 @@ class gastoAdapter(  ) : RecyclerView.Adapter<gastoAdapter.GastoViewHolder>() {
         RecyclerView.ViewHolder(binding.root) {
 
         fun bind(item: Gasto) {
-            binding.fechaTextView.text = item.Fecha.toString()
-            binding.conceptoTextView.text = item.Concepto
-            binding.montoTextView.text = item.Monto.toString()
+            binding.fechaTextView.text = item.fecha
+            binding.conceptoTextView.text = item.concepto
+            binding.montoTextView.text = item.monto.toString()
         }
     }
 }

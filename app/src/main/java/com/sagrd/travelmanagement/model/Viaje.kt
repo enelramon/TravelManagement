@@ -7,11 +7,11 @@ import java.util.Date
 @Entity
 data class Viaje(
     @PrimaryKey(autoGenerate = true)
-    val ViajeId: Long,
-    //var Fecha: Date,
-    val TarjetaId: Long,
-    val Concepto: String,
-    val Millas: Float,
-    val TasaDolar: Float,
-    val Monto: Float //= precioxMillas * Millas * TasaDolar
+    val travelId: Long,
+    val fecha: String,
+    val tarjetaId: Long,
+    val concepto: String,
+    val millas: Float,
+    val tasaDolar: Float,
+    val monto: Float //= precioxMillas * Millas * TasaDolar
 )

@@ -7,12 +7,12 @@ import androidx.room.Room
 import androidx.room.Room.databaseBuilder
 import androidx.room.RoomDatabase
 import androidx.room.TypeConverters
-import com.sagrd.travelmanagement.model.Gasto
-import com.sagrd.travelmanagement.model.Viaje
+import com.sagrd.travelmanagement.model.*
+
 
 
 @Database(
-    entities = [Viaje::class, Gasto::class],
+    entities = [Viaje::class, Gasto::class, Seguimiento::class],
     version = 5,
     exportSchema = false
 )

@@ -20,5 +20,9 @@
             android:id="@+id/balancesDeViajeFragment"
             android:icon="@drawable/ic_login_64"
             android:title="Balance de viajes"/>
+        <item
+            android:id="@+id/seguimientoClienteFragment"
+            android:icon="@drawable/ic_baseline_calendar_today_24"
+            android:title="Seguimiento Cliente"/>
     </group>
 </menu>

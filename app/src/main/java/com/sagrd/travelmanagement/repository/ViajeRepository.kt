@@ -2,9 +2,6 @@ package com.sagrd.travelmanagement.repository
 
 import android.util.Log
 import androidx.lifecycle.LiveData
-import androidx.lifecycle.MutableLiveData
-import androidx.room.Delete
-import androidx.room.Update
 import com.google.gson.Gson
 import com.sagrd.travelmanagement.data.AppDataBase
 import com.sagrd.travelmanagement.model.Viaje
@@ -36,9 +33,20 @@ class ViajeRepository(private val database: AppDataBase) {
     suspend fun GetApi(): List<Viaje>{
         return RetrofitInstance.api.getTravels()
     }
-//    fun PostApi(viaje: Viaje)
-//    {
-//
-//    }
-//
+
+    fun PostApi(viaje: Viaje)
+    {
+        var _viaje = viaje
+        RetrofitInstance.api.postViaje(viaje).enqueue(object : Callback<Viaje> {
+            override fun onResponse(call: Call<Viaje>, response: Response<Viaje>) {
+                _viaje = response.body()!!
+                Log.i("Bueno", Gson().toJson(viaje))
+            }
+
+            override fun onFailure(call: Call<Viaje>, t: Throwable) {
+                t?.printStackTrace()
+            }
+        })
+    }
+
 }

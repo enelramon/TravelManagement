@@ -2,15 +2,14 @@ package com.sagrd.travelmanagement.model
 
 import androidx.room.Entity
 import androidx.room.PrimaryKey
-import java.util.Date
+import java.util.*
 
 @Entity
-data class Gasto(
+data class Venta(
     @PrimaryKey(autoGenerate = true)
-    var gastoId: Long,
+    var ventaId: Long,
     var fecha: String,
-    var tarjetaId: Long,
-    var concepto: String,
+    var clienteId: Long,
     var monto: Float,
-
+    var balance: Float
 )

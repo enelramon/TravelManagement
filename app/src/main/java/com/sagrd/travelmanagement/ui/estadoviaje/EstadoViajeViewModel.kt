@@ -5,6 +5,7 @@ import android.util.Log
 import androidx.lifecycle.*
 import androidx.room.Query
 import com.sagrd.travelmanagement.data.AppDataBase
+import com.sagrd.travelmanagement.model.Documentos
 import com.sagrd.travelmanagement.model.Gasto
 import com.sagrd.travelmanagement.model.Viaje
 import com.sagrd.travelmanagement.network.RetrofitInstance
@@ -17,18 +18,23 @@ class EstadoViajeViewModel(application: Application): ViewModel() {
     val listaViajeApi : LiveData<List<Viaje>>
         get() = _listaViajesApi
 
+    private val _listaGastoApi = MutableLiveData<List<Gasto>>()
+    val listaGastoApi : LiveData<List<Gasto>>
+        get() = _listaGastoApi
+
+    private val _listaDocumentoApi = MutableLiveData<List<Documentos>>()
+    val listaDocumentoApi : LiveData<List<Documentos>>
+        get() = _listaDocumentoApi
+
     private val viajeRepository = ViajeRepository(AppDataBase.getInstance(application))
     private val gastoRepository = gastoRepository(AppDataBase.getInstance(application))
-    lateinit var item : Viaje
-    lateinit var item2 : Gasto
-    val list = viajeRepository.Lista()
-    val gastoLista = gastoRepository.Lista()
+    private val documentoRepository = documentosRepository(AppDataBase.getInstance(application))
 
 
     init {
         viewModelScope.launch {
             try{
-                _listaViajesApi.value = RetrofitInstance.api.getTravels()
+                _listaDocumentoApi.value = documentoRepository.GetApi()
             }
             catch (e: Exception)
             {

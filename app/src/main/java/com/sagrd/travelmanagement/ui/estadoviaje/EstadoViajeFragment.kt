@@ -15,6 +15,7 @@ import com.sagrd.travelmanagement.adapters.documentosAdapter
 import com.sagrd.travelmanagement.adapters.gastoAdapter
 import com.sagrd.travelmanagement.databinding.EstadoViajeFragmentBinding
 import com.sagrd.travelmanagement.model.Documentos
+import com.sagrd.travelmanagement.model.Gasto
 
 class EstadoViajeFragment : Fragment() {
 
@@ -37,8 +38,8 @@ class EstadoViajeFragment : Fragment() {
             ViewModelProvider(this, EstadoViajeViewModel.Factory(requireActivity().application))
                 .get(EstadoViajeViewModel::class.java)
 
-        viewModel.listaViajeApi.observe(viewLifecycleOwner, Observer{
-            val adapter = ViajeAdapter()
+        viewModel.listaDocumentoApi.observe(viewLifecycleOwner, Observer{
+            val adapter = documentosAdapter()
             adapter.submitList(it)
             binding.estadoViajeRecyclerView.adapter = adapter
         })
@@ -48,8 +49,6 @@ class EstadoViajeFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-
-
 
         binding.gastoButton.setOnClickListener{
             findNavController().navigate(R.id.gastoViajeFragment)

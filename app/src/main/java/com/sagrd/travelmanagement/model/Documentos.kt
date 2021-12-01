@@ -5,10 +5,9 @@ import java.util.Date
 
 @Entity
 data class Documentos(
-    var Id: Long,
-    var Fecha: Date,
-    var Tipo: String,
-    var Concepto: String,
-    var Monto: Float,
-    var Balance: Float
+    var fecha: String,
+    var tipo: String,
+    var concepto: String,
+    var monto: Float,
+    var balance: Float
 )

@@ -74,17 +74,19 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/gasto_button"
-        app:layout_constraintHorizontal_bias="0.98"
+        android:visibility="invisible"
         app:layout_constraintBottom_toTopOf="@id/viajeButton"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.98"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/estadoViajeRecyclerView"/>
+        app:layout_constraintTop_toBottomOf="@id/estadoViajeRecyclerView" />
 
     <Button
         android:id="@+id/viajeButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/viaje_button"
+        android:visibility="invisible"
         app:layout_constraintBottom_toTopOf="@+id/fabEstadoViajes"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.98"
@@ -94,7 +96,7 @@
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/estadoViajeRecyclerView"
-        android:layout_width="0dp"
+        android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_marginTop="16dp"
         app:layout_constraintBottom_toTopOf="@+id/gastoButton"

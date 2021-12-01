@@ -9,6 +9,11 @@ import android.view.ViewGroup
 import androidx.navigation.fragment.findNavController
 import com.sagrd.travelmanagement.R
 import com.sagrd.travelmanagement.databinding.GastoViajeFragmentBinding
+import com.sagrd.travelmanagement.model.Gasto
+import com.sagrd.travelmanagement.utils.getFloat
+import com.sagrd.travelmanagement.utils.showMessage
+import java.text.SimpleDateFormat
+import java.util.*
 
 class GastoViajeFragment : Fragment() {
 
@@ -25,6 +30,7 @@ class GastoViajeFragment : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
+
         _binding = GastoViajeFragmentBinding.inflate(inflater, container, false)
         return binding.root
     }
@@ -37,8 +43,16 @@ class GastoViajeFragment : Fragment() {
                 .get(GastoViajeViewModel::class.java)
 
 
+
         binding.guardarButton.setOnClickListener{
-            findNavController().navigate(R.id.estadoViajeFragment)
+            if (!Validar()) {
+                it.showMessage("Verifique los errores para continuar")
+            } else {
+//                viewModel.Insert(LlenaClase())
+                viewModel.Post(LlenaClase())
+                it.showMessage("Gasto guardado")
+                findNavController().navigate(R.id.estadoViajeFragment)
+            }
         }
     }
 
@@ -48,4 +62,38 @@ class GastoViajeFragment : Fragment() {
         _binding = null
     }
 
+
+    fun Validar(): Boolean {
+        var esValido = true;
+
+        binding.montoTextInputEditText.let {
+            if (it.text.getFloat() <= 0) {
+                it.error = "Debe introducir un monto válido"
+                esValido = false
+            } else
+                it.error = null
+        }
+
+        binding.conceptoTextInputEditText.let {
+            if (it.text.isNullOrEmpty()) {
+                it.error = "Debe introducir un concepto válido"
+                esValido = false
+            } else
+                it.error = null
+        }
+
+        return esValido
+    }
+
+    fun LlenaClase() : Gasto {
+        val formatoFecha = SimpleDateFormat("yyyy-M-dd")
+        val fecha = formatoFecha.format(Date())
+        return Gasto(
+            0,
+            fecha.toString()+"T01:00:00",
+            1,
+            binding.conceptoTextInputEditText.text.toString(),
+            binding.montoTextInputEditText.text.getFloat()
+        )
+    }
 }

@@ -56,4 +56,8 @@
         android:name="com.sagrd.travelmanagement.ui.FacturasPendienteFragment"
         android:label="facturas_pendiente_fragment"
         tools:layout="@layout/facturas_pendiente_fragment" />
+        android:id="@+id/seguimientoClienteFragment"
+        android:name="com.sagrd.travelmanagement.ui.seguimientocliente.SeguimientoClienteFragment"
+        android:label="SeguimientoClienteFragment"
+        tools:layout="@layout/seguimiento_cliente_fragment"/>
 </navigation>

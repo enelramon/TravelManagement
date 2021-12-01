@@ -15,10 +15,10 @@ interface ViajeDao {
     @Update
     suspend fun Update(viaje: Viaje)
 
-    @Query("SELECT * FROM Viaje WHERE ViajeId= :key")
-    fun Find(key:Long): LiveData<Viaje>
+    @Query("SELECT * FROM Viaje WHERE travelId= :key")
+     fun Find(key:Long): LiveData<Viaje>
 
-    @Query("SELECT * FROM Viaje ORDER BY ViajeId ASC")
-    fun Lista() :LiveData<List<Viaje>>
+    @Query("SELECT * FROM Viaje ORDER BY travelId DESC")
+     fun Lista() :LiveData<List<Viaje>>
 }
 

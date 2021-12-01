@@ -3,6 +3,8 @@ package com.sagrd.travelmanagement
 import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
+import android.view.View
+import android.widget.CheckBox
 import androidx.appcompat.app.AppCompatActivity
 import androidx.drawerlayout.widget.DrawerLayout
 import androidx.navigation.findNavController
@@ -13,6 +15,8 @@ import androidx.navigation.ui.setupWithNavController
 import com.google.android.material.navigation.NavigationView
 import com.google.android.material.snackbar.Snackbar
 import com.sagrd.travelmanagement.databinding.ActivityMainBinding
+import com.sagrd.travelmanagement.databinding.SeguimientoClienteFragmentBinding
+import com.sagrd.travelmanagement.ui.DatePickerFragment
 
 class MainActivity : AppCompatActivity() {
 
@@ -33,7 +37,7 @@ class MainActivity : AppCompatActivity() {
 
         appBarConfiguration = AppBarConfiguration(
             setOf(
-                R.id.homeFragment, R.id.viajeEditFragment, R.id.estadoViajeFragment, R.id.gastoViajeFragment
+                R.id.homeFragment, R.id.viajeEditFragment, R.id.estadoViajeFragment, R.id.gastoViajeFragment, R.id.seguimientoClienteFragment
             ), drawerLayout
         )
 
@@ -62,5 +66,15 @@ class MainActivity : AppCompatActivity() {
         val navController = findNavController(R.id.nav_host_fragment_content_main)
         return navController.navigateUp(appBarConfiguration)
                 || super.onSupportNavigateUp()
+    }
+
+    fun showDatePickerDialog(v: View) {
+        val newFragment = DatePickerFragment()
+        newFragment.show(supportFragmentManager, "datePicker")
+
+//        val binding: SeguimientoClienteFragmentBinding? = null
+//        val fecha: DatePickerFragment? = null
+//        binding?.fechaTextView?.text = newFragment.onDateSet(newFragment.calendar, newFragment.ano,newFragment.mes, newFragment.dia).toString()
+
     }
 }

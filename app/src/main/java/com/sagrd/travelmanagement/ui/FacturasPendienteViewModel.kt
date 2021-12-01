@@ -1,16 +1,45 @@
 package com.sagrd.travelmanagement.ui
 
+import android.annotation.SuppressLint
 import android.app.Application
-import androidx.lifecycle.ViewModel
-import androidx.lifecycle.ViewModelProvider
+import android.util.Log
+import androidx.lifecycle.*
 import com.sagrd.travelmanagement.data.AppDataBase
+import com.sagrd.travelmanagement.model.Cobro
+import com.sagrd.travelmanagement.model.Venta
+import com.sagrd.travelmanagement.model.Viaje
+import com.sagrd.travelmanagement.repository.CobroRepository
+import com.sagrd.travelmanagement.repository.VentaRepository
 import com.sagrd.travelmanagement.repository.ViajeRepository
+import kotlinx.coroutines.launch
 
 
+@SuppressLint("LongLogTag")
 class FacturasPendienteViewModel(application: Application): ViewModel(){
-    // TODO: Implement the ViewModel
-    private val viajeRepository = ViajeRepository(AppDataBase.getInstance(application))
-    val list = viajeRepository.Lista()
+
+    private val _listaVentasApi = MutableLiveData<List<Venta>>()
+    val listaVentasApi : LiveData<List<Venta>>
+        get() = _listaVentasApi
+
+    private val ventaRepository = VentaRepository(AppDataBase.getInstance(application))
+    private val cobroRepository = CobroRepository(AppDataBase.getInstance(application))
+
+    fun Post(cobro: Cobro) = viewModelScope.launch{
+        cobroRepository.postCobro(cobro)
+    }
+
+    init {
+        viewModelScope.launch {
+            try{
+                _listaVentasApi.value = ventaRepository.Get()
+            }
+            catch (e: Exception)
+            {
+                Log.e("FacturasPendienteViewModel", "Fallo al buscar los datos api")
+            }
+
+        }
+    }
 
     class Factory(val app : Application) : ViewModelProvider.Factory{
         override fun <T : ViewModel?> create(modelClass: Class<T>): T {

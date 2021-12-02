@@ -4,25 +4,14 @@
     tools:showIn="navigation_view">
 
     <group android:checkableBehavior="single">
-        <item
-            android:id="@+id/estadoViajeFragment"
+        <!--item
+            android:id="@+id"
             android:icon="@drawable/ic_baseline_add"
-            android:title="Estados de viajes" />
-        <item
-            android:id="@+id/viajeEditFragment"
-            android:icon="@drawable/ic_baseline_add"
-            android:title="Agregar viaje" />
-        <item
-            android:id="@+id/gastoViajeFragment"
-            android:icon="@drawable/ic_baseline_add"
-            android:title="Agregar gasto" />
+            android:title="@string/clientes" /-->
         <item
             android:id="@+id/balancesDeViajeFragment"
-            android:icon="@drawable/ic_login_64"
-            android:title="Balance de viajes"/>
-        <item
-            android:id="@+id/seguimientoClienteFragment"
-            android:icon="@drawable/ic_baseline_calendar_today_24"
-            android:title="Seguimiento Cliente"/>
+            android:icon="@drawable/ic_baseline_add"
+            android:title="@string/viajes" />
+
     </group>
 </menu>

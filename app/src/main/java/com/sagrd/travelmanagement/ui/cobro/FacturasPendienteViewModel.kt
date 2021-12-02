@@ -1,4 +1,4 @@
-package com.sagrd.travelmanagement.ui
+package com.sagrd.travelmanagement.ui.cobro
 
 import android.annotation.SuppressLint
 import android.app.Application
@@ -7,10 +7,8 @@ import androidx.lifecycle.*
 import com.sagrd.travelmanagement.data.AppDataBase
 import com.sagrd.travelmanagement.model.Cobro
 import com.sagrd.travelmanagement.model.Venta
-import com.sagrd.travelmanagement.model.Viaje
 import com.sagrd.travelmanagement.repository.CobroRepository
 import com.sagrd.travelmanagement.repository.VentaRepository
-import com.sagrd.travelmanagement.repository.ViajeRepository
 import kotlinx.coroutines.launch
 
 

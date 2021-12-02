@@ -1,24 +1,18 @@
-package com.sagrd.travelmanagement.ui
+package com.sagrd.travelmanagement.ui.viajes
 
 import android.icu.util.Calendar
 import android.os.Bundle
-import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
 import androidx.navigation.fragment.findNavController
-import com.google.gson.Gson
 import com.sagrd.travelmanagement.R
 import com.sagrd.travelmanagement.databinding.ViajeEditFragmentBinding
 import com.sagrd.travelmanagement.model.Viaje
-import com.sagrd.travelmanagement.network.RetrofitInstance
 import com.sagrd.travelmanagement.utils.getFloat
 import com.sagrd.travelmanagement.utils.showMessage
-import retrofit2.Call
-import retrofit2.Callback
-import retrofit2.Response
 import java.text.DateFormat
 
 class ViajeEditFragment : Fragment() {
@@ -102,7 +96,7 @@ class ViajeEditFragment : Fragment() {
             57.25F,
             (binding.millasTextInputEditText.text.getFloat() * 57.25F)
         )
-    }*/
+    }
 }
 
 

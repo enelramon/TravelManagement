@@ -18,10 +18,10 @@ class BalancesDeViajeViewModel(app: Application) : ViewModel() {
     init {
         try {
             viewModelScope.launch {
-                _lista.value = RetrofitInstance.api.getClientes()
+                //_lista.value = RetrofitInstance.api.getClientes()
             }
         }catch (E : Exception){
-            Log.i("ERROR","Fallo la conexión al api")
+            Log.e("ERROR","Fallo al obtener clientes del api")
         }
     }
 

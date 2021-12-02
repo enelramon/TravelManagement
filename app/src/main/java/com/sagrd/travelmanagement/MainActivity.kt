@@ -15,7 +15,6 @@ import androidx.navigation.ui.setupWithNavController
 import com.google.android.material.navigation.NavigationView
 import com.google.android.material.snackbar.Snackbar
 import com.sagrd.travelmanagement.databinding.ActivityMainBinding
-import com.sagrd.travelmanagement.databinding.SeguimientoClienteFragmentBinding
 import com.sagrd.travelmanagement.ui.DatePickerFragment
 
 class MainActivity : AppCompatActivity() {

@@ -51,7 +51,7 @@ class EstadoViajeFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
 
         binding.gastoButton.setOnClickListener{
-            findNavController().navigate(R.id.gastoViajeFragment)
+            findNavController().navigate(R.id.action_estadoViajeFragment_to_gastoViajeFragment)
         }
 
         binding.viajeButton.setOnClickListener{

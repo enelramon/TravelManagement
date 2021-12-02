@@ -8,7 +8,7 @@
 
     <fragment
         android:id="@+id/balancesDeViajeFragment"
-        android:name="com.sagrd.travelmanagement.ui.viajes.BalancesDeViajeFragment"
+        android:name="com.sagrd.travelmanagement.ui.balanceviaje.BalancesDeViajeFragment"
         android:label="Balances Actuales"
         tools:layout="@layout/balances_de_viaje_fragment">
         <action

@@ -30,7 +30,7 @@ interface TravelApi {
     @GET("EstadoTarjetas/1")
     suspend fun getEstado():List<Documentos>
 
-    @GET ("Cliente")
+    @GET ("Clientes")
     fun getClientes(): List<Cliente>
 
     @POST("Seguimientos")

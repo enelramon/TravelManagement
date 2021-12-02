@@ -1,4 +1,4 @@
-package com.sagrd.travelmanagement.ui
+package com.sagrd.travelmanagement.ui.viajes
 
 import androidx.lifecycle.ViewModelProvider
 import android.os.Bundle
@@ -28,7 +28,9 @@ class BalancesDeViajeFragment : Fragment() {
 
     override fun onActivityCreated(savedInstanceState: Bundle?) {
         super.onActivityCreated(savedInstanceState)
+
         viewModel = ViewModelProvider(this).get(BalancesDeViajeViewModel::class.java)
+
         // TODO: Use the ViewModel
     }
 

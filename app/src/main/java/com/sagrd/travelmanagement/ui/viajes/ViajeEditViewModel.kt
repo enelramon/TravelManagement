@@ -1,16 +1,12 @@
-package com.sagrd.travelmanagement.ui
+package com.sagrd.travelmanagement.ui.viajes
 
 import android.app.Application
-import android.util.Log
 import androidx.lifecycle.*
-import com.google.gson.Gson
 import com.sagrd.travelmanagement.data.AppDataBase
 import com.sagrd.travelmanagement.databinding.ViajeEditFragmentBinding
 import com.sagrd.travelmanagement.model.Viaje
-import com.sagrd.travelmanagement.network.RetrofitInstance
 import com.sagrd.travelmanagement.repository.ViajeRepository
 import kotlinx.coroutines.launch
-import retrofit2.*
 
 class ViajeEditViewModel(application: Application) : ViewModel() {
 

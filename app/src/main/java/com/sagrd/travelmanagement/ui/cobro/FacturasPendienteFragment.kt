@@ -1,4 +1,4 @@
-package com.sagrd.travelmanagement.ui
+package com.sagrd.travelmanagement.ui.cobro
 
 import android.graphics.Color
 import androidx.lifecycle.ViewModelProvider
@@ -7,21 +7,16 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.CheckBox
 import android.widget.LinearLayout
-import android.widget.Toast
 import androidx.lifecycle.Observer
 import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.DividerItemDecoration
 import com.sagrd.travelmanagement.R
 import com.sagrd.travelmanagement.adapters.VentaAdapter
-import com.sagrd.travelmanagement.adapters.ViajeAdapter
 import com.sagrd.travelmanagement.databinding.FacturasPendienteFragmentBinding
-import com.sagrd.travelmanagement.databinding.FacturasPendienteRowBinding
 import com.sagrd.travelmanagement.model.Cobro
 import com.sagrd.travelmanagement.model.CobroDetalle
 import com.sagrd.travelmanagement.model.Venta
-import com.sagrd.travelmanagement.model.Viaje
 import com.sagrd.travelmanagement.utils.showMessage
 import java.text.SimpleDateFormat
 import java.util.*

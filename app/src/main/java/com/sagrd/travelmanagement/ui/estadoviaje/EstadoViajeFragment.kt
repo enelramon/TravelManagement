@@ -79,5 +79,4 @@ class EstadoViajeFragment : Fragment() {
         _binding = null
     }
 
-
 }

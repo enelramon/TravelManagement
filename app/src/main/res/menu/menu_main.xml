@@ -8,9 +8,4 @@
         android:orderInCategory="100"
         android:title="SETTINGS"
         android:showAsAction="never" />
-    <item
-        android:id="@+id/balancesDeViajeFragment"
-        android:orderInCategory="100"
-        android:title="@string/balance_viaje"
-        android:showAsAction="never" />
 </menu>

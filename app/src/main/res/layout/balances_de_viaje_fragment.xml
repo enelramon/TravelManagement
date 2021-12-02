@@ -4,14 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.BalancesDeViajeFragment">
+    tools:context=".ui.balanceviaje.BalancesDeViajeFragment">
 
     <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/balancesviajesRecyclerView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
-        tools:listitem="@layout/balance_viaje_row"
-        />
+        tools:listitem="@layout/balance_viaje_row" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
 <!--FrameLayout-->

@@ -31,7 +31,7 @@ interface TravelApi {
     suspend fun getEstado():List<Documentos>
 
     @GET ("Clientes")
-    fun getClientes(): List<Cliente>
+    suspend fun getClientes(): List<Cliente>
 
     @POST("Seguimientos")
     fun postSeguimiento(@Body seguimiento: Seguimiento?) : Call<Seguimiento>

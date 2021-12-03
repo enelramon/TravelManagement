@@ -12,7 +12,6 @@ import android.widget.DatePicker
 import com.sagrd.travelmanagement.R
 import com.sagrd.travelmanagement.databinding.SeguimientoClienteFragmentBinding
 import com.sagrd.travelmanagement.model.Seguimiento
-import com.sagrd.travelmanagement.ui.DatePickerFragment
 import com.sagrd.travelmanagement.utils.showMessage
 import java.text.SimpleDateFormat
 import java.util.*

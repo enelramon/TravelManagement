@@ -27,6 +27,7 @@ class ClientesAdapter(): RecyclerView.Adapter<ClientesAdapter.ClientesViewHolder
         return clientesList.size
     }
 
+
     fun submitList(list: List<Cliente>)
     {
         clientesList = list
@@ -38,11 +39,15 @@ class ClientesAdapter(): RecyclerView.Adapter<ClientesAdapter.ClientesViewHolder
         RecyclerView.ViewHolder(binding.root) {
 
         fun bind(item: Cliente) {
-            val fecha = SimpleDateFormat("dd-M-yyyy")
-            val fecha3 = fecha.format(Date())
             binding.nombreTextView.text= item.nombres
             binding.montoTextView.text = item.balance.toString()
 
         }
+    }
+
+    private var onItemClickListener: ((Cliente) -> Unit)? = null
+
+    fun setOnItemClickListener(listener: (Cliente) -> Unit) {
+        onItemClickListener = listener
     }
 }

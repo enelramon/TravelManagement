@@ -4,7 +4,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav_graph"
-    app:startDestination="@id/balancesDeViajeFragment">
+    app:startDestination="@id/estadoViajeFragment"
+    tools:ignore="ExtraText">
 
     <fragment
         android:id="@+id/balancesDeViajeFragment"
@@ -44,17 +45,26 @@
         android:id="@+id/facturasPendienteFragment"
         android:name="com.sagrd.travelmanagement.ui.cobro.FacturasPendienteFragment"
         android:label="facturas_pendiente_fragment"
-        tools:layout="@layout/facturas_pendiente_fragment" />
+        tools:layout="@layout/facturas_pendiente_fragment" >/>
+        <argument
+            android:name="clienteId"
+            app:argType="long" />
+    </fragment>
     <fragment
         android:id="@+id/clientesFragment"
         android:name="com.sagrd.travelmanagement.ui.ClientesFragment"
         android:label="clientes_fragment"
         tools:layout="@layout/clientes_fragment" >
         <action
+            android:id="@+id/action_clientesFragment_to_seguimientoClienteFragment"
+            app:destination="@id/seguimientoClienteFragment" />
+    </fragment>
+        <action
             android:id="@+id/action_clientesFragment_to_facturasPendienteFragment"
             app:destination="@id/facturasPendienteFragment" />
-    </fragment>
-    android:id="@+id/seguimientoClienteFragment"
+
+    <fragment
+        android:id="@+id/seguimientoClienteFragment"
         android:name="com.sagrd.travelmanagement.ui.seguimientocliente.SeguimientoClienteFragment"
         android:label="SeguimientoClienteFragment"
         tools:layout="@layout/seguimiento_cliente_fragment"/>

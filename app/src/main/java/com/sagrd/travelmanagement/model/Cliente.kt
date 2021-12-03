@@ -5,7 +5,6 @@ import androidx.room.PrimaryKey
 
 @Entity
 data class Cliente(
-
     @PrimaryKey(autoGenerate = true)
     val clienteId :Long,
     var nombres: String,

@@ -9,7 +9,7 @@
             android:icon="@drawable/ic_baseline_add"
             android:title="@string/clientes" />
         <item
-            android:id="@+id/balancesDeViajeFragment"
+            android:id="@+id/facturasPendienteFragment"
             android:icon="@drawable/ic_baseline_add"
             android:title="@string/viajes" />
 

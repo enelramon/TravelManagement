@@ -32,11 +32,11 @@ class SeguimientoClienteFragment : Fragment() {
 
         val lista = resources.getStringArray(R.array.lista)
         val arrayAdapterLista = ArrayAdapter(requireContext(),R.layout.dropdown_item,lista)
-        binding.autoCompleteTextView2.setAdapter(arrayAdapterLista)
+        binding.ComboBoxTiposContenido.setAdapter(arrayAdapterLista)
 
         val estado = resources.getStringArray(R.array.estado)
         val arrayAdapterEstado = ArrayAdapter(requireContext(),R.layout.dropdown_item,estado)
-        binding.autoCompleteTextView.setAdapter(arrayAdapterEstado)
+        binding.ComboBoxEstadosContenido.setAdapter(arrayAdapterEstado)
 
         return binding.root
     }
@@ -76,13 +76,13 @@ class SeguimientoClienteFragment : Fragment() {
         val fecha = formatoFecha.format(Date())
 
         var opcion = 1L
-        if(binding.autoCompleteTextView2.text.toString() == "Correo")
+        if(binding.ComboBoxTiposContenido.text.toString() == "Correo")
             opcion = 2L
-        else if (binding.autoCompleteTextView2.text.toString() == "Visita")
+        else if (binding.ComboBoxTiposContenido.text.toString() == "Visita")
                 opcion = 3L
 
         var opcion2 = 1L
-        if(binding.autoCompleteTextView.text.toString() == "Finaliza")
+        if(binding.ComboBoxEstadosContenido.text.toString() == "Finaliza")
             opcion2 = 2L
 
         return Seguimiento(
@@ -94,15 +94,5 @@ class SeguimientoClienteFragment : Fragment() {
             opcion2,
             binding.fechaTextView.text.toString() + "T01:00:00"
         )
-
-//        return Seguimiento(
-//            0,
-//            "2021-11-29T03:41:43.628Z",
-//            1,
-//            "Hola",
-//            1,
-//            1,
-//            "2021-11-29T01:00:00.628Z"
-//        )
     }
 }

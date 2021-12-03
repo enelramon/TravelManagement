@@ -49,7 +49,7 @@
         app:layout_constraintTop_toBottomOf="@+id/tipo">
 
         <AutoCompleteTextView
-            android:id="@+id/autoCompleteTextView2"
+            android:id="@+id/ComboBoxTiposContenido"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:inputType="none"
@@ -85,7 +85,7 @@
         app:layout_constraintTop_toBottomOf="@+id/estado">
 
         <AutoCompleteTextView
-            android:id="@+id/autoCompleteTextView"
+            android:id="@+id/ComboBoxEstadosContenido"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:inputType="none"

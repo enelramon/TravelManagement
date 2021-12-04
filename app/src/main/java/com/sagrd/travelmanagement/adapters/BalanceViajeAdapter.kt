@@ -43,7 +43,7 @@ class BalanceViajeAdapter(): RecyclerView.Adapter<BalanceViajeAdapter.BalanceVia
 
                 binding.constraintadacterbalanceviaje.setOnClickListener(){
                     val bundle = bundleOf(
-                        "ClienteId" to item.clienteId,
+                        "clienteId" to item.clienteId,
                     )
                     binding.root.findNavController().navigate(R.id.estadoViajeFragment,bundle)
                 }

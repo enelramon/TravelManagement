@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/clienteRow"
     android:layout_width="match_parent"
@@ -10,29 +10,59 @@
 
     <TextView
         android:id="@+id/nombreTextView"
-        android:layout_width="wrap_content"
-        android:layout_height="44dp"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
         android:layout_weight="10"
         android:gravity="center"
         android:text="Enel Almonte"
         android:textAlignment="viewStart"
         android:textColor="#000000"
         android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/imageButtonseguimineto"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
         tools:ignore="RtlCompat" />
+
+    <ImageButton
+        android:id="@+id/imageButtoncobro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="10"
+        app:layout_constraintBottom_toBottomOf="@+id/nombreTextView"
+        app:layout_constraintEnd_toStartOf="@+id/montoTextView"
+        app:layout_constraintTop_toTopOf="@+id/nombreTextView"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/ic_twotone_monetization_on_24"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
 
     <TextView
         android:id="@+id/montoTextView"
         android:layout_width="wrap_content"
-        android:layout_height="44dp"
+        android:layout_height="wrap_content"
         android:layout_weight="1"
         android:gravity="center"
         android:text="20000"
         android:textAlignment="viewEnd"
         android:textColor="#000000"
         android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="@+id/nombreTextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/nombreTextView"
         tools:ignore="RtlCompat" />
 
+    <ImageButton
+        android:id="@+id/imageButtonseguimineto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@+id/nombreTextView"
+        app:layout_constraintEnd_toStartOf="@+id/imageButtoncobro"
+        app:layout_constraintTop_toTopOf="@+id/nombreTextView"
+        app:srcCompat="@drawable/ic_seguimiento"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
 
 
-
-</LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

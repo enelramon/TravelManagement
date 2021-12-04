@@ -11,4 +11,8 @@ import com.sagrd.travelmanagement.model.Documentos
 interface DocumentosDao {
 //    @Query("Select :gasto.GastoId, :gasto.Fecha, 'gasto' as Tipo, :gasto.Concepto, :gasto.Monto , 0 as Balance FROM Gasto UNION ALL Select :viaje.ViajeId, :viaje.Fecha, 'viaje' as Tipo, :viaje.Concepto, :viaje.Monto , (:gasto.Monto + :Viaje.Monto) as Balance FROM Viajes")
 //    fun Mix(viaje: Viaje, gasto: Gasto): LiveData<List<Documentos>>
+//    @Query("SELECT * FROM documentos ORDER BY  ASC")
+//    fun getAllClienteSpinner(): List<Cliente>
+//
+
 }

@@ -38,7 +38,7 @@ class BalancesDeViajeFragment : Fragment() {
             val adapter = BalanceViajeAdapter()
             adapter.sumitList(it)
             binding.balancesviajesRecyclerView.adapter = adapter
+            //,viewModel.octenertarjeta(0).value!!.toList()
         })
-        
     }
 }

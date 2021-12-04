@@ -36,6 +36,8 @@
     <string name="clientes">Clientes</string>
     <string name="viajes">Viajes</string>
 
+    <string name="clienteFramen">Clientes </string>
+
     <string-array name="estado">
         <item>Continúa</item>
         <item>Finaliza</item>

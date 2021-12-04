@@ -39,16 +39,26 @@ class EstadoViajeFragment : Fragment() {
             ViewModelProvider(this, EstadoViajeViewModel.Factory(requireActivity().application))
                 .get(EstadoViajeViewModel::class.java)
 
-        viewModel.listaDocumentoApi.observe(viewLifecycleOwner, Observer{
-            val adapter = documentosAdapter()
-            adapter.submitList(it)
-            binding.estadoViajeRecyclerView.adapter = adapter
-        })
+//        viewModel.listaDocumentoApi.observe(viewLifecycleOwner, Observer{
+//            val adapter = documentosAdapter()
+//            adapter.submitList(it)
+//            binding.estadoViajeRecyclerView.adapter = adapter
+//        })
+
+
         return binding.root
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
+
+        //ahora recibiras la variable tarjetaId
+
+        viewModel.octenertarjeta(arguments?.getLong("tarjetaId")!!.toInt()).observe(viewLifecycleOwner, Observer{
+            val adapter = documentosAdapter()
+            adapter.submitList(it)
+            binding.estadoViajeRecyclerView.adapter = adapter
+        })
 
         binding.gastoButton.setOnClickListener{
             findNavController().navigate(R.id.action_estadoViajeFragment_to_gastoViajeFragment)
@@ -71,11 +81,6 @@ class EstadoViajeFragment : Fragment() {
             }
             contador++
         }
-
-        if( arguments?.getInt("clienteId") != null)
-            binding.idjesus.setText(arguments?.getLong("clienteId").toString())
-
-
 
     }
 

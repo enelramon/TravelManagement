@@ -7,6 +7,7 @@ import com.sagrd.travelmanagement.databinding.EstadoViajeRowBinding
 import com.sagrd.travelmanagement.model.Documentos
 import java.text.SimpleDateFormat
 import java.util.*
+import kotlin.math.round
 
 class documentosAdapter(): RecyclerView.Adapter<documentosAdapter.DocumentoViewHolder>() {
     private var documentosList = emptyList<Documentos>()
@@ -40,8 +41,8 @@ class documentosAdapter(): RecyclerView.Adapter<documentosAdapter.DocumentoViewH
             val fechaFormateada = item.fecha.replaceRange(9,item.fecha.length,"")
             binding.fechaTextView.text = fechaFormateada
             binding.conceptoTextView.text = item.concepto
-            binding.montoTextView.text = item.monto.toString()
-            binding.balanceTextView.text = item.balance.toString()
+            binding.montoTextView.text = round(item.monto).toString()
+            binding.balanceTextView.text = round(item.balance).toString()
         }
     }
 }

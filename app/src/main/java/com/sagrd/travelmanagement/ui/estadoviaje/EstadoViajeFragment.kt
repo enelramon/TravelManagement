@@ -6,8 +6,10 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.core.os.bundleOf
 import androidx.core.view.isVisible
 import androidx.lifecycle.Observer
+import androidx.navigation.findNavController
 import androidx.navigation.fragment.findNavController
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
 import com.sagrd.travelmanagement.R
@@ -39,13 +41,6 @@ class EstadoViajeFragment : Fragment() {
             ViewModelProvider(this, EstadoViajeViewModel.Factory(requireActivity().application))
                 .get(EstadoViajeViewModel::class.java)
 
-//        viewModel.listaDocumentoApi.observe(viewLifecycleOwner, Observer{
-//            val adapter = documentosAdapter()
-//            adapter.submitList(it)
-//            binding.estadoViajeRecyclerView.adapter = adapter
-//        })
-
-
         return binding.root
     }
 
@@ -65,7 +60,10 @@ class EstadoViajeFragment : Fragment() {
             findNavController().navigate(R.id.action_estadoViajeFragment_to_gastoViajeFragment)
         }
         binding.viajeButton.setOnClickListener{
-            findNavController().navigate(R.id.viajeEditFragment)
+            val bundle = bundleOf(
+                "tarjetaId" to arguments?.getLong("tarjetaId")!!
+            )
+            binding.root.findNavController().navigate(R.id.action_estadoViajeFragment_to_viajeEditFragment,bundle)
         }
 
         var contador = 0

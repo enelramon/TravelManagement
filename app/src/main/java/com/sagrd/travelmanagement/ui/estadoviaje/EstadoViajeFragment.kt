@@ -48,7 +48,7 @@ class EstadoViajeFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
 
         //ahora recibiras la variable tarjetaId
-        val int =arguments?.getLong("tarjetaId")!!.toInt()
+        val int = arguments?.getLong("tarjetaId")!!.toInt()
 
         viewModel.obtenertarjeta(int).observe(viewLifecycleOwner, Observer{
             val adapter = documentosAdapter()
@@ -57,8 +57,13 @@ class EstadoViajeFragment : Fragment() {
         })
 
         binding.gastoButton.setOnClickListener{
-            findNavController().navigate(R.id.action_estadoViajeFragment_to_gastoViajeFragment)
+            val bundle = bundleOf(
+                "tarjetaId" to arguments?.getLong("tarjetaId")!!
+            )
+            binding.root.findNavController().navigate(R.id.action_estadoViajeFragment_to_gastoViajeFragment,bundle)
         }
+
+
         binding.viajeButton.setOnClickListener{
             val bundle = bundleOf(
                 "tarjetaId" to arguments?.getLong("tarjetaId")!!

@@ -46,10 +46,8 @@ class clientesAdapter(): RecyclerView.Adapter<clientesAdapter.ClientesViewHolder
             binding.imageButtonseguimineto.setOnClickListener(){
                 binding.root.findNavController().navigate(R.id.action_clientesFragment_to_seguimientoClienteFragment)
             }
-            val fecha = SimpleDateFormat("dd-M-yyyy")
-            val fecha3 = fecha.format(Date())
-//            binding.nombreTextView= item.nombres
-//            binding.montoTextView = item.balance.toRawBits()
+            binding.nombreTextView.text= item.nombres
+            binding.montoTextView.text = item.balance.toString()
 
         }
     }

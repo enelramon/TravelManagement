@@ -2,18 +2,16 @@ package com.sagrd.travelmanagement.adapters
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
-import android.widget.LinearLayout
-import androidx.constraintlayout.widget.ConstraintLayout
+import androidx.navigation.findNavController
 import androidx.recyclerview.widget.RecyclerView
+import com.sagrd.travelmanagement.R
 import com.sagrd.travelmanagement.databinding.ClienteRowBinding
-import com.sagrd.travelmanagement.databinding.ClientesFragmentBinding
-import com.sagrd.travelmanagement.model.Cliente
-import com.sagrd.travelmanagement.model.Venta
+import com.sagrd.travelmanagement.model.Clientes
 import java.text.SimpleDateFormat
 import java.util.*
 
-class ClientesAdapter(private var itemClickListener: ClientesAdapter.onClienteClickListener): RecyclerView.Adapter<ClientesAdapter.ClientesViewHolder>() {
-    private  var clientesList = emptyList<Cliente>()
+class clientesAdapter(): RecyclerView.Adapter<clientesAdapter.ClientesViewHolder>() {
+    private  var clientesList = emptyList<Clientes>()
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ClientesViewHolder {
         val binding =
@@ -30,8 +28,7 @@ class ClientesAdapter(private var itemClickListener: ClientesAdapter.onClienteCl
         return clientesList.size
     }
 
-
-    fun submitList(list: List<Cliente>)
+    fun submitList(list: List<Clientes>)
     {
         clientesList = list
         notifyDataSetChanged()
@@ -41,21 +38,19 @@ class ClientesAdapter(private var itemClickListener: ClientesAdapter.onClienteCl
     inner class ClientesViewHolder(private val binding: ClienteRowBinding) :
         RecyclerView.ViewHolder(binding.root) {
 
-        fun bind(item: Cliente) {
-            try {
-                binding.nombreTextView.text= item.nombres
-                binding.montoTextView.text = item.balance.toString()
+        fun bind(item: Clientes) {
 
-                itemView.setOnClickListener { itemClickListener.onItemClick(item, binding.clienteRow ) }
+            binding.imageButtoncobro.setOnClickListener(){
+                binding.root.findNavController().navigate(R.id.action_clientesFragment_to_facturasPendienteFragment)
             }
-            catch (e:Exception)
-            {
+            binding.imageButtonseguimineto.setOnClickListener(){
+                binding.root.findNavController().navigate(R.id.action_clientesFragment_to_seguimientoClienteFragment)
+            }
+            val fecha = SimpleDateFormat("dd-M-yyyy")
+            val fecha3 = fecha.format(Date())
+//            binding.nombreTextView= item.nombres
+//            binding.montoTextView = item.balance.toRawBits()
 
-            }
         }
-    }
-
-    interface onClienteClickListener{
-        fun onItemClick(item: Cliente, linearLayout: LinearLayout)
     }
 }

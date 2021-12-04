@@ -1,13 +1,13 @@
 package com.sagrd.travelmanagement.ui.balanceviaje
 
+
 import androidx.lifecycle.ViewModelProvider
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
+import android.view.MotionEvent
 import android.view.View
 import android.view.ViewGroup
-import androidx.lifecycle.Observer
-import com.sagrd.travelmanagement.R
 import com.sagrd.travelmanagement.adapters.BalanceViajeAdapter
 import com.sagrd.travelmanagement.databinding.BalancesDeViajeFragmentBinding
 
@@ -38,6 +38,7 @@ class BalancesDeViajeFragment : Fragment() {
             val adapter = BalanceViajeAdapter()
             adapter.sumitList(it)
             binding.balancesviajesRecyclerView.adapter = adapter
+            //,viewModel.octenertarjeta(0).value!!.toList()
         })
     }
 }

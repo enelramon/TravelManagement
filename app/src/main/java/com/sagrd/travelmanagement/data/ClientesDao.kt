@@ -5,20 +5,20 @@ import androidx.room.Dao
 import androidx.room.Insert
 import androidx.room.Query
 import androidx.room.Update
-import com.sagrd.travelmanagement.model.Cliente
+import com.sagrd.travelmanagement.model.Clientes
 
 
 @Dao
 interface ClientesDao {
     @Insert
-    suspend fun Insert(clientes: Cliente)
+    suspend fun Insert(clientes: Clientes)
 
     @Update
-    suspend fun Update(clientes: Cliente)
+    suspend fun Update(clientes: Clientes )
 
-    @Query("SELECT * FROM Cliente WHERE clienteId= :key")
-    fun Find(key:Long): LiveData<Cliente>
+    @Query("SELECT * FROM Clientes WHERE clienteId= :key")
+    fun Find(key:Long): LiveData<Clientes>
 
-    @Query("SELECT * FROM Cliente ORDER BY clienteId ASC")
-    fun Lista() : LiveData<List<Cliente>>
+    @Query("SELECT * FROM Clientes ORDER BY clienteId ASC")
+    fun Lista() : LiveData<List<Clientes>>
 }

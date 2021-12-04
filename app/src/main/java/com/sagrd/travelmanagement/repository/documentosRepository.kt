@@ -10,7 +10,8 @@ import com.sagrd.travelmanagement.ui.estadoviaje.EstadoViajeFragment
 
 class documentosRepository(private val database: AppDataBase) {
 
-    suspend fun GetApi(): List<Documentos>{
-        return RetrofitInstance.api.getEstado()
+    suspend fun GetApiEstado(travelsId : Int): List<Documentos>{
+        return RetrofitInstance.api.getEstado(travelsId)
     }
+
 }

@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<navigation
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav_graph"
@@ -15,6 +14,9 @@
         <action
             android:id="@+id/action_balancesDeViajeFragment_to_estadoViajeFragment"
             app:destination="@id/estadoViajeFragment" />
+        <argument
+            android:name="pasarid"
+            app:argType="long[]" />
     </fragment>
 
     <fragment
@@ -45,32 +47,28 @@
         android:id="@+id/facturasPendienteFragment"
         android:name="com.sagrd.travelmanagement.ui.cobro.FacturasPendienteFragment"
         android:label="facturas_pendiente_fragment"
-        tools:layout="@layout/facturas_pendiente_fragment" >
+        tools:layout="@layout/facturas_pendiente_fragment">/>
         <argument
             android:name="clienteId"
-            app:argType="long"
-            android:defaultValue="0L" />
+            app:argType="long" />
     </fragment>
     <fragment
         android:id="@+id/clientesFragment"
         android:name="com.sagrd.travelmanagement.ui.ClientesFragment"
-        android:label="clientes_fragment"
-        tools:layout="@layout/clientes_fragment" >
+        android:label="@string/clienteFramen"
+        tools:layout="@layout/clientes_fragment">
         <action
             android:id="@+id/action_clientesFragment_to_seguimientoClienteFragment"
             app:destination="@id/seguimientoClienteFragment" />
-    </fragment>
         <action
             android:id="@+id/action_clientesFragment_to_facturasPendienteFragment"
-            app:destination="@id/facturasPendienteFragment" >
-            <argument
-                android:name="clienteId"
-                android:defaultValue="0L" />
-        </action>
+            app:destination="@id/facturasPendienteFragment"
+            app:launchSingleTop="false" />
+    </fragment>
 
     <fragment
         android:id="@+id/seguimientoClienteFragment"
         android:name="com.sagrd.travelmanagement.ui.seguimientocliente.SeguimientoClienteFragment"
         android:label="SeguimientoClienteFragment"
-        tools:layout="@layout/seguimiento_cliente_fragment"/>
+        tools:layout="@layout/seguimiento_cliente_fragment" />
 </navigation>

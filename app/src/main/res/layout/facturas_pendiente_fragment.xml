@@ -62,16 +62,16 @@
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/facturasPendienteRecyclerView"
         android:layout_width="0dp"
-        android:layout_height="0dp"
+        android:layout_height="285dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="16dp"
-        android:layout_marginBottom="16dp"
         app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
-        app:layout_constraintBottom_toTopOf="@+id/totaltextView"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/header"
         app:layout_constraintStart_toStartOf="@+id/header"
         app:layout_constraintTop_toBottomOf="@+id/header"
+        app:layout_constraintVertical_bias="0.0"
         tools:listitem="@layout/facturas_pendiente_row" />
 
     <Button
@@ -88,12 +88,13 @@
         android:id="@+id/totaltextView"
         android:layout_width="51dp"
         android:layout_height="29dp"
-        android:layout_marginBottom="16dp"
         android:text="Total"
         android:textColor="#000000"
         android:textSize="20sp"
         app:layout_constraintBottom_toTopOf="@+id/guardarButton"
-        app:layout_constraintEnd_toStartOf="@+id/totalResultadotextView" />
+        app:layout_constraintEnd_toStartOf="@+id/totalResultadotextView"
+        app:layout_constraintTop_toBottomOf="@+id/facturasPendienteRecyclerView"
+        app:layout_constraintVertical_bias="0.278" />
 
     <TextView
         android:id="@+id/totalResultadotextView"
@@ -108,8 +109,10 @@
         app:autoSizeMinTextSize="12sp"
         app:autoSizeStepGranularity="2sp"
         app:autoSizeTextType="uniform"
-        app:layout_constraintBaseline_toBaselineOf="@+id/totaltextView"
+        app:layout_constraintBottom_toTopOf="@+id/guardarButton"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.962"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/facturasPendienteRecyclerView"
+        app:layout_constraintVertical_bias="0.265" />
 </androidx.constraintlayout.widget.ConstraintLayout>

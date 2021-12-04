@@ -14,6 +14,8 @@ class ClientesViewModel(application: Application):ViewModel() {
     val listaClientesApi:LiveData<List<Clientes>>
         get() = _listaClientesApi
 
+    var clienteId = 0L
+
     private val clientesRepository = ClientesRepository(AppDataBase.getInstance(application))
     init {
         viewModelScope.launch {

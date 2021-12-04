@@ -19,12 +19,9 @@ import java.text.DateFormat
 import java.text.SimpleDateFormat
 import java.util.*
 
-class VentaAdapter( private var itemClickListener: VentaAdapter.onVentaClickListener) : RecyclerView.Adapter<VentaAdapter.VentaViewHolder>() {
+class VentaAdapter(private var itemClickListener: VentaAdapter.onVentaClickListener) : RecyclerView.Adapter<VentaAdapter.VentaViewHolder>() {
 
     private var ventaList = emptyList<Venta>()
-
-    private var _binding: FacturasPendienteRowBinding? = null
-    private val binding get() = _binding!!
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): VentaViewHolder {
         val binding =

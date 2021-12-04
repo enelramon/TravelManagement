@@ -6,6 +6,7 @@ import com.sagrd.travelmanagement.model.Documentos
 import com.sagrd.travelmanagement.model.Gasto
 import com.sagrd.travelmanagement.model.Viaje
 import com.sagrd.travelmanagement.network.RetrofitInstance
+import com.sagrd.travelmanagement.ui.estadoviaje.EstadoViajeFragment
 
 class documentosRepository(private val database: AppDataBase) {
 

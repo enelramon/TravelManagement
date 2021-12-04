@@ -91,7 +91,7 @@ class ViajeEditFragment : Fragment() {
         return Viaje(
             0,
             "2021-11-25T01:48:33",
-            1,
+            1L,
             binding.conceptoTextInputEditText.text.toString(),
             binding.millasTextInputEditText.text.getFloat(),
             57.25F,

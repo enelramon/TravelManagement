@@ -7,7 +7,7 @@ import com.sagrd.travelmanagement.databinding.EstadoViajeRowBinding
 import com.sagrd.travelmanagement.model.Gasto
 import kotlin.math.round
 
-class gastoAdapter(  ) : RecyclerView.Adapter<gastoAdapter.GastoViewHolder>() {
+class gastoAdapter() : RecyclerView.Adapter<gastoAdapter.GastoViewHolder>() {
     private var gastoList = emptyList<Gasto>()
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): GastoViewHolder {

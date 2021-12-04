@@ -47,6 +47,7 @@ class clientesAdapter(): RecyclerView.Adapter<clientesAdapter.ClientesViewHolder
                 )
                 binding.root.findNavController().navigate(R.id.action_clientesFragment_to_facturasPendienteFragment,bundle)
             }
+
             binding.imageButtonseguimineto.setOnClickListener(){
                 val bundle = bundleOf(
                     "clienteId" to item.clienteId

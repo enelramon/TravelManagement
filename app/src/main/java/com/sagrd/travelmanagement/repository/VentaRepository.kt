@@ -8,15 +8,15 @@ import com.sagrd.travelmanagement.ui.cobro.FacturasPendienteFragment
 class VentaRepository(private val database: AppDataBase)
 {
     val cliente = FacturasPendienteFragment()
-    suspend fun Get() : List<Venta>
+    suspend fun Get(clienteId:Int) : List<Venta>
     {
         var listaVenta = emptyList<Venta>().toMutableList()
 
-        for(i in RetrofitInstance.api.getVentas().indices)
+        for(i in RetrofitInstance.api.getVentas(clienteId).indices)
         {
-            if(RetrofitInstance.api.getVentas()[i].balance != 0f)
+            if(RetrofitInstance.api.getVentas(clienteId)[i].balance != 0f)
             {
-                listaVenta.add(RetrofitInstance.api.getVentas()[i])
+                listaVenta.add(RetrofitInstance.api.getVentas(clienteId)[i])
             }
         }
         return listaVenta

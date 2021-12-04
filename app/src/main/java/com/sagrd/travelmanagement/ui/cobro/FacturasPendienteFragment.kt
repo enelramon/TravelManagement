@@ -33,15 +33,12 @@ class FacturasPendienteFragment : Fragment(R.layout.facturas_pendiente_fragment)
     private var _binding: FacturasPendienteFragmentBinding? = null
     private val binding get() = _binding!!
 
-    private var clienteid = 0L
-
-
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
         //aqui recibe el argumento
-        clienteid = arguments?.getLong("clienteId")!!
+        val int = arguments?.getLong("clienteId")!!.toInt()
 
         _binding = FacturasPendienteFragmentBinding.inflate(inflater, container, false)
 
@@ -52,19 +49,17 @@ class FacturasPendienteFragment : Fragment(R.layout.facturas_pendiente_fragment)
             )
                 .get(FacturasPendienteViewModel::class.java)
 
-        viewModel.listaVentasApi.observe(viewLifecycleOwner, Observer{
+        viewModel.obtenercliente(int).observe(viewLifecycleOwner, Observer{
             val adapter = VentaAdapter(this)
             adapter.submitList(it)
             binding.facturasPendienteRecyclerView.adapter = adapter
         })
-
-        //Aqui debe digitarse el valor del argumento
-        binding.guardarButton.text = clienteid.toString()
         return binding.root
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
+
 
         binding.facturasPendienteRecyclerView.addItemDecoration(
             DividerItemDecoration(
@@ -76,7 +71,8 @@ class FacturasPendienteFragment : Fragment(R.layout.facturas_pendiente_fragment)
         binding.guardarButton.setOnClickListener{
             if(cobroDetalleList.isNotEmpty())
             {
-                viewModel.Post(LlenaClase())
+                val int = arguments?.getLong("clienteId")!!.toInt()
+                viewModel.Post(LlenaClase(int))
                 it.showMessage("Cobro Guardado exitosamente")
                 findNavController().navigate(R.id.facturasPendienteFragment)
             }
@@ -117,7 +113,7 @@ class FacturasPendienteFragment : Fragment(R.layout.facturas_pendiente_fragment)
             }
     }
 
-    fun  LlenaClase(): Cobro
+    fun  LlenaClase(id : Int): Cobro
     {
         val formatoFecha = SimpleDateFormat("yyyy-M-dd")
         val fecha = formatoFecha.format(Date())
@@ -125,7 +121,7 @@ class FacturasPendienteFragment : Fragment(R.layout.facturas_pendiente_fragment)
         return Cobro(
             0,
             fecha.toString()+ "T01:00:00",
-            1,
+            id.toLong(),
             acumulador,
             cobroDetalleList
         )

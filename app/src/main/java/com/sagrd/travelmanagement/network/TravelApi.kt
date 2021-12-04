@@ -17,8 +17,8 @@ interface TravelApi {
     @POST("Viajes")
     fun postViaje(@Body viaje: Viaje) : Call<Viaje>
 
-    @GET("Ventas")
-    suspend fun getVentas():List<Venta>
+    @GET("Ventas/{id}")
+    suspend fun getVentas(@Path("id")id :Int):List<Venta>
 
     @POST("Cobros")
     fun postCobro(@Body cobro: Cobro) : Call<Cobro>

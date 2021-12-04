@@ -33,15 +33,11 @@ class FacturasPendienteFragment : Fragment(R.layout.facturas_pendiente_fragment)
     private var _binding: FacturasPendienteFragmentBinding? = null
     private val binding get() = _binding!!
 
-    private var clienteid = 0L
-
-
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        //aqui recibe el argumento
-        clienteid = arguments?.getLong("clienteId")!!
+
 
         _binding = FacturasPendienteFragmentBinding.inflate(inflater, container, false)
 
@@ -52,6 +48,9 @@ class FacturasPendienteFragment : Fragment(R.layout.facturas_pendiente_fragment)
             )
                 .get(FacturasPendienteViewModel::class.java)
 
+        //ahora recibiras la variable tarjetaId
+        val clienteId = arguments?.getLong("clienteId")!!.toInt()
+
         viewModel.listaVentasApi.observe(viewLifecycleOwner, Observer{
             val adapter = VentaAdapter(this)
             adapter.submitList(it)
@@ -59,7 +58,7 @@ class FacturasPendienteFragment : Fragment(R.layout.facturas_pendiente_fragment)
         })
 
         //Aqui debe digitarse el valor del argumento
-        binding.guardarButton.text = clienteid.toString()
+        binding.guardarButton.text = clienteId.toString()
         return binding.root
     }
 

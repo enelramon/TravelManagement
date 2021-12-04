@@ -39,13 +39,6 @@ class EstadoViajeFragment : Fragment() {
             ViewModelProvider(this, EstadoViajeViewModel.Factory(requireActivity().application))
                 .get(EstadoViajeViewModel::class.java)
 
-//        viewModel.listaDocumentoApi.observe(viewLifecycleOwner, Observer{
-//            val adapter = documentosAdapter()
-//            adapter.submitList(it)
-//            binding.estadoViajeRecyclerView.adapter = adapter
-//        })
-
-
         return binding.root
     }
 
@@ -53,8 +46,9 @@ class EstadoViajeFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
 
         //ahora recibiras la variable tarjetaId
+        val clienteId = arguments?.getLong("tarjetaId")!!.toInt()
 
-        viewModel.octenertarjeta(arguments?.getLong("tarjetaId")!!.toInt()).observe(viewLifecycleOwner, Observer{
+        viewModel.obtenertarjeta(clienteId).observe(viewLifecycleOwner, Observer{
             val adapter = documentosAdapter()
             adapter.submitList(it)
             binding.estadoViajeRecyclerView.adapter = adapter

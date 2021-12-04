@@ -64,6 +64,9 @@
             android:id="@+id/action_clientesFragment_to_facturasPendienteFragment"
             app:destination="@id/facturasPendienteFragment"
             app:launchSingleTop="false" />
+        <argument
+            android:name="pasarClienteId"
+            app:argType="long" />
     </fragment>
 
     <fragment

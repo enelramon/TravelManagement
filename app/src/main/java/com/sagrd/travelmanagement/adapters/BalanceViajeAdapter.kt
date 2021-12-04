@@ -15,7 +15,6 @@ import com.sagrd.travelmanagement.model.Tarjetas
 
 class BalanceViajeAdapter(): RecyclerView.Adapter<BalanceViajeAdapter.BalanceViajeViewHolder>() {
         private var tarjetasList = emptyList<Tarjetas>()
-       // private var documentoList = emptyList<Documentos>()
 
         override fun onCreateViewHolder(
             parent: ViewGroup,
@@ -28,16 +27,15 @@ class BalanceViajeAdapter(): RecyclerView.Adapter<BalanceViajeAdapter.BalanceVia
         }
 
         override fun onBindViewHolder(holder: BalanceViajeViewHolder, position: Int) {
-            holder.bind(tarjetasList[position]/*,documentoList*/)
+            holder.bind(tarjetasList[position])
         }
 
         override fun getItemCount(): Int {
             return tarjetasList.size
         }
 
-        fun sumitList(list: List<Tarjetas>/*,listdocument :List<Documentos>*/){
+        fun sumitList(list: List<Tarjetas>){
             tarjetasList = list
-            //documentoList = listdocument
             notifyDataSetChanged()
         }
 
@@ -45,11 +43,7 @@ class BalanceViajeAdapter(): RecyclerView.Adapter<BalanceViajeAdapter.BalanceVia
             RecyclerView.ViewHolder(binding.root) {
 
 
-            fun bind(item: Tarjetas/*, listaDocu :List<Documentos>*/) {
-
-//                var monto = 0.0
-//                for (i in listaDocu.indices)
-//                    monto = monto + listaDocu.get(i).balance
+            fun bind(item: Tarjetas) {
 
                 binding.constraintadacterbalanceviaje.setOnClickListener(){
                     val bundle = bundleOf(

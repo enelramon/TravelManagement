@@ -2,13 +2,12 @@ package com.sagrd.travelmanagement.adapters
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
+import androidx.core.os.bundleOf
 import androidx.navigation.findNavController
 import androidx.recyclerview.widget.RecyclerView
 import com.sagrd.travelmanagement.R
 import com.sagrd.travelmanagement.databinding.ClienteRowBinding
 import com.sagrd.travelmanagement.model.Clientes
-import java.text.SimpleDateFormat
-import java.util.*
 
 class clientesAdapter(): RecyclerView.Adapter<clientesAdapter.ClientesViewHolder>() {
     private  var clientesList = emptyList<Clientes>()
@@ -41,15 +40,19 @@ class clientesAdapter(): RecyclerView.Adapter<clientesAdapter.ClientesViewHolder
         fun bind(item: Clientes) {
 
             binding.imageButtoncobro.setOnClickListener(){
+                val bundle = bundleOf(
+                    "clienteId" to item.clienteId,
+                )
                 binding.root.findNavController().navigate(R.id.action_clientesFragment_to_facturasPendienteFragment)
             }
             binding.imageButtonseguimineto.setOnClickListener(){
+                val bundle = bundleOf(
+                    "clienteId" to item.clienteId,
+                )
                 binding.root.findNavController().navigate(R.id.action_clientesFragment_to_seguimientoClienteFragment)
             }
-            val fecha = SimpleDateFormat("dd-M-yyyy")
-            val fecha3 = fecha.format(Date())
-//            binding.nombreTextView= item.nombres
-//            binding.montoTextView = item.balance.toRawBits()
+            binding.nombreTextView.text= item.nombres
+            binding.montoTextView.text = item.balance.toString()
 
         }
     }

@@ -53,8 +53,9 @@ class EstadoViajeFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
 
         //ahora recibiras la variable tarjetaId
+        val int =arguments?.getLong("tarjetaId")!!.toInt()
 
-        viewModel.octenertarjeta(arguments?.getLong("tarjetaId")!!.toInt()).observe(viewLifecycleOwner, Observer{
+        viewModel.obtenertarjeta(int).observe(viewLifecycleOwner, Observer{
             val adapter = documentosAdapter()
             adapter.submitList(it)
             binding.estadoViajeRecyclerView.adapter = adapter
@@ -81,7 +82,6 @@ class EstadoViajeFragment : Fragment() {
             }
             contador++
         }
-
     }
 
     override fun onDestroyView() {

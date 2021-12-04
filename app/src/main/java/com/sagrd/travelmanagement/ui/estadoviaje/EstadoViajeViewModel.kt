@@ -15,24 +15,10 @@ import kotlinx.coroutines.launch
 class EstadoViajeViewModel(application: Application): ViewModel() {
 
 
-        private val _listaDocumentoApi = MutableLiveData<List<Documentos>>()
-        val listaDocumentoApi : LiveData<List<Documentos>>
-            get() = _listaDocumentoApi
+    private val _listaDocumentoApi = MutableLiveData<List<Documentos>>()
+    private val documentoRepository = documentosRepository(AppDataBase.getInstance(application))
 
-        private val documentoRepository = documentosRepository(AppDataBase.getInstance(application))
-//
-//        init {
-//            viewModelScope.launch {
-//                try{
-//                        _listaDocumentoApi.value = documentoRepository.GetApiEstado()
-//                }
-//                catch (e: Exception) {
-//                    Log.e("EstadoViajeViewModel", "Fallo al buscar los datos api")
-//                }
-//            }
-//        }
-
-    fun octenertarjeta(tarjertaId :Int): LiveData<List<Documentos>>{
+    fun obtenertarjeta(tarjertaId :Int): LiveData<List<Documentos>>{
 
          viewModelScope.launch {
             try{

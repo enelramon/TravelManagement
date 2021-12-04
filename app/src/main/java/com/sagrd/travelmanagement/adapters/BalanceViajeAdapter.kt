@@ -11,6 +11,7 @@ import com.sagrd.travelmanagement.databinding.BalanceViajeRowBinding
 import com.sagrd.travelmanagement.model.Clientes
 import com.sagrd.travelmanagement.model.Documentos
 import com.sagrd.travelmanagement.model.Tarjetas
+import com.sagrd.travelmanagement.ui.balanceviaje.BalancesDeViajeViewModel
 
 
 class BalanceViajeAdapter(): RecyclerView.Adapter<BalanceViajeAdapter.BalanceViajeViewHolder>() {
@@ -47,13 +48,15 @@ class BalanceViajeAdapter(): RecyclerView.Adapter<BalanceViajeAdapter.BalanceVia
 
             fun bind(item: Tarjetas/*, listaDocu :List<Documentos>*/) {
 
+              // var hola =//BalancesDeViajeViewModel
+
 //                var monto = 0.0
 //                for (i in listaDocu.indices)
 //                    monto = monto + listaDocu.get(i).balance
 
                 binding.constraintadacterbalanceviaje.setOnClickListener(){
                     val bundle = bundleOf(
-                        "tarjetaId" to item.tarjetaId,
+                        "tarjetaId" to item.tarjetaId
                     )
                     binding.root.findNavController().navigate(R.id.estadoViajeFragment,bundle)
                 }

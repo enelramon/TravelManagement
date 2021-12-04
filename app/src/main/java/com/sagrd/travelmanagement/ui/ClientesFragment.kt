@@ -1,33 +1,30 @@
 package com.sagrd.travelmanagement.ui
 
+import android.graphics.Color
 import androidx.lifecycle.ViewModelProvider
 import android.os.Bundle
 import android.view.*
+import android.widget.LinearLayout
 import androidx.core.os.bundleOf
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.Observer
-import androidx.navigation.fragment.findNavController
-import androidx.navigation.fragment.navArgs
+import androidx.navigation.findNavController
 import com.sagrd.travelmanagement.R
 import com.sagrd.travelmanagement.adapters.ClientesAdapter
-import com.sagrd.travelmanagement.adapters.VentaAdapter
-import com.sagrd.travelmanagement.databinding.ClienteRowBinding
 import com.sagrd.travelmanagement.databinding.ClientesFragmentBinding
+import com.sagrd.travelmanagement.model.Cliente
 
 
-class ClientesFragment : Fragment(R.layout.clientes_fragment) {
+class ClientesFragment : Fragment(R.layout.clientes_fragment), ClientesAdapter.onClienteClickListener {
 
     companion object {
         fun newInstance() = ClientesFragment()
     }
 
     private lateinit var viewModel: ClientesViewModel
-    lateinit var  clientesAdapter: ClientesAdapter
     private var _binding : ClientesFragmentBinding? = null
     private val binding get() = _binding!!
 
-    private var _bindingRow : ClienteRowBinding? = null
-    private val bindingRow get() = _bindingRow
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -47,18 +44,38 @@ class ClientesFragment : Fragment(R.layout.clientes_fragment) {
         super.onViewCreated(view, savedInstanceState)
 
         viewModel.listaClientesApi.observe(viewLifecycleOwner, Observer{
-            val adapter = ClientesAdapter()
+            val adapter = ClientesAdapter(this)
             adapter.submitList(it)
             binding.ClientesRecyclerView.adapter = adapter
         })
 
-        binding.ClientesRecyclerView.setOnClickListener{
-
+        binding.seguimientoButton.setOnClickListener{
+            val bundle = bundleOf("clienteId" to viewModel.clienteId)
+            it.findNavController().navigate(R.id.action_clientesFragment_to_seguimientoClienteFragment, bundle)
         }
-//        clientesAdapter.setOnItemClickListener {
-//            val bundle = Bundle()
-//            bundle.putLong("cienteId",)
-//        }
+        binding.cobroButton.setOnClickListener{
+            val bundle = bundleOf("clienteId" to viewModel.clienteId)
+            it.findNavController().navigate(R.id.action_clientesFragment_to_facturasPendienteFragment, bundle)
+        }
+
+    }
+
+    //Con la lista verificamos si está seleccionado o no
+    var clientesList = emptyList<Cliente>().toMutableList()
+    private lateinit var clienteTemporal : Cliente
+
+    override fun onItemClick(item: Cliente, linearLayout: LinearLayout) {
+
+        if(clientesList.isNotEmpty())
+        {
+            clientesList.remove(clienteTemporal)
+            linearLayout.setBackgroundColor(Color.parseColor("#FFFFFF"))
+        }else{
+
+            clienteTemporal = item
+            clientesList.add(clienteTemporal)
+            linearLayout.setBackgroundColor(Color.parseColor("#81C784"))
+        }
     }
 
     override fun onDestroyView() {

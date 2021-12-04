@@ -33,11 +33,15 @@ class FacturasPendienteFragment : Fragment(R.layout.facturas_pendiente_fragment)
     private var _binding: FacturasPendienteFragmentBinding? = null
     private val binding get() = _binding!!
 
+    private var clienteid = 0L
+
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
+        //aqui recibe el argumento
+        clienteid = arguments?.getLong("clienteId")!!
 
         _binding = FacturasPendienteFragmentBinding.inflate(inflater, container, false)
 
@@ -54,6 +58,8 @@ class FacturasPendienteFragment : Fragment(R.layout.facturas_pendiente_fragment)
             binding.facturasPendienteRecyclerView.adapter = adapter
         })
 
+        //Aqui debe digitarse el valor del argumento
+        binding.guardarButton.text = clienteid.toString()
         return binding.root
     }
 
@@ -68,7 +74,7 @@ class FacturasPendienteFragment : Fragment(R.layout.facturas_pendiente_fragment)
         )
 
         binding.guardarButton.setOnClickListener{
-            if(cobroDetalleList.isEmpty() == false)
+            if(cobroDetalleList.isNotEmpty())
             {
                 viewModel.Post(LlenaClase())
                 it.showMessage("Cobro Guardado exitosamente")
@@ -90,7 +96,7 @@ class FacturasPendienteFragment : Fragment(R.layout.facturas_pendiente_fragment)
 
     override fun onItemClick(item: Venta, linearLayout: LinearLayout) {
 
-        var cobroDetalle = CobroDetalle(
+        val cobroDetalle = CobroDetalle(
             0,
             0,
             item.ventaId,
@@ -124,4 +130,5 @@ class FacturasPendienteFragment : Fragment(R.layout.facturas_pendiente_fragment)
             cobroDetalleList
         )
     }
+
 }

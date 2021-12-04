@@ -2,14 +2,17 @@ package com.sagrd.travelmanagement.adapters
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
+import android.widget.LinearLayout
+import androidx.constraintlayout.widget.ConstraintLayout
 import androidx.recyclerview.widget.RecyclerView
 import com.sagrd.travelmanagement.databinding.ClienteRowBinding
 import com.sagrd.travelmanagement.databinding.ClientesFragmentBinding
 import com.sagrd.travelmanagement.model.Cliente
+import com.sagrd.travelmanagement.model.Venta
 import java.text.SimpleDateFormat
 import java.util.*
 
-class ClientesAdapter(): RecyclerView.Adapter<ClientesAdapter.ClientesViewHolder>() {
+class ClientesAdapter(private var itemClickListener: ClientesAdapter.onClienteClickListener): RecyclerView.Adapter<ClientesAdapter.ClientesViewHolder>() {
     private  var clientesList = emptyList<Cliente>()
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ClientesViewHolder {
@@ -39,15 +42,20 @@ class ClientesAdapter(): RecyclerView.Adapter<ClientesAdapter.ClientesViewHolder
         RecyclerView.ViewHolder(binding.root) {
 
         fun bind(item: Cliente) {
-            binding.nombreTextView.text= item.nombres
-            binding.montoTextView.text = item.balance.toString()
+            try {
+                binding.nombreTextView.text= item.nombres
+                binding.montoTextView.text = item.balance.toString()
 
+                itemView.setOnClickListener { itemClickListener.onItemClick(item, binding.clienteRow ) }
+            }
+            catch (e:Exception)
+            {
+
+            }
         }
     }
 
-    private var onItemClickListener: ((Cliente) -> Unit)? = null
-
-    fun setOnItemClickListener(listener: (Cliente) -> Unit) {
-        onItemClickListener = listener
+    interface onClienteClickListener{
+        fun onItemClick(item: Cliente, linearLayout: LinearLayout)
     }
 }

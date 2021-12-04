@@ -45,7 +45,6 @@ class EstadoViajeFragment : Fragment() {
 //            binding.estadoViajeRecyclerView.adapter = adapter
 //        })
 
-
         return binding.root
     }
 

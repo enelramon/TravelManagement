@@ -32,11 +32,11 @@ class BalancesDeViajeViewModel(app: Application) : ViewModel() {
     private val _listaDocumentoApi = MutableLiveData<List<Documentos>>()
     private val documentoRepository = documentosRepository(AppDataBase.getInstance(app))
 
-    fun octenertarjeta(tarjertaId :Int): MutableLiveData<List<Documentos>>{
+    fun obtenertarjeta(tarjertaId :Int): LiveData<List<Documentos>>{
 
         viewModelScope.launch {
             try{
-                _listaDocumentoApi.value = documentoRepository.GetApiEstado(tarjertaId).subList(0,0)
+                _listaDocumentoApi.value = documentoRepository.GetApiEstado(tarjertaId)
             }
             catch (e: Exception) {
                 Log.e("EstadoViajeViewModel", "Fallo al buscar los datos api")
@@ -44,6 +44,19 @@ class BalancesDeViajeViewModel(app: Application) : ViewModel() {
         }
         return _listaDocumentoApi
     }
+
+//    fun obtenertarjetalist(tarjertaId :Int): List<Documentos>{
+//
+//        viewModelScope.launch {
+//            try{
+//              var listaDocumentoApih = documentoRepository.GetApiEstado(tarjertaId)
+//            }
+//            catch (e: Exception) {
+//                Log.e("EstadoViajeViewModel", "Fallo al buscar los datos api")
+//            }
+//        }
+//        return listaDocumentoApih
+//    }
 
 
     class Factory (val app: Application): ViewModelProvider.Factory{

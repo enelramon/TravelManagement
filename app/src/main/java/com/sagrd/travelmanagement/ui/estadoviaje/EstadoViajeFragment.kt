@@ -43,7 +43,6 @@ class EstadoViajeFragment : Fragment() {
             adapter.submitList(it)
             binding.estadoViajeRecyclerView.adapter = adapter
         })
-
         return binding.root
     }
 
@@ -53,7 +52,6 @@ class EstadoViajeFragment : Fragment() {
         binding.gastoButton.setOnClickListener{
             findNavController().navigate(R.id.action_estadoViajeFragment_to_gastoViajeFragment)
         }
-
         binding.viajeButton.setOnClickListener{
             findNavController().navigate(R.id.viajeEditFragment)
         }

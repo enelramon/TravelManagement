@@ -31,7 +31,6 @@ class EstadoViajeViewModel(application: Application): ViewModel() {
             {
                 Log.e("EstadoViajeViewModel", "Fallo al buscar los datos api")
             }
-
         }
     }
 

@@ -4,13 +4,12 @@ import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.sagrd.travelmanagement.databinding.ClienteRowBinding
-import com.sagrd.travelmanagement.databinding.ClientesFragmentBinding
-import com.sagrd.travelmanagement.model.Cliente
+import com.sagrd.travelmanagement.model.Clientes
 import java.text.SimpleDateFormat
 import java.util.*
 
-class ClientesAdapter(): RecyclerView.Adapter<ClientesAdapter.ClientesViewHolder>() {
-    private  var clientesList = emptyList<Cliente>()
+class clientesAdapter(): RecyclerView.Adapter<clientesAdapter.ClientesViewHolder>() {
+    private  var clientesList = emptyList<Clientes>()
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ClientesViewHolder {
         val binding =
@@ -27,8 +26,7 @@ class ClientesAdapter(): RecyclerView.Adapter<ClientesAdapter.ClientesViewHolder
         return clientesList.size
     }
 
-
-    fun submitList(list: List<Cliente>)
+    fun submitList(list: List<Clientes>)
     {
         clientesList = list
         notifyDataSetChanged()
@@ -38,16 +36,12 @@ class ClientesAdapter(): RecyclerView.Adapter<ClientesAdapter.ClientesViewHolder
     inner class ClientesViewHolder(private val binding: ClienteRowBinding) :
         RecyclerView.ViewHolder(binding.root) {
 
-        fun bind(item: Cliente) {
-            binding.nombreTextView.text= item.nombres
-            binding.montoTextView.text = item.balance.toString()
+        fun bind(item: Clientes) {
+            val fecha = SimpleDateFormat("dd-M-yyyy")
+            val fecha3 = fecha.format(Date())
+//            binding.nombreTextView= item.nombres
+//            binding.montoTextView = item.balance.toRawBits()
 
         }
-    }
-
-    private var onItemClickListener: ((Cliente) -> Unit)? = null
-
-    fun setOnItemClickListener(listener: (Cliente) -> Unit) {
-        onItemClickListener = listener
     }
 }

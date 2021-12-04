@@ -11,7 +11,7 @@ import android.widget.Toast
 import androidx.recyclerview.widget.RecyclerView
 import com.sagrd.travelmanagement.databinding.FacturasPendienteFragmentBinding
 import com.sagrd.travelmanagement.databinding.FacturasPendienteRowBinding
-import com.sagrd.travelmanagement.model.Cliente
+
 import com.sagrd.travelmanagement.model.Venta
 import com.sagrd.travelmanagement.model.Viaje
 import com.sagrd.travelmanagement.utils.showMessage

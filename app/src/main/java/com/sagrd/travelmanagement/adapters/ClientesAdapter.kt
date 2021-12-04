@@ -2,6 +2,7 @@ package com.sagrd.travelmanagement.adapters
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
+import androidx.core.os.bundleOf
 import androidx.navigation.findNavController
 import androidx.recyclerview.widget.RecyclerView
 import com.sagrd.travelmanagement.R
@@ -41,14 +42,19 @@ class clientesAdapter(): RecyclerView.Adapter<clientesAdapter.ClientesViewHolder
         fun bind(item: Clientes) {
 
             binding.imageButtoncobro.setOnClickListener(){
-                binding.root.findNavController().navigate(R.id.action_clientesFragment_to_facturasPendienteFragment)
+                val bundle = bundleOf(
+                    "clienteId" to item.clienteId
+                )
+                binding.root.findNavController().navigate(R.id.action_clientesFragment_to_facturasPendienteFragment,bundle)
             }
             binding.imageButtonseguimineto.setOnClickListener(){
-                binding.root.findNavController().navigate(R.id.action_clientesFragment_to_seguimientoClienteFragment)
+                val bundle = bundleOf(
+                    "clienteId" to item.clienteId
+                )
+                binding.root.findNavController().navigate(R.id.action_clientesFragment_to_seguimientoClienteFragment,bundle)
             }
             binding.nombreTextView.text= item.nombres
             binding.montoTextView.text = item.balance.toString()
-
         }
     }
 }

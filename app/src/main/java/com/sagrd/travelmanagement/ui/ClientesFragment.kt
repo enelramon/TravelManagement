@@ -13,6 +13,7 @@ import com.sagrd.travelmanagement.R
 import com.sagrd.travelmanagement.adapters.ClientesAdapter
 import com.sagrd.travelmanagement.databinding.ClientesFragmentBinding
 import com.sagrd.travelmanagement.model.Cliente
+import com.sagrd.travelmanagement.utils.showMessage
 
 
 class ClientesFragment : Fragment(R.layout.clientes_fragment), ClientesAdapter.onClienteClickListener {
@@ -49,23 +50,30 @@ class ClientesFragment : Fragment(R.layout.clientes_fragment), ClientesAdapter.o
             binding.ClientesRecyclerView.adapter = adapter
         })
 
+
         binding.seguimientoButton.setOnClickListener{
-            val bundle = bundleOf("clienteId" to viewModel.clienteId)
-            it.findNavController().navigate(R.id.action_clientesFragment_to_seguimientoClienteFragment, bundle)
+            if(clientesList.isNotEmpty())
+            {
+                val bundle = bundleOf("clienteId" to viewModel.clienteId)
+                it.findNavController().navigate(R.id.action_clientesFragment_to_seguimientoClienteFragment, bundle)
+            }
+            else
+                it.showMessage("No ha seleccionado ningun cliente")
+
         }
+
         binding.cobroButton.setOnClickListener{
-            val bundle = bundleOf("clienteId" to viewModel.clienteId)
-            it.findNavController().navigate(R.id.action_clientesFragment_to_facturasPendienteFragment, bundle)
+            if(clientesList.isNotEmpty())
+            {
+                val bundle = bundleOf("clienteId" to viewModel.clienteId)
+                it.findNavController().navigate(R.id.action_clientesFragment_to_facturasPendienteFragment, bundle)
+            }
+            else
+                it.showMessage("No ha seleccionado ningun cliente")
+            }
         }
-
-    }
-
-    //Con la lista verificamos si está seleccionado o no
-    var clientesList = emptyList<Cliente>().toMutableList()
-    private lateinit var clienteTemporal : Cliente
 
     override fun onItemClick(item: Cliente, linearLayout: LinearLayout) {
-
         if(clientesList.isNotEmpty())
         {
             clientesList.remove(clienteTemporal)
@@ -78,8 +86,15 @@ class ClientesFragment : Fragment(R.layout.clientes_fragment), ClientesAdapter.o
         }
     }
 
+    //Con la lista verificamos si está seleccionado o no
+    var clientesList = emptyList<Cliente>().toMutableList()
+    private lateinit var clienteTemporal : Cliente
+
+
     override fun onDestroyView() {
         super.onDestroyView()
-        _binding = null
     }
 }
+
+
+

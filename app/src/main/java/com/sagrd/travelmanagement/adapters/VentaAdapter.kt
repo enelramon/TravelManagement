@@ -63,7 +63,7 @@ class VentaAdapter(private var itemClickListener: VentaAdapter.onVentaClickListe
     }
 
     interface onVentaClickListener{
-        fun onItemClick(data: Venta, linearLayout: LinearLayout)
+        fun onItemClick(item: Venta, linearLayout: LinearLayout)
     }
 
 }

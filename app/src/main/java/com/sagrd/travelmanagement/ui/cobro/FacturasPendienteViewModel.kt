@@ -6,6 +6,7 @@ import android.util.Log
 import androidx.lifecycle.*
 import com.sagrd.travelmanagement.data.AppDataBase
 import com.sagrd.travelmanagement.model.Cobro
+import com.sagrd.travelmanagement.model.Documentos
 import com.sagrd.travelmanagement.model.Venta
 import com.sagrd.travelmanagement.repository.CobroRepository
 import com.sagrd.travelmanagement.repository.VentaRepository
@@ -26,17 +27,30 @@ class FacturasPendienteViewModel(application: Application): ViewModel(){
         cobroRepository.postCobro(cobro)
     }
 
-    init {
+//    init {
+//        viewModelScope.launch {
+//            try{
+//                _listaVentasApi.value = ventaRepository.Get()
+//            }
+//            catch (e: Exception)
+//            {
+//                Log.e("FacturasPendienteViewModel", "Fallo al buscar los datos api")
+//            }
+//
+//        }
+//    }
+
+    fun obtenercliente(clienteId :Int): LiveData<List<Venta>>{
+
         viewModelScope.launch {
             try{
-                _listaVentasApi.value = ventaRepository.Get()
+                _listaVentasApi.value = ventaRepository.Get(clienteId)
             }
-            catch (e: Exception)
-            {
+            catch (e: Exception) {
                 Log.e("FacturasPendienteViewModel", "Fallo al buscar los datos api")
             }
-
         }
+        return _listaVentasApi
     }
 
     class Factory(val app : Application) : ViewModelProvider.Factory{

@@ -1,6 +1,5 @@
 package com.sagrd.travelmanagement.ui.viajes
 
-import android.icu.util.Calendar
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
@@ -8,13 +7,13 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
 import androidx.navigation.fragment.findNavController
-import androidx.navigation.fragment.navArgs
 import com.sagrd.travelmanagement.R
 import com.sagrd.travelmanagement.databinding.ViajeEditFragmentBinding
 import com.sagrd.travelmanagement.model.Viaje
 import com.sagrd.travelmanagement.utils.getFloat
 import com.sagrd.travelmanagement.utils.showMessage
-import java.text.DateFormat
+import java.util.Date
+import java.text.SimpleDateFormat
 
 class ViajeEditFragment : Fragment() {
 
@@ -45,15 +44,17 @@ class ViajeEditFragment : Fragment() {
 
 
         binding.guardarButton.setOnClickListener {
+            val int = arguments?.getLong("tarjetaId")!!.toInt()
             if (!Validar()) {
                 it.showMessage("Verifique los errores para continuar")
             } else {
-                viewModel.Post(LlenaClase())
-//                viewModel.Insert(LlenaClase())
+                viewModel.Post(LlenaClase(int))
                 it.showMessage("Viaje guardado")
-                findNavController().navigate(R.id.estadoViajeFragment)
+                findNavController().navigateUp()
             }
         }
+
+
     }
 
 
@@ -85,13 +86,13 @@ class ViajeEditFragment : Fragment() {
         return esValido
     }
 
-    fun LlenaClase() : Viaje {
-        var fecha = Calendar.getInstance().time as java.util.Date
-        DateFormat.getDateInstance(DateFormat.SHORT).format(fecha)
+    fun LlenaClase(id : Int) : Viaje {
+        val formatoFecha = SimpleDateFormat("yyyy-M-dd")
+        val fecha = formatoFecha.format(Date())
         return Viaje(
             0,
-            "2021-11-25T01:48:33",
-            1,
+            fecha.toString()+"T01:00:00",
+            id.toLong(),
             binding.conceptoTextInputEditText.text.toString(),
             binding.millasTextInputEditText.text.getFloat(),
             57.25F,

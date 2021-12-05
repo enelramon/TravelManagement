@@ -55,15 +55,16 @@
     <fragment
         android:id="@+id/clientesFragment"
         android:name="com.sagrd.travelmanagement.ui.ClientesFragment"
-        android:label="clientes_fragment"
+        android:label="@string/clienteFramen"
         tools:layout="@layout/clientes_fragment">
         <action
             android:id="@+id/action_clientesFragment_to_seguimientoClienteFragment"
             app:destination="@id/seguimientoClienteFragment" />
+        <action
+            android:id="@+id/action_clientesFragment_to_facturasPendienteFragment"
+            app:destination="@id/facturasPendienteFragment"
+            app:launchSingleTop="false" />
     </fragment>
-    <action
-        android:id="@+id/action_clientesFragment_to_facturasPendienteFragment"
-        app:destination="@id/facturasPendienteFragment" />
 
     <fragment
         android:id="@+id/seguimientoClienteFragment"

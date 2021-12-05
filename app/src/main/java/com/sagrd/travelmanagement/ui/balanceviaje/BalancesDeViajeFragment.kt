@@ -34,11 +34,16 @@ class BalancesDeViajeFragment : Fragment() {
         viewModel = ViewModelProvider(this).get(BalancesDeViajeViewModel::class.java)
         // TODO: Use the ViewModel
 
+
+
         viewModel.lista.observe(viewLifecycleOwner, {
+            val int =arguments?.getLong("tarjetaId")!!.toInt()
+            //var list =viewModel.obtenertarjeta(int).
+
             val adapter = BalanceViajeAdapter()
             adapter.sumitList(it)
             binding.balancesviajesRecyclerView.adapter = adapter
+            //,viewModel.octenertarjeta(0).value!!.toList()
         })
-        
     }
 }

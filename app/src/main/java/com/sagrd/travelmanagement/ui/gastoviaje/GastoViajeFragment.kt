@@ -45,13 +45,13 @@ class GastoViajeFragment : Fragment() {
 
 
         binding.guardarButton.setOnClickListener{
+            val int = arguments?.getLong("tarjetaId")!!.toInt()
             if (!Validar()) {
                 it.showMessage("Verifique los errores para continuar")
             } else {
-//                viewModel.Insert(LlenaClase())
-                viewModel.Post(LlenaClase())
+                viewModel.Post(LlenaClase(int))
                 it.showMessage("Gasto guardado")
-                findNavController().navigate(R.id.estadoViajeFragment)
+                findNavController().navigateUp()
             }
         }
     }
@@ -85,13 +85,13 @@ class GastoViajeFragment : Fragment() {
         return esValido
     }
 
-    fun LlenaClase() : Gasto {
+    fun LlenaClase(id : Int) : Gasto {
         val formatoFecha = SimpleDateFormat("yyyy-M-dd")
         val fecha = formatoFecha.format(Date())
         return Gasto(
             0,
             fecha.toString()+"T01:00:00",
-            1,
+            id.toLong(),
             binding.conceptoTextInputEditText.text.toString(),
             binding.montoTextInputEditText.text.getFloat()
         )

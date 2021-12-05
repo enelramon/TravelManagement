@@ -5,8 +5,9 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.sagrd.travelmanagement.databinding.EstadoViajeRowBinding
 import com.sagrd.travelmanagement.model.Gasto
+import kotlin.math.round
 
-class gastoAdapter(  ) : RecyclerView.Adapter<gastoAdapter.GastoViewHolder>() {
+class gastoAdapter() : RecyclerView.Adapter<gastoAdapter.GastoViewHolder>() {
     private var gastoList = emptyList<Gasto>()
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): GastoViewHolder {
@@ -37,7 +38,7 @@ class gastoAdapter(  ) : RecyclerView.Adapter<gastoAdapter.GastoViewHolder>() {
         fun bind(item: Gasto) {
             binding.fechaTextView.text = item.fecha
             binding.conceptoTextView.text = item.concepto
-            binding.montoTextView.text = item.monto.toString()
+            binding.montoTextView.text = round(item.monto).toString()
         }
     }
 }

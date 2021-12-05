@@ -4,10 +4,10 @@
     tools:showIn="navigation_view">
 
     <group android:checkableBehavior="single">
-        <item
-            android:id="@+id/clientesFragment"
+        <!--item
+            android:id="@+id"
             android:icon="@drawable/ic_baseline_add"
-            android:title="@string/clientes" />
+            android:title="@string/clientes" /-->
         <item
             android:id="@+id/balancesDeViajeFragment"
             android:icon="@drawable/ic_baseline_add"

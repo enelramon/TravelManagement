@@ -4,9 +4,10 @@ import androidx.room.Entity
 import androidx.room.PrimaryKey
 
 @Entity
-data class Clientes(
+data class Cliente(
+
     @PrimaryKey(autoGenerate = true)
-    val clienteId : Long,
-    var nombres   : String,
-    var balance   : Float
+    val clienteId :Long,
+    var nombres: String,
+    var balance :Double
 )

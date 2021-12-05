@@ -12,4 +12,5 @@ object RetrofitInstance {
             .build()
             .create(TravelApi::class.java)
     }
+
 }

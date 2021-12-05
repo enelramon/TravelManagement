@@ -9,13 +9,13 @@
 
     <View
         android:id="@+id/header"
-        android:layout_width="wrap_content"
+        android:layout_width="319dp"
         android:layout_height="42dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="16dp"
+        android:layout_marginStart="32dp"
         android:layout_marginTop="16dp"
-        android:layout_marginEnd="16dp"
+        android:layout_marginEnd="32dp"
         android:background="#C4C4C4"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -32,8 +32,7 @@
         app:layout_constraintBottom_toBottomOf="@+id/header"
         app:layout_constraintEnd_toStartOf="@id/fechaTextView"
         app:layout_constraintStart_toStartOf="@+id/header"
-        app:layout_constraintTop_toTopOf="@+id/header"
-        app:layout_constraintVertical_bias="0.466" />
+        app:layout_constraintTop_toTopOf="@+id/header" />
 
     <TextView
         android:id="@+id/fechaTextView"
@@ -61,11 +60,11 @@
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/facturasPendienteRecyclerView"
-        android:layout_width="0dp"
+        android:layout_width="319dp"
         android:layout_height="285dp"
-        android:layout_marginStart="16dp"
+        android:layout_marginStart="32dp"
         android:layout_marginTop="16dp"
-        android:layout_marginEnd="16dp"
+        android:layout_marginEnd="32dp"
         app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/header"
@@ -100,15 +99,15 @@
         android:id="@+id/totalResultadotextView"
         android:layout_width="115dp"
         android:layout_height="31dp"
-        android:background="@drawable/textview_border"
-        android:gravity="center"
         android:textAlignment="center"
-        android:textColor="#000000"
         android:textStyle="bold"
-        app:autoSizeMaxTextSize="20sp"
+        android:background="@drawable/textview_border"
+        android:textColor="#000000"
+        android:gravity="center"
         app:autoSizeMinTextSize="12sp"
-        app:autoSizeStepGranularity="2sp"
+        app:autoSizeMaxTextSize="20sp"
         app:autoSizeTextType="uniform"
+        app:autoSizeStepGranularity="2sp"
         app:layout_constraintBottom_toTopOf="@+id/guardarButton"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.962"

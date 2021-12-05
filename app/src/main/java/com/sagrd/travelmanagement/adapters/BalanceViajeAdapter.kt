@@ -2,16 +2,13 @@ package com.sagrd.travelmanagement.adapters
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
-import androidx.core.os.bundleOf
-import androidx.navigation.findNavController
 import androidx.recyclerview.widget.RecyclerView
-import com.sagrd.travelmanagement.R
 import com.sagrd.travelmanagement.databinding.BalanceViajeRowBinding
-import com.sagrd.travelmanagement.model.Clientes
+import com.sagrd.travelmanagement.model.Cliente
 
 
 class BalanceViajeAdapter(): RecyclerView.Adapter<BalanceViajeAdapter.BalanceViajeViewHolder>() {
-        private var traverList = emptyList<Clientes>()
+        private var traverList = emptyList<Cliente>()
 
         override fun onCreateViewHolder(
             parent: ViewGroup,
@@ -31,22 +28,14 @@ class BalanceViajeAdapter(): RecyclerView.Adapter<BalanceViajeAdapter.BalanceVia
             return traverList.size
         }
 
-        fun sumitList(list: List<Clientes>){
+        fun sumitList(list: List<Cliente>){
             traverList = list
             notifyDataSetChanged()
         }
 
         inner class BalanceViajeViewHolder(private val binding:BalanceViajeRowBinding ) :
             RecyclerView.ViewHolder(binding.root) {
-            fun bind(item: Clientes) {
-
-
-                binding.constraintadacterbalanceviaje.setOnClickListener(){
-                    val bundle = bundleOf(
-                        "clienteId" to item.clienteId,
-                    )
-                    binding.root.findNavController().navigate(R.id.estadoViajeFragment,bundle)
-                }
+            fun bind(item: Cliente) {
                 binding.NombreClienteTextView.text = item.nombres
                 binding.CostoClienteTextView.text = item.balance.toString()
             }

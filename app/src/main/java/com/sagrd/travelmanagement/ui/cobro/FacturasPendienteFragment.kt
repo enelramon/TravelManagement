@@ -10,7 +10,6 @@ import android.view.ViewGroup
 import android.widget.LinearLayout
 import androidx.lifecycle.Observer
 import androidx.navigation.fragment.findNavController
-import androidx.navigation.fragment.navArgs
 import androidx.recyclerview.widget.DividerItemDecoration
 import com.sagrd.travelmanagement.R
 import com.sagrd.travelmanagement.adapters.VentaAdapter
@@ -22,7 +21,7 @@ import com.sagrd.travelmanagement.utils.showMessage
 import java.text.SimpleDateFormat
 import java.util.*
 
-class FacturasPendienteFragment : Fragment(R.layout.facturas_pendiente_fragment), VentaAdapter.onVentaClickListener  {
+class FacturasPendienteFragment : Fragment(), VentaAdapter.onVentaClickListener  {
 
     companion object {
         fun newInstance() = FacturasPendienteFragment()
@@ -33,15 +32,10 @@ class FacturasPendienteFragment : Fragment(R.layout.facturas_pendiente_fragment)
     private var _binding: FacturasPendienteFragmentBinding? = null
     private val binding get() = _binding!!
 
-    private var clienteid = 0L
-
-
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        //aqui recibe el argumento
-        clienteid = arguments?.getLong("clienteId")!!
 
         _binding = FacturasPendienteFragmentBinding.inflate(inflater, container, false)
 
@@ -58,8 +52,6 @@ class FacturasPendienteFragment : Fragment(R.layout.facturas_pendiente_fragment)
             binding.facturasPendienteRecyclerView.adapter = adapter
         })
 
-        //Aqui debe digitarse el valor del argumento
-        binding.guardarButton.text = clienteid.toString()
         return binding.root
     }
 
@@ -74,14 +66,12 @@ class FacturasPendienteFragment : Fragment(R.layout.facturas_pendiente_fragment)
         )
 
         binding.guardarButton.setOnClickListener{
-            if(cobroDetalleList.isNotEmpty())
+            if(cobroDetalleList.isEmpty() == false)
             {
                 viewModel.Post(LlenaClase())
                 it.showMessage("Cobro Guardado exitosamente")
                 findNavController().navigate(R.id.facturasPendienteFragment)
             }
-            else
-                it.showMessage("No se ha seleccionado ningún item")
         }
     }
 
@@ -96,7 +86,7 @@ class FacturasPendienteFragment : Fragment(R.layout.facturas_pendiente_fragment)
 
     override fun onItemClick(item: Venta, linearLayout: LinearLayout) {
 
-        val cobroDetalle = CobroDetalle(
+        var cobroDetalle = CobroDetalle(
             0,
             0,
             item.ventaId,
@@ -130,5 +120,4 @@ class FacturasPendienteFragment : Fragment(R.layout.facturas_pendiente_fragment)
             cobroDetalleList
         )
     }
-
 }

@@ -13,7 +13,7 @@ import com.sagrd.travelmanagement.adapters.ViajeAdapter
 import com.sagrd.travelmanagement.adapters.clientesAdapter
 import com.sagrd.travelmanagement.databinding.ClientesFragmentBinding
 import com.sagrd.travelmanagement.databinding.FacturasPendienteFragmentBinding
-
+import com.sagrd.travelmanagement.databinding.ViajesListFragmentBinding
 
 class ClientesFragment : Fragment() {
 

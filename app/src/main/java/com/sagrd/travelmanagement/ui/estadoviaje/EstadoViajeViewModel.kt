@@ -14,11 +14,20 @@ import kotlinx.coroutines.launch
 
 class EstadoViajeViewModel(application: Application): ViewModel() {
 
+    private val _listaViajesApi = MutableLiveData<List<Viaje>>()
+    val listaViajeApi : LiveData<List<Viaje>>
+        get() = _listaViajesApi
+
+    private val _listaGastoApi = MutableLiveData<List<Gasto>>()
+    val listaGastoApi : LiveData<List<Gasto>>
+        get() = _listaGastoApi
+
     private val _listaDocumentoApi = MutableLiveData<List<Documentos>>()
     val listaDocumentoApi : LiveData<List<Documentos>>
         get() = _listaDocumentoApi
 
-
+    private val viajeRepository = ViajeRepository(AppDataBase.getInstance(application))
+    private val gastoRepository = gastoRepository(AppDataBase.getInstance(application))
     private val documentoRepository = documentosRepository(AppDataBase.getInstance(application))
 
 
@@ -31,6 +40,7 @@ class EstadoViajeViewModel(application: Application): ViewModel() {
             {
                 Log.e("EstadoViajeViewModel", "Fallo al buscar los datos api")
             }
+
         }
     }
 

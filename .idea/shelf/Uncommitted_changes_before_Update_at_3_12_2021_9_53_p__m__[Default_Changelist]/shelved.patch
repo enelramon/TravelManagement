@@ -1,0 +1,1087 @@
+Index: .idea/libraries/Gradle__com_squareup_okhttp3_okhttp_3_14_9.xml
+===================================================================
+diff --git a/.idea/libraries/Gradle__com_squareup_okhttp3_okhttp_3_14_9.xml b/.idea/libraries/Gradle__com_squareup_okhttp3_okhttp_3_14_9.xml
+deleted file mode 100644
+--- a/.idea/libraries/Gradle__com_squareup_okhttp3_okhttp_3_14_9.xml	(revision fee0afbee0ee4383e5ed2ad646dbc39f76335a50)
++++ /dev/null	(revision fee0afbee0ee4383e5ed2ad646dbc39f76335a50)
+@@ -1,13 +0,0 @@
+-<component name="libraryTable">
+-  <library name="Gradle: com.squareup.okhttp3:okhttp:3.14.9">
+-    <CLASSES>
+-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.14.9/3e6d101343c7ea687cd593e4990f73b25c878383/okhttp-3.14.9.jar!/" />
+-    </CLASSES>
+-    <JAVADOC>
+-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.14.9/b1818d3d87c70e43c103d125a7555965b2bcb98d/okhttp-3.14.9-javadoc.jar!/" />
+-    </JAVADOC>
+-    <SOURCES>
+-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.14.9/5ad877a6749b53b7b177e7b328ebf59ce06b75af/okhttp-3.14.9-sources.jar!/" />
+-    </SOURCES>
+-  </library>
+-</component>
+\ No newline at end of file
+Index: .idea/libraries/Gradle__com_squareup_moshi_moshi_1_9_3.xml
+===================================================================
+diff --git a/.idea/libraries/Gradle__com_squareup_moshi_moshi_1_9_3.xml b/.idea/libraries/Gradle__com_squareup_moshi_moshi_1_9_3.xml
+deleted file mode 100644
+--- a/.idea/libraries/Gradle__com_squareup_moshi_moshi_1_9_3.xml	(revision fee0afbee0ee4383e5ed2ad646dbc39f76335a50)
++++ /dev/null	(revision fee0afbee0ee4383e5ed2ad646dbc39f76335a50)
+@@ -1,13 +0,0 @@
+-<component name="libraryTable">
+-  <library name="Gradle: com.squareup.moshi:moshi:1.9.3">
+-    <CLASSES>
+-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup.moshi/moshi/1.9.3/26406a13ec4394abcb88c6aae6f3ae55e0c5976d/moshi-1.9.3.jar!/" />
+-    </CLASSES>
+-    <JAVADOC>
+-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup.moshi/moshi/1.9.3/c9f54759bc94bd4b8cb03d7ae49b8552a0699225/moshi-1.9.3-javadoc.jar!/" />
+-    </JAVADOC>
+-    <SOURCES>
+-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup.moshi/moshi/1.9.3/a803f300998ca6c301d2c562f1cde37a1de0ccbc/moshi-1.9.3-sources.jar!/" />
+-    </SOURCES>
+-  </library>
+-</component>
+\ No newline at end of file
+Index: .idea/libraries/Gradle__com_squareup_retrofit2_converter_scalars_2_9_0.xml
+===================================================================
+diff --git a/.idea/libraries/Gradle__com_squareup_retrofit2_converter_scalars_2_9_0.xml b/.idea/libraries/Gradle__com_squareup_retrofit2_converter_scalars_2_9_0.xml
+deleted file mode 100644
+--- a/.idea/libraries/Gradle__com_squareup_retrofit2_converter_scalars_2_9_0.xml	(revision fee0afbee0ee4383e5ed2ad646dbc39f76335a50)
++++ /dev/null	(revision fee0afbee0ee4383e5ed2ad646dbc39f76335a50)
+@@ -1,13 +0,0 @@
+-<component name="libraryTable">
+-  <library name="Gradle: com.squareup.retrofit2:converter-scalars:2.9.0">
+-    <CLASSES>
+-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/converter-scalars/2.9.0/e9ee6f35fb7ba877a35519f9a8f55c648df820d4/converter-scalars-2.9.0.jar!/" />
+-    </CLASSES>
+-    <JAVADOC>
+-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/converter-scalars/2.9.0/27bde53ab0ac67523ba150fc6ac671d46aef4c8a/converter-scalars-2.9.0-javadoc.jar!/" />
+-    </JAVADOC>
+-    <SOURCES>
+-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/converter-scalars/2.9.0/e85efc627a70eb797632f8d427e598d8a95ebaf/converter-scalars-2.9.0-sources.jar!/" />
+-    </SOURCES>
+-  </library>
+-</component>
+\ No newline at end of file
+Index: .idea/libraries/Gradle__com_squareup_okio_okio_1_17_2.xml
+===================================================================
+diff --git a/.idea/libraries/Gradle__com_squareup_okio_okio_1_17_2.xml b/.idea/libraries/Gradle__com_squareup_okio_okio_1_17_2.xml
+deleted file mode 100644
+--- a/.idea/libraries/Gradle__com_squareup_okio_okio_1_17_2.xml	(revision fee0afbee0ee4383e5ed2ad646dbc39f76335a50)
++++ /dev/null	(revision fee0afbee0ee4383e5ed2ad646dbc39f76335a50)
+@@ -1,13 +0,0 @@
+-<component name="libraryTable">
+-  <library name="Gradle: com.squareup.okio:okio:1.17.2">
+-    <CLASSES>
+-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.17.2/78c7820b205002da4d2d137f6f312bd64b3d6049/okio-1.17.2.jar!/" />
+-    </CLASSES>
+-    <JAVADOC>
+-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.17.2/b223e35cf99bb8c3d2a5b369b6b52093a6a750c2/okio-1.17.2-javadoc.jar!/" />
+-    </JAVADOC>
+-    <SOURCES>
+-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.17.2/331ecaeba2fd87c06a0766e8ebe718e1e294f27d/okio-1.17.2-sources.jar!/" />
+-    </SOURCES>
+-  </library>
+-</component>
+\ No newline at end of file
+Index: .idea/shelf/Uncommitted_changes_before_Update_at_11_13_2021_12_11_AM__Default_Changelist_.xml
+===================================================================
+diff --git a/.idea/shelf/Uncommitted_changes_before_Update_at_11_13_2021_12_11_AM__Default_Changelist_.xml b/.idea/shelf/Uncommitted_changes_before_Update_at_11_13_2021_12_11_AM__Default_Changelist_.xml
+deleted file mode 100644
+--- a/.idea/shelf/Uncommitted_changes_before_Update_at_11_13_2021_12_11_AM__Default_Changelist_.xml	(revision fee0afbee0ee4383e5ed2ad646dbc39f76335a50)
++++ /dev/null	(revision fee0afbee0ee4383e5ed2ad646dbc39f76335a50)
+@@ -1,4 +0,0 @@
+-<changelist name="Uncommitted_changes_before_Update_at_11_13_2021_12_11_AM_[Default_Changelist]" date="1636776710416" recycled="true" deleted="true">
+-  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_11_13_2021_12_11_AM_[Default_Changelist]/shelved.patch" />
+-  <option name="DESCRIPTION" value="Uncommitted changes before Update at 11/13/2021 12:11 AM [Default Changelist]" />
+-</changelist>
+\ No newline at end of file
+Index: .idea/libraries/Gradle__com_squareup_retrofit2_converter_moshi_2_9_0.xml
+===================================================================
+diff --git a/.idea/libraries/Gradle__com_squareup_retrofit2_converter_moshi_2_9_0.xml b/.idea/libraries/Gradle__com_squareup_retrofit2_converter_moshi_2_9_0.xml
+deleted file mode 100644
+--- a/.idea/libraries/Gradle__com_squareup_retrofit2_converter_moshi_2_9_0.xml	(revision fee0afbee0ee4383e5ed2ad646dbc39f76335a50)
++++ /dev/null	(revision fee0afbee0ee4383e5ed2ad646dbc39f76335a50)
+@@ -1,13 +0,0 @@
+-<component name="libraryTable">
+-  <library name="Gradle: com.squareup.retrofit2:converter-moshi:2.9.0">
+-    <CLASSES>
+-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/converter-moshi/2.9.0/db0979801926e6d39bc2478736145f9761c3e034/converter-moshi-2.9.0.jar!/" />
+-    </CLASSES>
+-    <JAVADOC>
+-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/converter-moshi/2.9.0/cf43081e493a6eec8e9c22e4c22790ed2ee24efc/converter-moshi-2.9.0-javadoc.jar!/" />
+-    </JAVADOC>
+-    <SOURCES>
+-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/converter-moshi/2.9.0/274e84654aca7c92d957aaeae21382e192a49a8/converter-moshi-2.9.0-sources.jar!/" />
+-    </SOURCES>
+-  </library>
+-</component>
+\ No newline at end of file
+Index: .idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_reflect_1_3_50.xml
+===================================================================
+diff --git a/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_reflect_1_3_50.xml b/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_reflect_1_3_50.xml
+deleted file mode 100644
+--- a/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_reflect_1_3_50.xml	(revision fee0afbee0ee4383e5ed2ad646dbc39f76335a50)
++++ /dev/null	(revision fee0afbee0ee4383e5ed2ad646dbc39f76335a50)
+@@ -1,13 +0,0 @@
+-<component name="libraryTable">
+-  <library name="Gradle: org.jetbrains.kotlin:kotlin-reflect:1.3.50">
+-    <CLASSES>
+-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-reflect/1.3.50/b499f22fd7c3e9c2e5b6c4005221fa47fc7f9a7a/kotlin-reflect-1.3.50.jar!/" />
+-    </CLASSES>
+-    <JAVADOC>
+-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-reflect/1.3.50/c86b9ba59cf5fcdf802872198458c32e4e3062ec/kotlin-reflect-1.3.50-javadoc.jar!/" />
+-    </JAVADOC>
+-    <SOURCES>
+-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-reflect/1.3.50/4e1686609dbfe77db1072774f0d38ab82b67206b/kotlin-reflect-1.3.50-sources.jar!/" />
+-    </SOURCES>
+-  </library>
+-</component>
+\ No newline at end of file
+Index: .idea/shelf/Uncommitted_changes_before_Update_at_11_13_2021_12_11_AM_[Default_Changelist]/shelved.patch
+===================================================================
+diff --git a/.idea/shelf/Uncommitted_changes_before_Update_at_11_13_2021_12_11_AM_[Default_Changelist]/shelved.patch b/.idea/shelf/Uncommitted_changes_before_Update_at_11_13_2021_12_11_AM_[Default_Changelist]/shelved.patch
+deleted file mode 100644
+--- a/.idea/shelf/Uncommitted_changes_before_Update_at_11_13_2021_12_11_AM_[Default_Changelist]/shelved.patch	(revision fee0afbee0ee4383e5ed2ad646dbc39f76335a50)
++++ /dev/null	(revision fee0afbee0ee4383e5ed2ad646dbc39f76335a50)
+@@ -1,465 +0,0 @@
+-Index: app/src/main/res/layout/estado_viaje_fragment.xml
+-IDEA additional info:
+-Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+-<+>UTF-8
+-===================================================================
+-diff --git a/app/src/main/res/layout/estado_viaje_fragment.xml b/app/src/main/res/layout/estado_viaje_fragment.xml
+-new file mode 100644
+---- /dev/null	(date 1636773602779)
+-+++ b/app/src/main/res/layout/estado_viaje_fragment.xml	(date 1636773602779)
+-@@ -0,0 +1,148 @@
+-+<?xml version="1.0" encoding="utf-8"?>
+-+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+-+    xmlns:app="http://schemas.android.com/apk/res-auto"
+-+    xmlns:tools="http://schemas.android.com/tools"
+-+    android:layout_width="match_parent"
+-+    android:layout_height="match_parent"
+-+    tools:context=".ui.EstadoViaje.EstadoViajeFragment">
+-+
+-+    <View
+-+        android:id="@+id/title"
+-+        android:layout_width="0dp"
+-+        android:layout_height="62dp"
+-+        android:layout_alignParentStart="true"
+-+        android:layout_alignParentTop="true"
+-+        android:layout_marginTop="0dp"
+-+        android:background="#00A3FF"
+-+        app:layout_constraintEnd_toEndOf="parent"
+-+        app:layout_constraintStart_toStartOf="parent"
+-+        app:layout_constraintTop_toTopOf="parent" />
+-+
+-+
+-+    <TextView
+-+        android:id="@+id/titleTextView"
+-+        android:layout_width="0dp"
+-+        android:layout_height="0dp"
+-+        android:text="@string/title_estado_de_viajes"
+-+        android:textAlignment="center"
+-+        android:textSize="30sp"
+-+        android:textColor="#FFFFFF"
+-+        android:layout_marginTop="6dp"
+-+        app:layout_constraintBottom_toBottomOf="@+id/title"
+-+        app:layout_constraintEnd_toEndOf="@+id/title"
+-+        app:layout_constraintStart_toStartOf="@+id/title"
+-+        app:layout_constraintTop_toTopOf="@+id/title" />
+-+
+-+
+-+    <View
+-+        android:id="@+id/header"
+-+        android:layout_width="395dp"
+-+        android:layout_height="45dp"
+-+        android:layout_alignParentStart="true"
+-+        android:layout_alignParentTop="true"
+-+        android:layout_marginTop="16dp"
+-+        android:background="#C4C4C4"
+-+        app:layout_constraintEnd_toEndOf="parent"
+-+        app:layout_constraintStart_toStartOf="parent"
+-+        app:layout_constraintTop_toBottomOf="@+id/title" />
+-+
+-+    <TextView
+-+        android:id="@+id/fechaTextView"
+-+        android:layout_width="wrap_content"
+-+        android:layout_height="wrap_content"
+-+        android:text="@string/fecha"
+-+        android:textAlignment="viewStart"
+-+        android:textSize="20sp"
+-+        android:textColor="#000000"
+-+        app:layout_constraintBottom_toBottomOf="@+id/header"
+-+        app:layout_constraintStart_toStartOf="@+id/header"
+-+        app:layout_constraintEnd_toStartOf="@id/conceptoTextView"
+-+        app:layout_constraintTop_toTopOf="@+id/header" />
+-+
+-+    <TextView
+-+        android:id="@+id/conceptoTextView"
+-+        android:layout_width="wrap_content"
+-+        android:layout_height="wrap_content"
+-+        android:text="@string/concepto"
+-+        android:textAlignment="viewStart"
+-+        android:textColor="#000000"
+-+        android:textSize="20sp"
+-+        app:layout_constraintBaseline_toBaselineOf="@+id/fechaTextView"
+-+        app:layout_constraintStart_toEndOf="@+id/fechaTextView"
+-+        app:layout_constraintEnd_toStartOf="@id/montoTextView"/>
+-+
+-+    <TextView
+-+        android:id="@+id/montoTextView"
+-+        android:layout_width="wrap_content"
+-+        android:layout_height="wrap_content"
+-+        android:text="@string/monto"
+-+        android:textAlignment="viewStart"
+-+        android:textColor="#000000"
+-+        android:textSize="20sp"
+-+        app:layout_constraintBaseline_toBaselineOf="@+id/fechaTextView"
+-+        app:layout_constraintStart_toEndOf="@+id/conceptoTextView"
+-+        app:layout_constraintEnd_toStartOf="@id/balanceTextView"/>
+-+
+-+    <TextView
+-+        android:id="@+id/balanceTextView"
+-+        android:layout_width="wrap_content"
+-+        android:layout_height="wrap_content"
+-+        android:text="@string/balance"
+-+        android:textAlignment="viewStart"
+-+        android:textColor="#000000"
+-+        android:textSize="20sp"
+-+        app:layout_constraintBaseline_toBaselineOf="@+id/fechaTextView"
+-+        app:layout_constraintEnd_toEndOf="@id/header"
+-+        app:layout_constraintStart_toEndOf="@+id/montoTextView" />
+-+
+-+    <Button
+-+        android:id="@+id/gastoButton"
+-+        android:layout_width="wrap_content"
+-+        android:layout_height="wrap_content"
+-+        android:text="@string/gasto_button"
+-+        app:layout_constraintHorizontal_bias="0.98"
+-+        app:layout_constraintBottom_toTopOf="@id/viajeButton"
+-+        app:layout_constraintEnd_toEndOf="parent"
+-+        app:layout_constraintStart_toStartOf="parent"
+-+        app:layout_constraintTop_toBottomOf="@id/estadoViajeRecyclerView"/>
+-+
+-+    <Button
+-+        android:id="@+id/viajeButton"
+-+        android:layout_width="wrap_content"
+-+        android:layout_height="wrap_content"
+-+        android:text="@string/viaje_button"
+-+        app:layout_constraintBottom_toTopOf="@+id/fabEstadoViajes"
+-+        app:layout_constraintEnd_toEndOf="parent"
+-+        app:layout_constraintHorizontal_bias="0.98"
+-+        app:layout_constraintStart_toStartOf="parent"
+-+        app:layout_constraintTop_toBottomOf="@id/gastoButton" />
+-+
+-+
+-+    <androidx.recyclerview.widget.RecyclerView
+-+        android:id="@+id/estadoViajeRecyclerView"
+-+        android:layout_width="0dp"
+-+        android:layout_height="0dp"
+-+        android:layout_marginTop="16dp"
+-+        app:layout_constraintBottom_toTopOf="@+id/gastoButton"
+-+        app:layout_constraintEnd_toEndOf="@+id/header"
+-+        app:layout_constraintStart_toStartOf="@+id/header"
+-+        app:layout_constraintTop_toBottomOf="@+id/header"
+-+        tools:listitem="@layout/estado_viaje_row" />
+-+
+-+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+-+        android:id="@+id/fabEstadoViajes"
+-+        android:layout_width="wrap_content"
+-+        android:layout_height="wrap_content"
+-+        android:layout_gravity="bottom|end"
+-+        android:layout_marginTop="0dp"
+-+        android:layout_marginBottom="16dp"
+-+        app:layout_constraintBottom_toBottomOf="parent"
+-+        app:layout_constraintEnd_toEndOf="parent"
+-+        app:layout_constraintHorizontal_bias="0.98"
+-+        app:layout_constraintStart_toStartOf="parent"
+-+        app:layout_constraintTop_toBottomOf="@id/viajeButton"
+-+        app:srcCompat="@drawable/ic_baseline_add" />
+-+
+-+
+-+</androidx.constraintlayout.widget.ConstraintLayout>
+-+
+-Index: .idea/workspace.xml
+-IDEA additional info:
+-Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+-<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AndroidLayouts\">\r\n    <shared>\r\n      <config />\r\n    </shared>\r\n  </component>\r\n  <component name=\"AndroidLogFilters\">\r\n    <option name=\"TOOL_WINDOW_CONFIGURED_FILTER\" value=\"Show only selected application\" />\r\n  </component>\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"NONE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"8aec2e47-1f54-4550-acd2-d9af867769cf\" name=\"Default Changelist\" comment=\"Creando proyecto\">\r\n      <change afterPath=\"$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_1_5_31.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_common_1_5_31.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/app/src/main/java/com/sagrd/travelmanagement/ui/EstadoViaje/EstadoViajeFragment.kt\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/app/src/main/java/com/sagrd/travelmanagement/ui/EstadoViaje/EstadoViajeViewModel.kt\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/app/src/main/res/layout/estado_viaje_fragment.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/app/src/main/res/layout/estado_viaje_row.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.gradle/7.0.2/executionHistory/executionHistory.bin\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.gradle/7.0.2/executionHistory/executionHistory.bin\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.gradle/7.0.2/executionHistory/executionHistory.lock\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.gradle/7.0.2/executionHistory/executionHistory.lock\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.gradle/7.0.2/fileHashes/fileHashes.bin\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.gradle/7.0.2/fileHashes/fileHashes.bin\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.gradle/7.0.2/fileHashes/fileHashes.lock\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.gradle/7.0.2/fileHashes/fileHashes.lock\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.gradle/7.0.2/fileHashes/resourceHashesCache.bin\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.gradle/7.0.2/fileHashes/resourceHashesCache.bin\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.gradle/7.0.2/javaCompile/classAnalysis.bin\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.gradle/7.0.2/javaCompile/classAnalysis.bin\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.gradle/7.0.2/javaCompile/jarAnalysis.bin\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.gradle/7.0.2/javaCompile/jarAnalysis.bin\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.gradle/7.0.2/javaCompile/javaCompile.lock\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.gradle/7.0.2/javaCompile/javaCompile.lock\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.gradle/7.0.2/javaCompile/taskHistory.bin\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.gradle/7.0.2/javaCompile/taskHistory.bin\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/compiler.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/compiler.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/gradle.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/gradle.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/libraries/Gradle__androidx_activity_activity_1_2_4_aar.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/libraries/Gradle__androidx_activity_activity_1_2_4_aar.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/libraries/Gradle__androidx_activity_activity_ktx_1_1_0_aar.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/libraries/Gradle__androidx_activity_activity_ktx_1_1_0_aar.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/libraries/Gradle__androidx_annotation_annotation_experimental_1_1_0_aar.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/libraries/Gradle__androidx_annotation_annotation_experimental_1_1_0_aar.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/libraries/Gradle__androidx_appcompat_appcompat_1_3_1_aar.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/libraries/Gradle__androidx_appcompat_appcompat_1_3_1_aar.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/libraries/Gradle__androidx_appcompat_appcompat_resources_1_3_1_aar.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/libraries/Gradle__androidx_appcompat_appcompat_resources_1_3_1_aar.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/libraries/Gradle__androidx_arch_core_core_runtime_2_1_0_aar.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/libraries/Gradle__androidx_arch_core_core_runtime_2_1_0_aar.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/libraries/Gradle__androidx_asynclayoutinflater_asynclayoutinflater_1_0_0_aar.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/libraries/Gradle__androidx_asynclayoutinflater_asynclayoutinflater_1_0_0_aar.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/libraries/Gradle__androidx_cardview_cardview_1_0_0_aar.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/libraries/Gradle__androidx_cardview_cardview_1_0_0_aar.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/libraries/Gradle__androidx_constraintlayout_constraintlayout_2_1_0_aar.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/libraries/Gradle__androidx_constraintlayout_constraintlayout_2_1_0_aar.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/libraries/Gradle__androidx_coordinatorlayout_coordinatorlayout_1_1_0_aar.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/libraries/Gradle__androidx_coordinatorlayout_coordinatorlayout_1_1_0_aar.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/libraries/Gradle__androidx_core_core_1_6_0_aar.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/libraries/Gradle__androidx_core_core_1_6_0_aar.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/libraries/Gradle__androidx_core_core_ktx_1_6_0_aar.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/libraries/Gradle__androidx_core_core_ktx_1_6_0_aar.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/libraries/Gradle__androidx_cursoradapter_cursoradapter_1_0_0_aar.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/libraries/Gradle__androidx_cursoradapter_cursoradapter_1_0_0_aar.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/libraries/Gradle__androidx_customview_customview_1_1_0_aar.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/libraries/Gradle__androidx_customview_customview_1_1_0_aar.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/libraries/Gradle__androidx_databinding_viewbinding_7_0_2_aar.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/libraries/Gradle__androidx_databinding_viewbinding_7_0_2_aar.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/libraries/Gradle__androidx_documentfile_documentfile_1_0_0_aar.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/libraries/Gradle__androidx_documentfile_documentfile_1_0_0_aar.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/libraries/Gradle__androidx_drawerlayout_drawerlayout_1_1_1_aar.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/libraries/Gradle__androidx_drawerlayout_drawerlayout_1_1_1_aar.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/libraries/Gradle__androidx_dynamicanimation_dynamicanimation_1_0_0_aar.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/libraries/Gradle__androidx_dynamicanimation_dynamicanimation_1_0_0_aar.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/libraries/Gradle__androidx_fragment_fragment_1_3_6_aar.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/libraries/Gradle__androidx_fragment_fragment_1_3_6_aar.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/libraries/Gradle__androidx_fragment_fragment_ktx_1_2_4_aar.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/libraries/Gradle__androidx_fragment_fragment_ktx_1_2_4_aar.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/libraries/Gradle__androidx_interpolator_interpolator_1_0_0_aar.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/libraries/Gradle__androidx_interpolator_interpolator_1_0_0_aar.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/libraries/Gradle__androidx_legacy_legacy_support_core_ui_1_0_0_aar.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/libraries/Gradle__androidx_legacy_legacy_support_core_ui_1_0_0_aar.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/libraries/Gradle__androidx_legacy_legacy_support_core_utils_1_0_0_aar.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/libraries/Gradle__androidx_legacy_legacy_support_core_utils_1_0_0_aar.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/libraries/Gradle__androidx_legacy_legacy_support_v4_1_0_0_aar.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/libraries/Gradle__androidx_legacy_legacy_support_v4_1_0_0_aar.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_2_3_1_aar.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_2_3_1_aar.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_core_2_3_1_aar.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_core_2_3_1_aar.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_core_ktx_2_3_1_aar.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_core_ktx_2_3_1_aar.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_ktx_2_3_1_aar.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_ktx_2_3_1_aar.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_runtime_2_3_1_aar.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_runtime_2_3_1_aar.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_runtime_ktx_2_2_0_aar.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_runtime_ktx_2_2_0_aar.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_viewmodel_2_3_1_aar.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_viewmodel_2_3_1_aar.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_viewmodel_ktx_2_3_1_aar.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_viewmodel_ktx_2_3_1_aar.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_viewmodel_savedstate_2_3_1_aar.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_viewmodel_savedstate_2_3_1_aar.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/libraries/Gradle__androidx_loader_loader_1_0_0_aar.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/libraries/Gradle__androidx_loader_loader_1_0_0_aar.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/libraries/Gradle__androidx_localbroadcastmanager_localbroadcastmanager_1_0_0_aar.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/libraries/Gradle__androidx_localbroadcastmanager_localbroadcastmanager_1_0_0_aar.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/libraries/Gradle__androidx_media_media_1_0_0_aar.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/libraries/Gradle__androidx_media_media_1_0_0_aar.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/libraries/Gradle__androidx_navigation_navigation_common_2_3_5_aar.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/libraries/Gradle__androidx_navigation_navigation_common_2_3_5_aar.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/libraries/Gradle__androidx_navigation_navigation_common_ktx_2_3_5_aar.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/libraries/Gradle__androidx_navigation_navigation_common_ktx_2_3_5_aar.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/libraries/Gradle__androidx_navigation_navigation_fragment_2_3_5_aar.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/libraries/Gradle__androidx_navigation_navigation_fragment_2_3_5_aar.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/libraries/Gradle__androidx_navigation_navigation_fragment_ktx_2_3_5_aar.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/libraries/Gradle__androidx_navigation_navigation_fragment_ktx_2_3_5_aar.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/libraries/Gradle__androidx_navigation_navigation_runtime_2_3_5_aar.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/libraries/Gradle__androidx_navigation_navigation_runtime_2_3_5_aar.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/libraries/Gradle__androidx_navigation_navigation_runtime_ktx_2_3_5_aar.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/libraries/Gradle__androidx_navigation_navigation_runtime_ktx_2_3_5_aar.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/libraries/Gradle__androidx_navigation_navigation_ui_2_3_5_aar.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/libraries/Gradle__androidx_navigation_navigation_ui_2_3_5_aar.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/libraries/Gradle__androidx_navigation_navigation_ui_ktx_2_3_5_aar.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/libraries/Gradle__androidx_navigation_navigation_ui_ktx_2_3_5_aar.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/libraries/Gradle__androidx_print_print_1_0_0_aar.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/libraries/Gradle__androidx_print_print_1_0_0_aar.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/libraries/Gradle__androidx_recyclerview_recyclerview_1_1_0_aar.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/libraries/Gradle__androidx_recyclerview_recyclerview_1_1_0_aar.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/libraries/Gradle__androidx_room_room_ktx_2_3_0_aar.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/libraries/Gradle__androidx_room_room_ktx_2_3_0_aar.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/libraries/Gradle__androidx_room_room_runtime_2_3_0_aar.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/libraries/Gradle__androidx_room_room_runtime_2_3_0_aar.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/libraries/Gradle__androidx_savedstate_savedstate_1_1_0_aar.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/libraries/Gradle__androidx_savedstate_savedstate_1_1_0_aar.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/libraries/Gradle__androidx_slidingpanelayout_slidingpanelayout_1_0_0_aar.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/libraries/Gradle__androidx_slidingpanelayout_slidingpanelayout_1_0_0_aar.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/libraries/Gradle__androidx_sqlite_sqlite_2_1_0_aar.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/libraries/Gradle__androidx_sqlite_sqlite_2_1_0_aar.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/libraries/Gradle__androidx_sqlite_sqlite_framework_2_1_0_aar.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/libraries/Gradle__androidx_sqlite_sqlite_framework_2_1_0_aar.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/libraries/Gradle__androidx_swiperefreshlayout_swiperefreshlayout_1_0_0_aar.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/libraries/Gradle__androidx_swiperefreshlayout_swiperefreshlayout_1_0_0_aar.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_core_1_4_0_aar.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_core_1_4_0_aar.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_espresso_espresso_core_3_4_0_aar.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_espresso_espresso_core_3_4_0_aar.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_espresso_espresso_idling_resource_3_4_0_aar.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_espresso_espresso_idling_resource_3_4_0_aar.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_ext_junit_1_1_3_aar.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_ext_junit_1_1_3_aar.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_monitor_1_4_0_aar.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_monitor_1_4_0_aar.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_runner_1_4_0_aar.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_runner_1_4_0_aar.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_services_storage_1_4_0_aar.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_services_storage_1_4_0_aar.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/libraries/Gradle__androidx_transition_transition_1_2_0_aar.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/libraries/Gradle__androidx_transition_transition_1_2_0_aar.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/libraries/Gradle__androidx_transition_transition_1_3_0_aar.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/libraries/Gradle__androidx_transition_transition_1_3_0_aar.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/libraries/Gradle__androidx_vectordrawable_vectordrawable_1_1_0_aar.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/libraries/Gradle__androidx_vectordrawable_vectordrawable_1_1_0_aar.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/libraries/Gradle__androidx_vectordrawable_vectordrawable_animated_1_1_0_aar.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/libraries/Gradle__androidx_vectordrawable_vectordrawable_animated_1_1_0_aar.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/libraries/Gradle__androidx_versionedparcelable_versionedparcelable_1_1_1_aar.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/libraries/Gradle__androidx_versionedparcelable_versionedparcelable_1_1_1_aar.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/libraries/Gradle__androidx_viewpager2_viewpager2_1_0_0_aar.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/libraries/Gradle__androidx_viewpager2_viewpager2_1_0_0_aar.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/libraries/Gradle__androidx_viewpager_viewpager_1_0_0_aar.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/libraries/Gradle__androidx_viewpager_viewpager_1_0_0_aar.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_material_material_1_4_0_aar.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_material_material_1_4_0_aar.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_1_5_30.xml\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_common_1_5_30.xml\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_jdk7_1_5_30.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_jdk7_1_5_31.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_jdk8_1_5_30.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_jdk8_1_5_31.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/misc.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/misc.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/modules/app/Travel_Management.app.iml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/modules/app/Travel_Management.app.iml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/navEditor.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/navEditor.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/app/src/main/java/com/sagrd/travelmanagement/MainActivity.kt\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/app/src/main/java/com/sagrd/travelmanagement/MainActivity.kt\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/app/src/main/res/navigation/nav_graph.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/app/src/main/res/navigation/nav_graph.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/app/src/main/res/values/colors.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/app/src/main/res/values/colors.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/app/src/main/res/values/strings.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/app/src/main/res/values/strings.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/build.gradle\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/build.gradle\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/local.properties\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/local.properties\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"ExecutionTargetManager\" SELECTED_TARGET=\"device_and_snapshot_combo_box_target[C:\\Users\\Jesus Abreu\\.android\\avd\\Android_Emulator_30.avd]\" />\r\n  <component name=\"ExternalProjectsData\">\r\n    <projectState path=\"$PROJECT_DIR$\">\r\n      <ProjectState />\r\n    </projectState>\r\n  </component>\r\n  <component name=\"ExternalProjectsManager\">\r\n    <system id=\"GRADLE\">\r\n      <state>\r\n        <projects_view>\r\n          <tree_state>\r\n            <expand>\r\n              <path>\r\n                <item name=\"\" type=\"6a2764b6:ExternalProjectsStructure$RootNode\" />\r\n                <item name=\"Travel Management\" type=\"f1a62948:ProjectNode\" />\r\n              </path>\r\n              <path>\r\n                <item name=\"\" type=\"6a2764b6:ExternalProjectsStructure$RootNode\" />\r\n                <item name=\"Travel Management\" type=\"f1a62948:ProjectNode\" />\r\n                <item name=\"app\" type=\"2d1252cf:ModuleNode\" />\r\n              </path>\r\n              <path>\r\n                <item name=\"\" type=\"6a2764b6:ExternalProjectsStructure$RootNode\" />\r\n                <item name=\"Travel Management\" type=\"f1a62948:ProjectNode\" />\r\n                <item name=\"app\" type=\"2d1252cf:ModuleNode\" />\r\n                <item name=\"Dependencies\" type=\"6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode\" />\r\n              </path>\r\n            </expand>\r\n            <select />\r\n          </tree_state>\r\n        </projects_view>\r\n      </state>\r\n    </system>\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Kotlin Interface\" />\r\n        <option value=\"Kotlin Class\" />\r\n        <option value=\"layoutResourceFile\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n    <option name=\"RESET_MODE\" value=\"SOFT\" />\r\n  </component>\r\n  <component name=\"GitSEFilterConfiguration\">\r\n    <file-type-list>\r\n      <filtered-out-file-type name=\"LOCAL_BRANCH\" />\r\n      <filtered-out-file-type name=\"REMOTE_BRANCH\" />\r\n      <filtered-out-file-type name=\"TAG\" />\r\n      <filtered-out-file-type name=\"COMMIT_BY_MESSAGE\" />\r\n    </file-type-list>\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"1yZA8ZJDHBurURUHo51Q2DQmiRT\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\">\r\n    <ConfirmationsSetting value=\"2\" id=\"Add\" />\r\n  </component>\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">\r\n    <property name=\"DEBUGGABLE_DEVICE\" value=\"Pixel_2_XL_API_28 [emulator-5554]\" />\r\n    <property name=\"DEBUGGABLE_PROCESS\" value=\"com.sagrd.travelmanagement\" />\r\n    <property name=\"DEBUGGER_ID\" value=\"Auto\" />\r\n    <property name=\"RunOnceActivity.OpenProjectViewOnStart\" value=\"true\" />\r\n    <property name=\"RunOnceActivity.ShowReadmeOnStart\" value=\"true\" />\r\n    <property name=\"SHARE_PROJECT_CONFIGURATION_FILES\" value=\"true\" />\r\n    <property name=\"SHOW_ALL_PROCESSES\" value=\"false\" />\r\n    <property name=\"android-custom-viewC:/Users/Jesus Abreu/.gradle/caches/modules-2/files-2.1/com.google.android.material/material/1.4.0/51035a8f6342c20d4d8f242d100e6f25e0c271ac/material-1.4.0-sources.jar!/com/google/android/material/floatingactionbutton/FloatingActionButton.java_FloatingActionButton_DIMENSIONS\" value=\"1080&#10;1920\" />\r\n    <property name=\"android-custom-viewC:/Users/Jesus Abreu/.gradle/caches/modules-2/files-2.1/com.google.android.material/material/1.4.0/51035a8f6342c20d4d8f242d100e6f25e0c271ac/material-1.4.0-sources.jar!/com/google/android/material/floatingactionbutton/FloatingActionButton.java_SELECTED\" value=\"FloatingActionButton\" />\r\n    <property name=\"com.intellij.openapi.externalSystem.service.settings.ExternalSystemGroupConfigurable\" value=\"ALL\" />\r\n    <property name=\"dart.analysis.tool.window.visible\" value=\"false\" />\r\n    <property name=\"last_opened_file_path\" value=\"$USER_HOME$/Desktop/TravelManagement\" />\r\n    <property name=\"settings.editor.selected.configurable\" value=\"reference.settingsdialog.project.gradle\" />\r\n    <property name=\"show.migrate.to.gradle.popup\" value=\"false\" />\r\n  </component>\r\n  <component name=\"RunManager\">\r\n    <configuration name=\"app\" type=\"AndroidRunConfigurationType\" factoryName=\"Android App\" activateToolWindowBeforeRun=\"false\">\r\n      <module name=\"Travel_Management.app\" />\r\n      <option name=\"DEPLOY\" value=\"true\" />\r\n      <option name=\"DEPLOY_APK_FROM_BUNDLE\" value=\"false\" />\r\n      <option name=\"DEPLOY_AS_INSTANT\" value=\"false\" />\r\n      <option name=\"ARTIFACT_NAME\" value=\"\" />\r\n      <option name=\"PM_INSTALL_OPTIONS\" value=\"\" />\r\n      <option name=\"ALL_USERS\" value=\"false\" />\r\n      <option name=\"ALWAYS_INSTALL_WITH_PM\" value=\"false\" />\r\n      <option name=\"DYNAMIC_FEATURES_DISABLED_LIST\" value=\"\" />\r\n      <option name=\"ACTIVITY_EXTRA_FLAGS\" value=\"\" />\r\n      <option name=\"MODE\" value=\"default_activity\" />\r\n      <option name=\"CLEAR_LOGCAT\" value=\"false\" />\r\n      <option name=\"SHOW_LOGCAT_AUTOMATICALLY\" value=\"false\" />\r\n      <option name=\"SKIP_NOOP_APK_INSTALLATIONS\" value=\"true\" />\r\n      <option name=\"FORCE_STOP_RUNNING_APP\" value=\"true\" />\r\n      <option name=\"TARGET_SELECTION_MODE\" value=\"DEVICE_AND_SNAPSHOT_COMBO_BOX\" />\r\n      <option name=\"SELECTED_CLOUD_MATRIX_CONFIGURATION_ID\" value=\"-1\" />\r\n      <option name=\"SELECTED_CLOUD_MATRIX_PROJECT_ID\" value=\"\" />\r\n      <option name=\"DEBUGGER_TYPE\" value=\"Auto\" />\r\n      <Auto>\r\n        <option name=\"USE_JAVA_AWARE_DEBUGGER\" value=\"false\" />\r\n        <option name=\"SHOW_STATIC_VARS\" value=\"true\" />\r\n        <option name=\"WORKING_DIR\" value=\"\" />\r\n        <option name=\"TARGET_LOGGING_CHANNELS\" value=\"lldb process:gdb-remote packets\" />\r\n        <option name=\"SHOW_OPTIMIZED_WARNING\" value=\"true\" />\r\n      </Auto>\r\n      <Hybrid>\r\n        <option name=\"USE_JAVA_AWARE_DEBUGGER\" value=\"false\" />\r\n        <option name=\"SHOW_STATIC_VARS\" value=\"true\" />\r\n        <option name=\"WORKING_DIR\" value=\"\" />\r\n        <option name=\"TARGET_LOGGING_CHANNELS\" value=\"lldb process:gdb-remote packets\" />\r\n        <option name=\"SHOW_OPTIMIZED_WARNING\" value=\"true\" />\r\n      </Hybrid>\r\n      <Java />\r\n      <Native>\r\n        <option name=\"USE_JAVA_AWARE_DEBUGGER\" value=\"false\" />\r\n        <option name=\"SHOW_STATIC_VARS\" value=\"true\" />\r\n        <option name=\"WORKING_DIR\" value=\"\" />\r\n        <option name=\"TARGET_LOGGING_CHANNELS\" value=\"lldb process:gdb-remote packets\" />\r\n        <option name=\"SHOW_OPTIMIZED_WARNING\" value=\"true\" />\r\n      </Native>\r\n      <Profilers>\r\n        <option name=\"ADVANCED_PROFILING_ENABLED\" value=\"false\" />\r\n        <option name=\"STARTUP_PROFILING_ENABLED\" value=\"false\" />\r\n        <option name=\"STARTUP_CPU_PROFILING_ENABLED\" value=\"false\" />\r\n        <option name=\"STARTUP_CPU_PROFILING_CONFIGURATION_NAME\" value=\"Sample Java Methods\" />\r\n        <option name=\"STARTUP_NATIVE_MEMORY_PROFILING_ENABLED\" value=\"false\" />\r\n        <option name=\"NATIVE_MEMORY_SAMPLE_RATE_BYTES\" value=\"2048\" />\r\n      </Profilers>\r\n      <option name=\"DEEP_LINK\" value=\"\" />\r\n      <option name=\"ACTIVITY_CLASS\" value=\"\" />\r\n      <option name=\"SEARCH_ACTIVITY_IN_GLOBAL_SCOPE\" value=\"false\" />\r\n      <option name=\"SKIP_ACTIVITY_VALIDATION\" value=\"false\" />\r\n      <method v=\"2\">\r\n        <option name=\"Android.Gradle.BeforeRunTask\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"8aec2e47-1f54-4550-acd2-d9af867769cf\" name=\"Default Changelist\" comment=\"\" />\r\n      <created>1632448577790</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1632448577790</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"SUBIENDO EL PROYECTO\">\r\n      <created>1633568833249</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1633568833249</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"SUBIENDO EL PROYECTO\">\r\n      <created>1633568915932</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1633568915932</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00003\" summary=\"Creando proyecto\">\r\n      <created>1636772020192</created>\r\n      <option name=\"number\" value=\"00003\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1636772020192</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00004\" summary=\"Agregando EstadoViajeFragment.kt y EstadoViajeViewModel.kt\">\r\n      <created>1636772688125</created>\r\n      <option name=\"number\" value=\"00004\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1636772688125</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"5\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State>\r\n              <option name=\"FILTERS\">\r\n                <map>\r\n                  <entry key=\"branch\">\r\n                    <value>\r\n                      <list>\r\n                        <option value=\"NewOrigin/master\" />\r\n                      </list>\r\n                    </value>\r\n                  </entry>\r\n                </map>\r\n              </option>\r\n            </State>\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n    <option name=\"oldMeFiltersMigrated\" value=\"true\" />\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"SUBIENDO EL PROYECTO\" />\r\n    <MESSAGE value=\"Creando proyecto\" />\r\n    <MESSAGE value=\"Agregando EstadoViajeFragment.kt y EstadoViajeViewModel.kt\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"Agregando EstadoViajeFragment.kt y EstadoViajeViewModel.kt\" />\r\n  </component>\r\n  <component name=\"XDebuggerManager\">\r\n    <watches-manager>\r\n      <configuration name=\"Remote\">\r\n        <watch expression=\"viewModel.response\" language=\"kotlin\" />\r\n      </configuration>\r\n    </watches-manager>\r\n  </component>\r\n</project>
+-Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+-<+>UTF-8
+-===================================================================
+-diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+---- a/.idea/workspace.xml	(revision afd283eb356834c9693a1645fc2ddd4a8a1bfb99)
+-+++ b/.idea/workspace.xml	(date 1636776675973)
+-@@ -13,107 +13,10 @@
+-   </component>
+-   <component name="ChangeListManager">
+-     <list default="true" id="8aec2e47-1f54-4550-acd2-d9af867769cf" name="Default Changelist" comment="Creando proyecto">
+--      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_1_5_31.xml" afterDir="false" />
+--      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_common_1_5_31.xml" afterDir="false" />
+-       <change afterPath="$PROJECT_DIR$/app/src/main/java/com/sagrd/travelmanagement/ui/EstadoViaje/EstadoViajeFragment.kt" afterDir="false" />
+-       <change afterPath="$PROJECT_DIR$/app/src/main/java/com/sagrd/travelmanagement/ui/EstadoViaje/EstadoViajeViewModel.kt" afterDir="false" />
+-       <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/estado_viaje_fragment.xml" afterDir="false" />
+-       <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/estado_viaje_row.xml" afterDir="false" />
+--      <change beforePath="$PROJECT_DIR$/.gradle/7.0.2/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.0.2/executionHistory/executionHistory.bin" afterDir="false" />
+--      <change beforePath="$PROJECT_DIR$/.gradle/7.0.2/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.0.2/executionHistory/executionHistory.lock" afterDir="false" />
+--      <change beforePath="$PROJECT_DIR$/.gradle/7.0.2/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.0.2/fileHashes/fileHashes.bin" afterDir="false" />
+--      <change beforePath="$PROJECT_DIR$/.gradle/7.0.2/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.0.2/fileHashes/fileHashes.lock" afterDir="false" />
+--      <change beforePath="$PROJECT_DIR$/.gradle/7.0.2/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.0.2/fileHashes/resourceHashesCache.bin" afterDir="false" />
+--      <change beforePath="$PROJECT_DIR$/.gradle/7.0.2/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.0.2/javaCompile/classAnalysis.bin" afterDir="false" />
+--      <change beforePath="$PROJECT_DIR$/.gradle/7.0.2/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.0.2/javaCompile/jarAnalysis.bin" afterDir="false" />
+--      <change beforePath="$PROJECT_DIR$/.gradle/7.0.2/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.0.2/javaCompile/javaCompile.lock" afterDir="false" />
+--      <change beforePath="$PROJECT_DIR$/.gradle/7.0.2/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.0.2/javaCompile/taskHistory.bin" afterDir="false" />
+--      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+--      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+--      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+--      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+--      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_activity_activity_1_2_4_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_activity_activity_1_2_4_aar.xml" afterDir="false" />
+--      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_activity_activity_ktx_1_1_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_activity_activity_ktx_1_1_0_aar.xml" afterDir="false" />
+--      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_annotation_annotation_experimental_1_1_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_annotation_annotation_experimental_1_1_0_aar.xml" afterDir="false" />
+--      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_appcompat_appcompat_1_3_1_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_appcompat_appcompat_1_3_1_aar.xml" afterDir="false" />
+--      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_appcompat_appcompat_resources_1_3_1_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_appcompat_appcompat_resources_1_3_1_aar.xml" afterDir="false" />
+--      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_arch_core_core_runtime_2_1_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_arch_core_core_runtime_2_1_0_aar.xml" afterDir="false" />
+--      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_asynclayoutinflater_asynclayoutinflater_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_asynclayoutinflater_asynclayoutinflater_1_0_0_aar.xml" afterDir="false" />
+--      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_cardview_cardview_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_cardview_cardview_1_0_0_aar.xml" afterDir="false" />
+--      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_constraintlayout_constraintlayout_2_1_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_constraintlayout_constraintlayout_2_1_0_aar.xml" afterDir="false" />
+--      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_coordinatorlayout_coordinatorlayout_1_1_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_coordinatorlayout_coordinatorlayout_1_1_0_aar.xml" afterDir="false" />
+--      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_core_core_1_6_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_core_core_1_6_0_aar.xml" afterDir="false" />
+--      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_core_core_ktx_1_6_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_core_core_ktx_1_6_0_aar.xml" afterDir="false" />
+--      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_cursoradapter_cursoradapter_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_cursoradapter_cursoradapter_1_0_0_aar.xml" afterDir="false" />
+--      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_customview_customview_1_1_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_customview_customview_1_1_0_aar.xml" afterDir="false" />
+--      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_databinding_viewbinding_7_0_2_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_databinding_viewbinding_7_0_2_aar.xml" afterDir="false" />
+--      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_documentfile_documentfile_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_documentfile_documentfile_1_0_0_aar.xml" afterDir="false" />
+--      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_drawerlayout_drawerlayout_1_1_1_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_drawerlayout_drawerlayout_1_1_1_aar.xml" afterDir="false" />
+--      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_dynamicanimation_dynamicanimation_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_dynamicanimation_dynamicanimation_1_0_0_aar.xml" afterDir="false" />
+--      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_fragment_fragment_1_3_6_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_fragment_fragment_1_3_6_aar.xml" afterDir="false" />
+--      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_fragment_fragment_ktx_1_2_4_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_fragment_fragment_ktx_1_2_4_aar.xml" afterDir="false" />
+--      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_interpolator_interpolator_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_interpolator_interpolator_1_0_0_aar.xml" afterDir="false" />
+--      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_legacy_legacy_support_core_ui_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_legacy_legacy_support_core_ui_1_0_0_aar.xml" afterDir="false" />
+--      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_legacy_legacy_support_core_utils_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_legacy_legacy_support_core_utils_1_0_0_aar.xml" afterDir="false" />
+--      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_legacy_legacy_support_v4_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_legacy_legacy_support_v4_1_0_0_aar.xml" afterDir="false" />
+--      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_2_3_1_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_2_3_1_aar.xml" afterDir="false" />
+--      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_core_2_3_1_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_core_2_3_1_aar.xml" afterDir="false" />
+--      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_core_ktx_2_3_1_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_core_ktx_2_3_1_aar.xml" afterDir="false" />
+--      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_ktx_2_3_1_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_ktx_2_3_1_aar.xml" afterDir="false" />
+--      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_runtime_2_3_1_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_runtime_2_3_1_aar.xml" afterDir="false" />
+--      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_runtime_ktx_2_2_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_runtime_ktx_2_2_0_aar.xml" afterDir="false" />
+--      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_viewmodel_2_3_1_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_viewmodel_2_3_1_aar.xml" afterDir="false" />
+--      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_viewmodel_ktx_2_3_1_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_viewmodel_ktx_2_3_1_aar.xml" afterDir="false" />
+--      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_viewmodel_savedstate_2_3_1_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_viewmodel_savedstate_2_3_1_aar.xml" afterDir="false" />
+--      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_loader_loader_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_loader_loader_1_0_0_aar.xml" afterDir="false" />
+--      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_localbroadcastmanager_localbroadcastmanager_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_localbroadcastmanager_localbroadcastmanager_1_0_0_aar.xml" afterDir="false" />
+--      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_media_media_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_media_media_1_0_0_aar.xml" afterDir="false" />
+--      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_navigation_navigation_common_2_3_5_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_navigation_navigation_common_2_3_5_aar.xml" afterDir="false" />
+--      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_navigation_navigation_common_ktx_2_3_5_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_navigation_navigation_common_ktx_2_3_5_aar.xml" afterDir="false" />
+--      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_navigation_navigation_fragment_2_3_5_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_navigation_navigation_fragment_2_3_5_aar.xml" afterDir="false" />
+--      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_navigation_navigation_fragment_ktx_2_3_5_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_navigation_navigation_fragment_ktx_2_3_5_aar.xml" afterDir="false" />
+--      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_navigation_navigation_runtime_2_3_5_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_navigation_navigation_runtime_2_3_5_aar.xml" afterDir="false" />
+--      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_navigation_navigation_runtime_ktx_2_3_5_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_navigation_navigation_runtime_ktx_2_3_5_aar.xml" afterDir="false" />
+--      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_navigation_navigation_ui_2_3_5_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_navigation_navigation_ui_2_3_5_aar.xml" afterDir="false" />
+--      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_navigation_navigation_ui_ktx_2_3_5_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_navigation_navigation_ui_ktx_2_3_5_aar.xml" afterDir="false" />
+--      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_print_print_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_print_print_1_0_0_aar.xml" afterDir="false" />
+--      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_recyclerview_recyclerview_1_1_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_recyclerview_recyclerview_1_1_0_aar.xml" afterDir="false" />
+--      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_room_room_ktx_2_3_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_room_room_ktx_2_3_0_aar.xml" afterDir="false" />
+--      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_room_room_runtime_2_3_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_room_room_runtime_2_3_0_aar.xml" afterDir="false" />
+--      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_savedstate_savedstate_1_1_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_savedstate_savedstate_1_1_0_aar.xml" afterDir="false" />
+--      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_slidingpanelayout_slidingpanelayout_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_slidingpanelayout_slidingpanelayout_1_0_0_aar.xml" afterDir="false" />
+--      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_sqlite_sqlite_2_1_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_sqlite_sqlite_2_1_0_aar.xml" afterDir="false" />
+--      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_sqlite_sqlite_framework_2_1_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_sqlite_sqlite_framework_2_1_0_aar.xml" afterDir="false" />
+--      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_swiperefreshlayout_swiperefreshlayout_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_swiperefreshlayout_swiperefreshlayout_1_0_0_aar.xml" afterDir="false" />
+--      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_core_1_4_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_core_1_4_0_aar.xml" afterDir="false" />
+--      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_espresso_espresso_core_3_4_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_espresso_espresso_core_3_4_0_aar.xml" afterDir="false" />
+--      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_espresso_espresso_idling_resource_3_4_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_espresso_espresso_idling_resource_3_4_0_aar.xml" afterDir="false" />
+--      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_ext_junit_1_1_3_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_ext_junit_1_1_3_aar.xml" afterDir="false" />
+--      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_monitor_1_4_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_monitor_1_4_0_aar.xml" afterDir="false" />
+--      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_runner_1_4_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_runner_1_4_0_aar.xml" afterDir="false" />
+--      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_services_storage_1_4_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_services_storage_1_4_0_aar.xml" afterDir="false" />
+--      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_transition_transition_1_2_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_transition_transition_1_2_0_aar.xml" afterDir="false" />
+--      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_transition_transition_1_3_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_transition_transition_1_3_0_aar.xml" afterDir="false" />
+--      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_vectordrawable_vectordrawable_1_1_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_vectordrawable_vectordrawable_1_1_0_aar.xml" afterDir="false" />
+--      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_vectordrawable_vectordrawable_animated_1_1_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_vectordrawable_vectordrawable_animated_1_1_0_aar.xml" afterDir="false" />
+--      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_versionedparcelable_versionedparcelable_1_1_1_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_versionedparcelable_versionedparcelable_1_1_1_aar.xml" afterDir="false" />
+--      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_viewpager2_viewpager2_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_viewpager2_viewpager2_1_0_0_aar.xml" afterDir="false" />
+--      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_viewpager_viewpager_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_viewpager_viewpager_1_0_0_aar.xml" afterDir="false" />
+--      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_material_material_1_4_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_material_material_1_4_0_aar.xml" afterDir="false" />
+--      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_1_5_30.xml" beforeDir="false" />
+--      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_common_1_5_30.xml" beforeDir="false" />
+--      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_jdk7_1_5_30.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_jdk7_1_5_31.xml" afterDir="false" />
+--      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_jdk8_1_5_30.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_jdk8_1_5_31.xml" afterDir="false" />
+--      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+--      <change beforePath="$PROJECT_DIR$/.idea/modules/app/Travel_Management.app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/app/Travel_Management.app.iml" afterDir="false" />
+--      <change beforePath="$PROJECT_DIR$/.idea/navEditor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/navEditor.xml" afterDir="false" />
+--      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+--      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sagrd/travelmanagement/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/sagrd/travelmanagement/MainActivity.kt" afterDir="false" />
+--      <change beforePath="$PROJECT_DIR$/app/src/main/res/navigation/nav_graph.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/navigation/nav_graph.xml" afterDir="false" />
+--      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" afterDir="false" />
+--      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
+--      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+--      <change beforePath="$PROJECT_DIR$/local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/local.properties" afterDir="false" />
+-     </list>
+-     <option name="SHOW_DIALOG" value="false" />
+-     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+-@@ -164,6 +67,19 @@
+-     </option>
+-   </component>
+-   <component name="Git.Settings">
+-+    <favorite-branches>
+-+      <branch-storage>
+-+        <map>
+-+          <entry type="REMOTE">
+-+            <value>
+-+              <list>
+-+                <branch-info repo="$PROJECT_DIR$" source="NewOrigin/master" />
+-+              </list>
+-+            </value>
+-+          </entry>
+-+        </map>
+-+      </branch-storage>
+-+    </favorite-branches>
+-     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+-     <option name="RESET_MODE" value="SOFT" />
+-   </component>
+-@@ -296,7 +212,14 @@
+-       <option name="project" value="LOCAL" />
+-       <updated>1636772688125</updated>
+-     </task>
+--    <option name="localTasksCounter" value="5" />
+-+    <task id="LOCAL-00005" summary="Eliminando Pantallas estado_viaje_fragment.xml y estado_viaje_row.xml">
+-+      <created>1636776533502</created>
+-+      <option name="number" value="00005" />
+-+      <option name="presentableId" value="LOCAL-00005" />
+-+      <option name="project" value="LOCAL" />
+-+      <updated>1636776533502</updated>
+-+    </task>
+-+    <option name="localTasksCounter" value="6" />
+-     <servers />
+-   </component>
+-   <component name="Vcs.Log.Tabs.Properties">
+-@@ -327,7 +250,8 @@
+-     <MESSAGE value="SUBIENDO EL PROYECTO" />
+-     <MESSAGE value="Creando proyecto" />
+-     <MESSAGE value="Agregando EstadoViajeFragment.kt y EstadoViajeViewModel.kt" />
+--    <option name="LAST_COMMIT_MESSAGE" value="Agregando EstadoViajeFragment.kt y EstadoViajeViewModel.kt" />
+-+    <MESSAGE value="Eliminando Pantallas estado_viaje_fragment.xml y estado_viaje_row.xml" />
+-+    <option name="LAST_COMMIT_MESSAGE" value="Eliminando Pantallas estado_viaje_fragment.xml y estado_viaje_row.xml" />
+-   </component>
+-   <component name="XDebuggerManager">
+-     <watches-manager>
+-Index: app/src/main/res/layout/estado_viaje_row.xml
+-IDEA additional info:
+-Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+-<+>UTF-8
+-===================================================================
+-diff --git a/app/src/main/res/layout/estado_viaje_row.xml b/app/src/main/res/layout/estado_viaje_row.xml
+-new file mode 100644
+---- /dev/null	(date 1636773602781)
+-+++ b/app/src/main/res/layout/estado_viaje_row.xml	(date 1636773602781)
+-@@ -0,0 +1,71 @@
+-+<?xml version="1.0" encoding="utf-8"?>
+-+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+-+    xmlns:tools="http://schemas.android.com/tools"
+-+    android:layout_width="match_parent"
+-+    android:layout_height="match_parent"
+-+    xmlns:app="http://schemas.android.com/apk/res-auto">
+-+
+-+    <TextView
+-+        android:id="@+id/fechaTextView"
+-+        android:layout_width="0dp"
+-+        android:layout_height="45dp"
+-+        android:layout_weight="1"
+-+        android:background="#C4C4C4"
+-+        android:gravity="center"
+-+        android:text="12-09-2021"
+-+        android:textAlignment="center"
+-+        android:textColor="#000000"
+-+        android:textSize="18sp"
+-+        app:layout_constraintEnd_toStartOf="@id/conceptoTextView"
+-+        app:layout_constraintStart_toStartOf="parent"
+-+        app:layout_constraintTop_toTopOf="parent" />
+-+
+-+    <TextView
+-+        android:id="@+id/conceptoTextView"
+-+        android:layout_width="115dp"
+-+        android:layout_height="45dp"
+-+        android:layout_weight="3"
+-+        android:background="#C4C4C4"
+-+        android:gravity="center"
+-+        android:text="Tenares"
+-+        android:textAlignment="center"
+-+        android:textColor="#000000"
+-+        android:textSize="18sp"
+-+        app:layout_constraintBaseline_toBaselineOf="@+id/fechaTextView"
+-+        app:layout_constraintEnd_toStartOf="@id/montoTextView"
+-+        app:layout_constraintStart_toEndOf="@id/fechaTextView"
+-+        tools:ignore="RtlCompat" />
+-+
+-+    <TextView
+-+        android:id="@+id/montoTextView"
+-+        android:layout_width="0dp"
+-+        android:layout_height="45dp"
+-+        android:layout_weight="1"
+-+        android:background="#C4C4C4"
+-+        android:gravity="center"
+-+        android:text="300.00"
+-+        android:textAlignment="center"
+-+        android:textColor="#000000"
+-+        android:textSize="18sp"
+-+        app:layout_constraintBaseline_toBaselineOf="@+id/fechaTextView"
+-+        app:layout_constraintEnd_toStartOf="@id/balanceTextView"
+-+        app:layout_constraintStart_toEndOf="@id/conceptoTextView"
+-+        tools:ignore="RtlCompat" />
+-+
+-+    <TextView
+-+        android:id="@+id/balanceTextView"
+-+        android:layout_width="0dp"
+-+        android:layout_height="45dp"
+-+        android:layout_weight="1"
+-+        android:background="#C4C4C4"
+-+        android:gravity="center"
+-+        android:text="300.00"
+-+        android:textAlignment="viewStart"
+-+        android:textColor="#000000"
+-+        android:textSize="18sp"
+-+        app:layout_constraintBaseline_toBaselineOf="@+id/fechaTextView"
+-+        app:layout_constraintEnd_toEndOf="parent"
+-+        app:layout_constraintStart_toEndOf="@id/montoTextView"
+-+        tools:ignore="RtlCompat" />
+-+
+-+</androidx.constraintlayout.widget.ConstraintLayout>
+-\ No newline at end of file
+-Index: app/src/main/java/com/sagrd/travelmanagement/ui/EstadoViaje/EstadoViajeFragment.kt
+-IDEA additional info:
+-Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+-<+>UTF-8
+-===================================================================
+-diff --git a/app/src/main/java/com/sagrd/travelmanagement/ui/EstadoViaje/EstadoViajeFragment.kt b/app/src/main/java/com/sagrd/travelmanagement/ui/EstadoViaje/EstadoViajeFragment.kt
+-new file mode 100644
+---- /dev/null	(date 1636773532499)
+-+++ b/app/src/main/java/com/sagrd/travelmanagement/ui/EstadoViaje/EstadoViajeFragment.kt	(date 1636773532499)
+-@@ -0,0 +1,32 @@
+-+package com.sagrd.travelmanagement.ui.EstadoViaje
+-+
+-+import androidx.lifecycle.ViewModelProvider
+-+import android.os.Bundle
+-+import androidx.fragment.app.Fragment
+-+import android.view.LayoutInflater
+-+import android.view.View
+-+import android.view.ViewGroup
+-+import com.sagrd.travelmanagement.R
+-+
+-+class EstadoViajeFragment : Fragment() {
+-+
+-+    companion object {
+-+        fun newInstance() = EstadoViajeFragment()
+-+    }
+-+
+-+    private lateinit var viewModel: EstadoViajeViewModel
+-+
+-+    override fun onCreateView(
+-+        inflater: LayoutInflater, container: ViewGroup?,
+-+        savedInstanceState: Bundle?
+-+    ): View? {
+-+        return inflater.inflate(R.layout.estado_viaje_fragment, container, false)
+-+    }
+-+
+-+    override fun onActivityCreated(savedInstanceState: Bundle?) {
+-+        super.onActivityCreated(savedInstanceState)
+-+        viewModel = ViewModelProvider(this).get(EstadoViajeViewModel::class.java)
+-+        // TODO: Use the ViewModel
+-+    }
+-+
+-+}
+-\ No newline at end of file
+-Index: app/src/main/java/com/sagrd/travelmanagement/ui/EstadoViaje/EstadoViajeViewModel.kt
+-IDEA additional info:
+-Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+-<+>UTF-8
+-===================================================================
+-diff --git a/app/src/main/java/com/sagrd/travelmanagement/ui/EstadoViaje/EstadoViajeViewModel.kt b/app/src/main/java/com/sagrd/travelmanagement/ui/EstadoViaje/EstadoViajeViewModel.kt
+-new file mode 100644
+---- /dev/null	(date 1636773532500)
+-+++ b/app/src/main/java/com/sagrd/travelmanagement/ui/EstadoViaje/EstadoViajeViewModel.kt	(date 1636773532500)
+-@@ -0,0 +1,7 @@
+-+package com.sagrd.travelmanagement.ui.EstadoViaje
+-+
+-+import androidx.lifecycle.ViewModel
+-+
+-+class EstadoViajeViewModel : ViewModel() {
+-+    // TODO: Implement the ViewModel
+-+}
+-\ No newline at end of file
+Index: .idea/libraries/Gradle__androidx_lifecycle_lifecycle_runtime_ktx_2_2_0_aar.xml
+===================================================================
+diff --git a/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_runtime_ktx_2_2_0_aar.xml b/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_runtime_ktx_2_2_0_aar.xml
+deleted file mode 100644
+--- a/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_runtime_ktx_2_2_0_aar.xml	(revision fee0afbee0ee4383e5ed2ad646dbc39f76335a50)
++++ /dev/null	(revision fee0afbee0ee4383e5ed2ad646dbc39f76335a50)
+@@ -1,14 +0,0 @@
+-<component name="libraryTable">
+-  <library name="Gradle: androidx.lifecycle:lifecycle-runtime-ktx:2.2.0@aar">
+-    <CLASSES>
+-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/434c0ef31299d9eada47e05d2ce3946d/transformed/jetified-lifecycle-runtime-ktx-2.2.0/res" />
+-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/8c2958881e9916f83e03ef50dc74995a/transformed/jetified-lifecycle-runtime-ktx-2.2.0/res" />
+-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/8c2958881e9916f83e03ef50dc74995a/transformed/jetified-lifecycle-runtime-ktx-2.2.0/AndroidManifest.xml" />
+-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/8c2958881e9916f83e03ef50dc74995a/transformed/jetified-lifecycle-runtime-ktx-2.2.0/jars/classes.jar!/" />
+-    </CLASSES>
+-    <JAVADOC />
+-    <SOURCES>
+-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-runtime-ktx/2.2.0/d830dc45563157582e0075c25cd10d6cf8d21755/lifecycle-runtime-ktx-2.2.0-sources.jar!/" />
+-    </SOURCES>
+-  </library>
+-</component>
+\ No newline at end of file
+Index: .idea/libraries/Gradle__com_squareup_moshi_moshi_kotlin_1_9_3.xml
+===================================================================
+diff --git a/.idea/libraries/Gradle__com_squareup_moshi_moshi_kotlin_1_9_3.xml b/.idea/libraries/Gradle__com_squareup_moshi_moshi_kotlin_1_9_3.xml
+deleted file mode 100644
+--- a/.idea/libraries/Gradle__com_squareup_moshi_moshi_kotlin_1_9_3.xml	(revision fee0afbee0ee4383e5ed2ad646dbc39f76335a50)
++++ /dev/null	(revision fee0afbee0ee4383e5ed2ad646dbc39f76335a50)
+@@ -1,13 +0,0 @@
+-<component name="libraryTable">
+-  <library name="Gradle: com.squareup.moshi:moshi-kotlin:1.9.3">
+-    <CLASSES>
+-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup.moshi/moshi-kotlin/1.9.3/854bfa6ab979e4fd68735545f294bf4324673459/moshi-kotlin-1.9.3.jar!/" />
+-    </CLASSES>
+-    <JAVADOC>
+-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup.moshi/moshi-kotlin/1.9.3/d03821dba9603465d894b4846036c3b08ebdd295/moshi-kotlin-1.9.3-javadoc.jar!/" />
+-    </JAVADOC>
+-    <SOURCES>
+-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup.moshi/moshi-kotlin/1.9.3/f149f1df33e5fbc2cc031cdf6b2f9a675762b54f/moshi-kotlin-1.9.3-sources.jar!/" />
+-    </SOURCES>
+-  </library>
+-</component>
+\ No newline at end of file
+Index: .idea/shelf/Uncommitted_changes_before_rebase__Default_Changelist_.xml
+===================================================================
+diff --git a/.idea/shelf/Uncommitted_changes_before_rebase__Default_Changelist_.xml b/.idea/shelf/Uncommitted_changes_before_rebase__Default_Changelist_.xml
+deleted file mode 100644
+--- a/.idea/shelf/Uncommitted_changes_before_rebase__Default_Changelist_.xml	(revision fee0afbee0ee4383e5ed2ad646dbc39f76335a50)
++++ /dev/null	(revision fee0afbee0ee4383e5ed2ad646dbc39f76335a50)
+@@ -1,29 +0,0 @@
+-<changelist name="Uncommitted_changes_before_rebase_[Default_Changelist]" date="1636777665316" recycled="true" deleted="true">
+-  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Default_Changelist]/shelved.patch" />
+-  <option name="DESCRIPTION" value="Uncommitted changes before rebase [Default Changelist]" />
+-  <binary>
+-    <option name="BEFORE_PATH" value=".gradle/7.0.2/fileHashes/fileHashes.bin" />
+-    <option name="AFTER_PATH" value=".gradle/7.0.2/fileHashes/fileHashes.bin" />
+-    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Default_Changelist]/fileHashes.bin" />
+-  </binary>
+-  <binary>
+-    <option name="BEFORE_PATH" value=".gradle/7.0.2/executionHistory/executionHistory.lock" />
+-    <option name="AFTER_PATH" value=".gradle/7.0.2/executionHistory/executionHistory.lock" />
+-    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Default_Changelist]/executionHistory.lock" />
+-  </binary>
+-  <binary>
+-    <option name="BEFORE_PATH" value=".gradle/buildOutputCleanup/buildOutputCleanup.lock" />
+-    <option name="AFTER_PATH" value=".gradle/buildOutputCleanup/buildOutputCleanup.lock" />
+-    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Default_Changelist]/buildOutputCleanup.lock" />
+-  </binary>
+-  <binary>
+-    <option name="BEFORE_PATH" value=".gradle/7.0.2/executionHistory/executionHistory.bin" />
+-    <option name="AFTER_PATH" value=".gradle/7.0.2/executionHistory/executionHistory.bin" />
+-    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Default_Changelist]/executionHistory.bin" />
+-  </binary>
+-  <binary>
+-    <option name="BEFORE_PATH" value=".gradle/7.0.2/fileHashes/fileHashes.lock" />
+-    <option name="AFTER_PATH" value=".gradle/7.0.2/fileHashes/fileHashes.lock" />
+-    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Default_Changelist]/fileHashes.lock" />
+-  </binary>
+-</changelist>
+\ No newline at end of file
+Index: .idea/modules/app/Travel_Management.app.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<module external.linked.project.id=\":app\" external.linked.project.path=\"$MODULE_DIR$/../../../app\" external.root.project.path=\"$MODULE_DIR$/../../..\" external.system.id=\"GRADLE\" external.system.module.group=\"Travel Management\" external.system.module.version=\"unspecified\" type=\"JAVA_MODULE\" version=\"4\">\r\n  <component name=\"FacetManager\">\r\n    <facet type=\"android-gradle\" name=\"Android-Gradle\">\r\n      <configuration>\r\n        <option name=\"GRADLE_PROJECT_PATH\" value=\":app\" />\r\n        <option name=\"LAST_SUCCESSFUL_SYNC_AGP_VERSION\" value=\"7.0.2\" />\r\n        <option name=\"LAST_KNOWN_AGP_VERSION\" value=\"7.0.2\" />\r\n      </configuration>\r\n    </facet>\r\n    <facet type=\"android\" name=\"Android\">\r\n      <configuration>\r\n        <option name=\"SELECTED_BUILD_VARIANT\" value=\"debug\" />\r\n        <option name=\"ASSEMBLE_TASK_NAME\" value=\"assembleDebug\" />\r\n        <option name=\"COMPILE_JAVA_TASK_NAME\" value=\"compileDebugSources\" />\r\n        <afterSyncTasks>\r\n          <task>generateDebugSources</task>\r\n        </afterSyncTasks>\r\n        <option name=\"ALLOW_USER_CONFIGURATION\" value=\"false\" />\r\n        <option name=\"MANIFEST_FILE_RELATIVE_PATH\" value=\"/src/main/AndroidManifest.xml\" />\r\n        <option name=\"RES_FOLDER_RELATIVE_PATH\" value=\"/src/main/res\" />\r\n        <option name=\"RES_FOLDERS_RELATIVE_PATH\" value=\"file://$MODULE_DIR$/../../../app/src/main/res;file://$MODULE_DIR$/../../../app/src/debug/res;file://$MODULE_DIR$/../../../app/build/generated/res/rs/debug;file://$MODULE_DIR$/../../../app/build/generated/res/resValues/debug\" />\r\n        <option name=\"TEST_RES_FOLDERS_RELATIVE_PATH\" value=\"file://$MODULE_DIR$/../../../app/src/androidTest/res;file://$MODULE_DIR$/../../../app/src/androidTestDebug/res;file://$MODULE_DIR$/../../../app/build/generated/res/rs/androidTest/debug;file://$MODULE_DIR$/../../../app/build/generated/res/resValues/androidTest/debug\" />\r\n        <option name=\"ASSETS_FOLDER_RELATIVE_PATH\" value=\"/src/main/assets\" />\r\n      </configuration>\r\n    </facet>\r\n    <facet type=\"kotlin-language\" name=\"Kotlin\">\r\n      <configuration version=\"4\" platform=\"JVM 1.8\" allPlatforms=\"JVM [1.8]\" useProjectSettings=\"false\">\r\n        <compilerSettings>\r\n          <option name=\"additionalArguments\" value=\"-Xallow-no-source-files\" />\r\n        </compilerSettings>\r\n        <compilerArguments>\r\n          <option name=\"destination\" value=\"$MODULE_DIR$/../../../app/build/tmp/kotlin-classes/debug\" />\r\n          <option name=\"classpath\" value=\"$MODULE_DIR$/../../../app/build/intermediates/compile_and_runtime_not_namespaced_r_class_jar/debug/R.jar;C:/Users/Mario/.gradle/caches/transforms-3/277e9b6a21224c0ee5baacb369c356c3/transformed/jetified-viewbinding-7.0.2-api.jar;C:/Users/Mario/.gradle/caches/transforms-3/9dee69a408c136131ebae7ff2929aa44/transformed/jetified-kotlin-stdlib-jdk8-1.5.31.jar;C:/Users/Mario/.gradle/caches/transforms-3/3131b73c18f88fcfaaaefce6f8954131/transformed/navigation-fragment-ktx-2.3.5-api.jar;C:/Users/Mario/.gradle/caches/transforms-3/1fe8b763a57c59e3e3df0771325c2077/transformed/jetified-fragment-ktx-1.2.4-api.jar;C:/Users/Mario/.gradle/caches/transforms-3/e81184f23f7486582214a50636f077ae/transformed/navigation-ui-ktx-2.3.5-api.jar;C:/Users/Mario/.gradle/caches/transforms-3/e01c8fd5c77f74aa0430640cabe79a57/transformed/navigation-runtime-ktx-2.3.5-api.jar;C:/Users/Mario/.gradle/caches/transforms-3/9a4f5387fd8d00a57264b075fb1b88b0/transformed/jetified-activity-ktx-1.1.0-api.jar;C:/Users/Mario/.gradle/caches/transforms-3/687f04ad778180bbb39c3b1344e5b80f/transformed/jetified-core-ktx-1.6.0-api.jar;C:/Users/Mario/.gradle/caches/transforms-3/1b1aabafd2cefafbe41daf7d1067afe0/transformed/navigation-ui-2.3.5-api.jar;C:/Users/Mario/.gradle/caches/transforms-3/8bb1dee0aa512f84e6c693dbd44609ce/transformed/material-1.4.0-api.jar;C:/Users/Mario/.gradle/caches/transforms-3/85f62056449df1ab9a8147361ea80de9/transformed/appcompat-1.3.1-api.jar;C:/Users/Mario/.gradle/caches/transforms-3/589309515bef733a270320e764c3a287/transformed/legacy-support-v4-1.0.0-api.jar;C:/Users/Mario/.gradle/caches/transforms-3/debbf10110611711bf272a59a1797692/transformed/jetified-viewpager2-1.0.0-api.jar;C:/Users/Mario/.gradle/caches/transforms-3/0f25cd17151222fa7fe391ace2b00492/transformed/navigation-fragment-2.3.5-api.jar;C:/Users/Mario/.gradle/caches/transforms-3/07b7066c29917271fa4db9b0ab2f1954/transformed/fragment-1.3.6-api.jar;C:/Users/Mario/.gradle/caches/transforms-3/d1140c5f5a2b984d5059f512ae40e60f/transformed/navigation-runtime-2.3.5-api.jar;C:/Users/Mario/.gradle/caches/transforms-3/83b6e605655f68876093e09c40ef0266/transformed/jetified-activity-1.2.4-api.jar;C:/Users/Mario/.gradle/caches/transforms-3/456828fd924a00dffa8a73a4f8b6fcee/transformed/jetified-appcompat-resources-1.3.1-api.jar;C:/Users/Mario/.gradle/caches/transforms-3/5e17085782002fab0b9d60fc668193a6/transformed/legacy-support-core-ui-1.0.0-api.jar;C:/Users/Mario/.gradle/caches/transforms-3/4c51e0fa34c9788754ff42818ee2eb08/transformed/drawerlayout-1.1.1-api.jar;C:/Users/Mario/.gradle/caches/transforms-3/6e3e3e82b77a8e680d130ab70d0cdb58/transformed/coordinatorlayout-1.1.0-api.jar;C:/Users/Mario/.gradle/caches/transforms-3/a4de269de77d0c574b260da1647fdc26/transformed/dynamicanimation-1.0.0-api.jar;C:/Users/Mario/.gradle/caches/transforms-3/8de63b2309b12e424502dada1cf76708/transformed/recyclerview-1.1.0-api.jar;C:/Users/Mario/.gradle/caches/transforms-3/5051cb9e17b3301effdcc9b6ec46e39c/transformed/transition-1.3.0-api.jar;C:/Users/Mario/.gradle/caches/transforms-3/da340f6ab05ed17909b99725b7759dbe/transformed/vectordrawable-animated-1.1.0-api.jar;C:/Users/Mario/.gradle/caches/transforms-3/680d015c35caa5eb1a0e026490994d17/transformed/vectordrawable-1.1.0-api.jar;C:/Users/Mario/.gradle/caches/transforms-3/c0fafb791e6f6d18ee7d256e54fe8089/transformed/media-1.0.0-api.jar;C:/Users/Mario/.gradle/caches/transforms-3/daa79a049c39f6de183b8817acc9d8e3/transformed/legacy-support-core-utils-1.0.0-api.jar;C:/Users/Mario/.gradle/caches/transforms-3/5636acb927bf9efa34930c66092b6c49/transformed/viewpager-1.0.0-api.jar;C:/Users/Mario/.gradle/caches/transforms-3/5c77f61f3a704431918edd79bc5c672c/transformed/loader-1.0.0-api.jar;C:/Users/Mario/.gradle/caches/transforms-3/452726f3ede4b4d2e1326f5549f8f502/transformed/slidingpanelayout-1.0.0-api.jar;C:/Users/Mario/.gradle/caches/transforms-3/7cbe4f748bc91820da8bef34d59a1142/transformed/customview-1.1.0-api.jar;C:/Users/Mario/.gradle/caches/transforms-3/c0df70bdad4468a7c676727e884ab2ea/transformed/swiperefreshlayout-1.0.0-api.jar;C:/Users/Mario/.gradle/caches/transforms-3/46430478d91285f314ba104a5c5f8c7f/transformed/asynclayoutinflater-1.0.0-api.jar;C:/Users/Mario/.gradle/caches/transforms-3/e70d382c5efce2391ac2b67d7e6b6941/transformed/core-1.6.0-api.jar;C:/Users/Mario/.gradle/caches/transforms-3/a4543eabe2c94fd2c58ee645f13ec6e7/transformed/cursoradapter-1.0.0-api.jar;C:/Users/Mario/.gradle/caches/transforms-3/670669d10271d550d1cbab153a8ac5d2/transformed/jetified-lifecycle-viewmodel-savedstate-2.3.1-api.jar;C:/Users/Mario/.gradle/caches/transforms-3/e4041e29dc136dd172695d3d0a17c74b/transformed/jetified-savedstate-1.1.0-api.jar;C:/Users/Mario/.gradle/caches/transforms-3/9f04cecb9d66e792fe7a30d451da8728/transformed/cardview-1.0.0-api.jar;C:/Users/Mario/.gradle/caches/transforms-3/49a94befbbb57e6a1e71956b03c1bd62/transformed/jetified-lifecycle-runtime-ktx-2.2.0-api.jar;C:/Users/Mario/.gradle/caches/transforms-3/4c55ed64f9bace7dc7bd6f8e2c590096/transformed/lifecycle-runtime-2.3.1-api.jar;C:/Users/Mario/.gradle/caches/transforms-3/1b686ecde5ef7cd533713109d380aa69/transformed/jetified-room-ktx-2.3.0-api.jar;C:/Users/Mario/.gradle/caches/transforms-3/9ce65e46fc179842bada1f2b80503e87/transformed/room-runtime-2.3.0-api.jar;C:/Users/Mario/.gradle/caches/modules-2/files-2.1/androidx.room/room-common/2.3.0/11e5b5194cb53b2c5ebfa57710a1a74c67cb3335/room-common-2.3.0.jar;C:/Users/Mario/.gradle/caches/transforms-3/0054411a46abaf0721f913c201f1e754/transformed/sqlite-framework-2.1.0-api.jar;C:/Users/Mario/.gradle/caches/transforms-3/a520dd936bda32a95e0da3ac4bca1017/transformed/sqlite-2.1.0-api.jar;C:/Users/Mario/.gradle/caches/transforms-3/51967ac828c17f30bef5003173a30bcb/transformed/jetified-lifecycle-viewmodel-ktx-2.3.1-api.jar;C:/Users/Mario/.gradle/caches/transforms-3/7b9d735df432cc6f03575456aaa7d52e/transformed/lifecycle-viewmodel-2.3.1-api.jar;C:/Users/Mario/.gradle/caches/transforms-3/21752347207e11d4e80c9281ba7ce7f8/transformed/versionedparcelable-1.1.1-api.jar;C:/Users/Mario/.gradle/caches/transforms-3/ef086af527be261882332dcf594e1ba2/transformed/jetified-collection-ktx-1.1.0.jar;C:/Users/Mario/.gradle/caches/modules-2/files-2.1/androidx.collection/collection/1.1.0/1f27220b47669781457de0d600849a5de0e89909/collection-1.1.0.jar;C:/Users/Mario/.gradle/caches/transforms-3/a49ed0802fbdf3476b68727a90877cef/transformed/jetified-lifecycle-livedata-ktx-2.3.1-api.jar;C:/Users/Mario/.gradle/caches/transforms-3/c6c637a983b0ac49ba0d0f50a9691e43/transformed/lifecycle-livedata-2.3.1-api.jar;C:/Users/Mario/.gradle/caches/transforms-3/04f758f56e8ffe12df488521388343d2/transformed/jetified-lifecycle-livedata-core-ktx-2.3.1-api.jar;C:/Users/Mario/.gradle/caches/transforms-3/fd261f09487b1d46961df0d6a7518cef/transformed/lifecycle-livedata-core-2.3.1-api.jar;C:/Users/Mario/.gradle/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-common/2.3.1/fc466261d52f4433863642fb40d12441ae274a98/lifecycle-common-2.3.1.jar;C:/Users/Mario/.gradle/caches/transforms-3/281b6b6d8372252d53dc24ab71e9f193/transformed/core-runtime-2.1.0-api.jar;C:/Users/Mario/.gradle/caches/modules-2/files-2.1/androidx.arch.core/core-common/2.1.0/b3152fc64428c9354344bd89848ecddc09b6f07e/core-common-2.1.0.jar;C:/Users/Mario/.gradle/caches/transforms-3/6f1bcab9275cbb1f09eb600b9818791c/transformed/documentfile-1.0.0-api.jar;C:/Users/Mario/.gradle/caches/transforms-3/ac181cbe8957c01bcfbd20eeddb82e35/transformed/localbroadcastmanager-1.0.0-api.jar;C:/Users/Mario/.gradle/caches/transforms-3/a934e29d5ba573e8415cf26a1218ee0c/transformed/print-1.0.0-api.jar;C:/Users/Mario/.gradle/caches/transforms-3/41d2fd1f6c8f5e9245bd5fc5440e7d57/transformed/interpolator-1.0.0-api.jar;C:/Users/Mario/.gradle/caches/transforms-3/c4270a6c46bc34474239418a145bef8f/transformed/navigation-common-ktx-2.3.5-api.jar;C:/Users/Mario/.gradle/caches/transforms-3/2ae3a517614fdcae0153e956d39b4276/transformed/navigation-common-2.3.5-api.jar;C:/Users/Mario/.gradle/caches/modules-2/files-2.1/androidx.annotation/annotation/1.2.0/57136ff68ee784c6e19db34ed4a175338fadfde1/annotation-1.2.0.jar;C:/Users/Mario/.gradle/caches/transforms-3/f9168e5fc4644dc68145fa01afeda82b/transformed/jetified-moshi-kotlin-1.9.3.jar;C:/Users/Mario/.gradle/caches/transforms-3/ff59aa7e2c0ff92d20c2c1dbeae3b872/transformed/jetified-kotlin-stdlib-jdk7-1.5.31.jar;C:/Users/Mario/.gradle/caches/transforms-3/fdfdfbca987533041a0b191c7b055ac8/transformed/jetified-kotlinx-coroutines-android-1.4.1.jar;C:/Users/Mario/.gradle/caches/transforms-3/3873eba12354d7f79a99a03bd686f3af/transformed/jetified-kotlin-reflect-1.3.50.jar;C:/Users/Mario/.gradle/caches/transforms-3/da4a7164ef62461935965726a40fff28/transformed/jetified-kotlinx-coroutines-core-jvm-1.4.1.jar;C:/Users/Mario/.gradle/caches/transforms-3/770c0b7077cee50568d99b09c907eef7/transformed/jetified-kotlin-stdlib-1.5.31.jar;C:/Users/Mario/.gradle/caches/transforms-3/23b81848784257120314f2e56c557e2f/transformed/jetified-annotations-13.0.jar;C:/Users/Mario/.gradle/caches/transforms-3/475636567699da7084508e06292bbb32/transformed/jetified-kotlin-stdlib-common-1.5.31.jar;C:/Users/Mario/.gradle/caches/transforms-3/a1a98edbacda1dcf9c6dae102a053c89/transformed/jetified-annotation-experimental-1.1.0-api.jar;C:/Users/Mario/.gradle/caches/transforms-3/2d35d999f88efd6f6ffbe4fda6013fc3/transformed/constraintlayout-2.1.0-api.jar;C:/Users/Mario/.gradle/caches/transforms-3/44b89ab2b52dacaf98781aed457f7019/transformed/jetified-converter-moshi-2.9.0.jar;C:/Users/Mario/.gradle/caches/transforms-3/70765528ede26a2cd4130f7132afb818/transformed/jetified-converter-scalars-2.9.0.jar;C:/Users/Mario/.gradle/caches/transforms-3/be99c0ebd5fa1a297d3f87db12a1de5a/transformed/jetified-retrofit-2.9.0.jar;C:/Users/Mario/.gradle/caches/transforms-3/9575b4e4835af3a6fb008ed4afcc507d/transformed/jetified-okhttp-3.14.9.jar;C:/Users/Mario/.gradle/caches/transforms-3/82af8a9029f3b9c4c2407fb584d388ae/transformed/jetified-moshi-1.9.3.jar;C:/Users/Mario/.gradle/caches/transforms-3/8e0ef263bfa689735e6cda0a36558ae8/transformed/jetified-okio-1.17.2.jar;C:/Users/Mario/AppData/Local/Android/Sdk/platforms/android-30/android.jar;C:/Users/Mario/AppData/Local/Android/Sdk/build-tools/30.0.2/core-lambda-stubs.jar\" />\r\n          <option name=\"noStdlib\" value=\"true\" />\r\n          <option name=\"noReflect\" value=\"true\" />\r\n          <option name=\"moduleName\" value=\"app_debug\" />\r\n          <option name=\"languageVersion\" value=\"1.5\" />\r\n          <option name=\"apiVersion\" value=\"1.5\" />\r\n          <option name=\"pluginOptions\">\r\n            <array />\r\n          </option>\r\n          <option name=\"pluginClasspaths\">\r\n            <array>\r\n              <option value=\"$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-compiler-embeddable/1.5.31/cc18c29253541dc57c25c3ef514d63c7953ae1a6/kotlin-compiler-embeddable-1.5.31.jar\" />\r\n              <option value=\"$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-reflect/1.5.31/1523fcd842a47da0820cea772b19c51056fec8a9/kotlin-reflect-1.5.31.jar\" />\r\n              <option value=\"$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.5.31/6628d61d0f5603568e72d2d5915d2c034b4f1c55/kotlin-stdlib-1.5.31.jar\" />\r\n              <option value=\"$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/13.0/919f0dfe192fb4e063e7dacadee7f8bb9a2672a9/annotations-13.0.jar\" />\r\n              <option value=\"$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.5.31/43331609c7de811fed085e0dfd150874b157c32/kotlin-stdlib-common-1.5.31.jar\" />\r\n              <option value=\"$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-script-runtime/1.5.31/aaea854be2cfc06373dfc11be5a6ba9ca5ca84a6/kotlin-script-runtime-1.5.31.jar\" />\r\n              <option value=\"$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-daemon-embeddable/1.5.31/d19b549661e28c62781683dc7c7e34bf416974f1/kotlin-daemon-embeddable-1.5.31.jar\" />\r\n              <option value=\"$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.intellij.deps/trove4j/1.0.20181211/216c2e14b070f334479d800987affe4054cd563f/trove4j-1.0.20181211.jar\" />\r\n            </array>\r\n          </option>\r\n          <option name=\"errors\">\r\n            <ArgumentParseErrors />\r\n          </option>\r\n        </compilerArguments>\r\n      </configuration>\r\n    </facet>\r\n  </component>\r\n  <component name=\"NewModuleRootManager\" LANGUAGE_LEVEL=\"JDK_1_8\">\r\n    <output url=\"file://$MODULE_DIR$/../../../app/build/intermediates/javac/debug/classes\" />\r\n    <output-test url=\"file://$MODULE_DIR$/../../../app/build/intermediates/javac/debugUnitTest/classes\" />\r\n    <exclude-output />\r\n    <content url=\"file://$MODULE_DIR$/../../../app\">\r\n      <sourceFolder url=\"file://$MODULE_DIR$/../../../app/build/generated/ap_generated_sources/debug/out\" isTestSource=\"false\" generated=\"true\" />\r\n      <sourceFolder url=\"file://$MODULE_DIR$/../../../app/build/generated/ap_generated_sources/debug/out\" isTestSource=\"false\" generated=\"true\" />\r\n      <sourceFolder url=\"file://$MODULE_DIR$/../../../app/build/generated/ap_generated_sources/debug/out\" isTestSource=\"false\" generated=\"true\" />\r\n      <sourceFolder url=\"file://$MODULE_DIR$/../../../app/build/generated/ap_generated_sources/debug/out\" isTestSource=\"false\" generated=\"true\" />\r\n      <sourceFolder url=\"file://$MODULE_DIR$/../../../app/build/generated/ap_generated_sources/debug/out\" isTestSource=\"false\" generated=\"true\" />\r\n      <sourceFolder url=\"file://$MODULE_DIR$/../../../app/build/generated/res/resValues/debug\" type=\"java-resource\" />\r\n      <sourceFolder url=\"file://$MODULE_DIR$/../../../app/build/generated/source/buildConfig/debug\" isTestSource=\"false\" generated=\"true\" />\r\n      <sourceFolder url=\"file://$MODULE_DIR$/../../../app/build/generated/source/buildConfig/debug\" isTestSource=\"false\" generated=\"true\" />\r\n      <sourceFolder url=\"file://$MODULE_DIR$/../../../app/build/generated/source/buildConfig/debug\" isTestSource=\"false\" generated=\"true\" />\r\n      <sourceFolder url=\"file://$MODULE_DIR$/../../../app/build/generated/source/buildConfig/debug\" isTestSource=\"false\" generated=\"true\" />\r\n      <sourceFolder url=\"file://$MODULE_DIR$/../../../app/build/generated/source/buildConfig/debug\" isTestSource=\"false\" generated=\"true\" />\r\n      <sourceFolder url=\"file://$MODULE_DIR$/../../../app/build/generated/source/kapt/debug\" isTestSource=\"false\" generated=\"true\" />\r\n      <sourceFolder url=\"file://$MODULE_DIR$/../../../app/build/generated/source/kapt/debug\" isTestSource=\"false\" generated=\"true\" />\r\n      <sourceFolder url=\"file://$MODULE_DIR$/../../../app/build/generated/source/kapt/debug\" isTestSource=\"false\" generated=\"true\" />\r\n      <sourceFolder url=\"file://$MODULE_DIR$/../../../app/build/generated/source/kapt/debug\" isTestSource=\"false\" generated=\"true\" />\r\n      <sourceFolder url=\"file://$MODULE_DIR$/../../../app/build/generated/source/kapt/debug\" isTestSource=\"false\" generated=\"true\" />\r\n      <sourceFolder url=\"file://$MODULE_DIR$/../../../app/build/generated/source/kaptKotlin/debug\" isTestSource=\"false\" generated=\"true\" />\r\n      <sourceFolder url=\"file://$MODULE_DIR$/../../../app/build/generated/source/kaptKotlin/debug\" isTestSource=\"false\" generated=\"true\" />\r\n      <sourceFolder url=\"file://$MODULE_DIR$/../../../app/build/generated/source/kaptKotlin/debug\" isTestSource=\"false\" generated=\"true\" />\r\n      <sourceFolder url=\"file://$MODULE_DIR$/../../../app/build/generated/source/kaptKotlin/debug\" isTestSource=\"false\" generated=\"true\" />\r\n      <sourceFolder url=\"file://$MODULE_DIR$/../../../app/build/generated/source/kaptKotlin/debug\" isTestSource=\"false\" generated=\"true\" />\r\n      <sourceFolder url=\"file://$MODULE_DIR$/../../../app/src/androidTest/java\" isTestSource=\"true\" />\r\n      <sourceFolder url=\"file://$MODULE_DIR$/../../../app/src/main/java\" isTestSource=\"false\" />\r\n      <sourceFolder url=\"file://$MODULE_DIR$/../../../app/src/main/res\" type=\"java-resource\" />\r\n      <sourceFolder url=\"file://$MODULE_DIR$/../../../app/src/test/java\" isTestSource=\"true\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/../../../app/.gradle\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/../../../app/build\" />\r\n    </content>\r\n    <orderEntry type=\"jdk\" jdkName=\"Android API 30 Platform\" jdkType=\"Android SDK\" />\r\n    <orderEntry type=\"sourceFolder\" forTests=\"false\" />\r\n    <orderEntry type=\"library\" scope=\"TEST\" name=\"Gradle: junit:junit:4.13.2\" level=\"project\" />\r\n    <orderEntry type=\"module-library\">\r\n      <library name=\"Gradle: kaptGeneratedClasses\">\r\n        <CLASSES>\r\n          <root url=\"file://$MODULE_DIR$/../../../app/build/tmp/kapt3/classes/debug\" />\r\n        </CLASSES>\r\n        <JAVADOC />\r\n        <SOURCES />\r\n      </library>\r\n    </orderEntry>\r\n    <orderEntry type=\"module-library\" scope=\"TEST\">\r\n      <library name=\"Gradle: kaptGeneratedTestClasses\">\r\n        <CLASSES>\r\n          <root url=\"file://$MODULE_DIR$/../../../app/build/tmp/kapt3/classes/debugAndroidTest\" />\r\n          <root url=\"file://$MODULE_DIR$/../../../app/build/tmp/kapt3/classes/debugUnitTest\" />\r\n        </CLASSES>\r\n        <JAVADOC />\r\n        <SOURCES />\r\n      </library>\r\n    </orderEntry>\r\n    <orderEntry type=\"library\" scope=\"TEST\" name=\"Gradle: org.hamcrest:hamcrest-core:1.3\" level=\"project\" />\r\n    <orderEntry type=\"library\" scope=\"TEST\" name=\"Gradle: junit:junit:4.12\" level=\"project\" />\r\n    <orderEntry type=\"library\" scope=\"TEST\" name=\"Gradle: org.hamcrest:hamcrest-integration:1.3\" level=\"project\" />\r\n    <orderEntry type=\"library\" scope=\"TEST\" name=\"Gradle: org.hamcrest:hamcrest-library:1.3\" level=\"project\" />\r\n    <orderEntry type=\"library\" scope=\"TEST\" name=\"Gradle: com.google.code.findbugs:jsr305:2.0.1\" level=\"project\" />\r\n    <orderEntry type=\"library\" scope=\"TEST\" name=\"Gradle: com.squareup:javawriter:2.1.1\" level=\"project\" />\r\n    <orderEntry type=\"library\" scope=\"TEST\" name=\"Gradle: javax.inject:javax.inject:1\" level=\"project\" />\r\n    <orderEntry type=\"library\" scope=\"TEST\" name=\"Gradle: androidx.test.ext:junit:1.1.3@aar\" level=\"project\" />\r\n    <orderEntry type=\"library\" scope=\"TEST\" name=\"Gradle: androidx.test.espresso:espresso-core:3.4.0@aar\" level=\"project\" />\r\n    <orderEntry type=\"library\" scope=\"TEST\" name=\"Gradle: androidx.test:runner:1.4.0@aar\" level=\"project\" />\r\n    <orderEntry type=\"library\" scope=\"TEST\" name=\"Gradle: androidx.test:core:1.4.0@aar\" level=\"project\" />\r\n    <orderEntry type=\"library\" scope=\"TEST\" name=\"Gradle: androidx.test.services:storage:1.4.0@aar\" level=\"project\" />\r\n    <orderEntry type=\"library\" scope=\"TEST\" name=\"Gradle: androidx.test:monitor:1.4.0@aar\" level=\"project\" />\r\n    <orderEntry type=\"library\" scope=\"TEST\" name=\"Gradle: androidx.transition:transition:1.2.0@aar\" level=\"project\" />\r\n    <orderEntry type=\"library\" scope=\"TEST\" name=\"Gradle: androidx.test.espresso:espresso-idling-resource:3.4.0@aar\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.5.31\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Gradle: androidx.room:room-common:2.3.0\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Gradle: androidx.collection:collection-ktx:1.1.0\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Gradle: androidx.collection:collection:1.1.0\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Gradle: androidx.lifecycle:lifecycle-common:2.3.1\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Gradle: androidx.arch.core:core-common:2.1.0\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Gradle: androidx.annotation:annotation:1.2.0\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Gradle: com.squareup.moshi:moshi-kotlin:1.9.3\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.5.31\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-android:1.4.1\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Gradle: org.jetbrains.kotlin:kotlin-reflect:1.3.50\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core-jvm:1.4.1\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Gradle: org.jetbrains.kotlin:kotlin-stdlib:1.5.31\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Gradle: org.jetbrains:annotations:13.0\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Gradle: org.jetbrains.kotlin:kotlin-stdlib-common:1.5.31\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Gradle: com.squareup.retrofit2:converter-moshi:2.9.0\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Gradle: com.squareup.retrofit2:converter-scalars:2.9.0\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Gradle: com.squareup.retrofit2:retrofit:2.9.0\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Gradle: com.squareup.okhttp3:okhttp:3.14.9\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Gradle: com.squareup.moshi:moshi:1.9.3\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Gradle: com.squareup.okio:okio:1.17.2\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Gradle: androidx.databinding:viewbinding:7.0.2@aar\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Gradle: androidx.navigation:navigation-fragment-ktx:2.3.5@aar\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Gradle: androidx.fragment:fragment-ktx:1.2.4@aar\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Gradle: androidx.navigation:navigation-ui-ktx:2.3.5@aar\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Gradle: androidx.navigation:navigation-runtime-ktx:2.3.5@aar\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Gradle: androidx.activity:activity-ktx:1.1.0@aar\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Gradle: androidx.core:core-ktx:1.6.0@aar\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Gradle: androidx.navigation:navigation-ui:2.3.5@aar\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Gradle: com.google.android.material:material:1.4.0@aar\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Gradle: androidx.appcompat:appcompat:1.3.1@aar\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Gradle: androidx.legacy:legacy-support-v4:1.0.0@aar\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Gradle: androidx.viewpager2:viewpager2:1.0.0@aar\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Gradle: androidx.navigation:navigation-fragment:2.3.5@aar\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Gradle: androidx.fragment:fragment:1.3.6@aar\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Gradle: androidx.navigation:navigation-runtime:2.3.5@aar\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Gradle: androidx.activity:activity:1.2.4@aar\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Gradle: androidx.appcompat:appcompat-resources:1.3.1@aar\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Gradle: androidx.legacy:legacy-support-core-ui:1.0.0@aar\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Gradle: androidx.drawerlayout:drawerlayout:1.1.1@aar\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Gradle: androidx.coordinatorlayout:coordinatorlayout:1.1.0@aar\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Gradle: androidx.dynamicanimation:dynamicanimation:1.0.0@aar\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Gradle: androidx.recyclerview:recyclerview:1.1.0@aar\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Gradle: androidx.transition:transition:1.3.0@aar\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Gradle: androidx.vectordrawable:vectordrawable-animated:1.1.0@aar\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Gradle: androidx.vectordrawable:vectordrawable:1.1.0@aar\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Gradle: androidx.media:media:1.0.0@aar\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Gradle: androidx.legacy:legacy-support-core-utils:1.0.0@aar\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Gradle: androidx.viewpager:viewpager:1.0.0@aar\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Gradle: androidx.loader:loader:1.0.0@aar\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Gradle: androidx.slidingpanelayout:slidingpanelayout:1.0.0@aar\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Gradle: androidx.customview:customview:1.1.0@aar\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Gradle: androidx.swiperefreshlayout:swiperefreshlayout:1.0.0@aar\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Gradle: androidx.asynclayoutinflater:asynclayoutinflater:1.0.0@aar\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Gradle: androidx.core:core:1.6.0@aar\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Gradle: androidx.cursoradapter:cursoradapter:1.0.0@aar\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Gradle: androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1@aar\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Gradle: androidx.savedstate:savedstate:1.1.0@aar\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Gradle: androidx.cardview:cardview:1.0.0@aar\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Gradle: androidx.lifecycle:lifecycle-runtime-ktx:2.2.0@aar\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Gradle: androidx.lifecycle:lifecycle-runtime:2.3.1@aar\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Gradle: androidx.room:room-ktx:2.3.0@aar\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Gradle: androidx.room:room-runtime:2.3.0@aar\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Gradle: androidx.sqlite:sqlite-framework:2.1.0@aar\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Gradle: androidx.sqlite:sqlite:2.1.0@aar\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Gradle: androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.1@aar\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Gradle: androidx.lifecycle:lifecycle-viewmodel:2.3.1@aar\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Gradle: androidx.versionedparcelable:versionedparcelable:1.1.1@aar\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Gradle: androidx.lifecycle:lifecycle-livedata-ktx:2.3.1@aar\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Gradle: androidx.lifecycle:lifecycle-livedata:2.3.1@aar\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Gradle: androidx.lifecycle:lifecycle-livedata-core-ktx:2.3.1@aar\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Gradle: androidx.lifecycle:lifecycle-livedata-core:2.3.1@aar\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Gradle: androidx.arch.core:core-runtime:2.1.0@aar\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Gradle: androidx.documentfile:documentfile:1.0.0@aar\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Gradle: androidx.localbroadcastmanager:localbroadcastmanager:1.0.0@aar\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Gradle: androidx.print:print:1.0.0@aar\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Gradle: androidx.interpolator:interpolator:1.0.0@aar\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Gradle: androidx.navigation:navigation-common-ktx:2.3.5@aar\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Gradle: androidx.navigation:navigation-common:2.3.5@aar\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Gradle: androidx.annotation:annotation-experimental:1.1.0@aar\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Gradle: androidx.constraintlayout:constraintlayout:2.1.0@aar\" level=\"project\" />\r\n  </component>\r\n</module>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/modules/app/Travel_Management.app.iml b/.idea/modules/app/Travel_Management.app.iml
+--- a/.idea/modules/app/Travel_Management.app.iml	(revision fee0afbee0ee4383e5ed2ad646dbc39f76335a50)
++++ b/.idea/modules/app/Travel_Management.app.iml	(date 1638580901365)
+@@ -31,7 +31,7 @@
+         </compilerSettings>
+         <compilerArguments>
+           <option name="destination" value="$MODULE_DIR$/../../../app/build/tmp/kotlin-classes/debug" />
+-          <option name="classpath" value="$MODULE_DIR$/../../../app/build/intermediates/compile_and_runtime_not_namespaced_r_class_jar/debug/R.jar;C:/Users/Mario/.gradle/caches/transforms-3/277e9b6a21224c0ee5baacb369c356c3/transformed/jetified-viewbinding-7.0.2-api.jar;C:/Users/Mario/.gradle/caches/transforms-3/9dee69a408c136131ebae7ff2929aa44/transformed/jetified-kotlin-stdlib-jdk8-1.5.31.jar;C:/Users/Mario/.gradle/caches/transforms-3/3131b73c18f88fcfaaaefce6f8954131/transformed/navigation-fragment-ktx-2.3.5-api.jar;C:/Users/Mario/.gradle/caches/transforms-3/1fe8b763a57c59e3e3df0771325c2077/transformed/jetified-fragment-ktx-1.2.4-api.jar;C:/Users/Mario/.gradle/caches/transforms-3/e81184f23f7486582214a50636f077ae/transformed/navigation-ui-ktx-2.3.5-api.jar;C:/Users/Mario/.gradle/caches/transforms-3/e01c8fd5c77f74aa0430640cabe79a57/transformed/navigation-runtime-ktx-2.3.5-api.jar;C:/Users/Mario/.gradle/caches/transforms-3/9a4f5387fd8d00a57264b075fb1b88b0/transformed/jetified-activity-ktx-1.1.0-api.jar;C:/Users/Mario/.gradle/caches/transforms-3/687f04ad778180bbb39c3b1344e5b80f/transformed/jetified-core-ktx-1.6.0-api.jar;C:/Users/Mario/.gradle/caches/transforms-3/1b1aabafd2cefafbe41daf7d1067afe0/transformed/navigation-ui-2.3.5-api.jar;C:/Users/Mario/.gradle/caches/transforms-3/8bb1dee0aa512f84e6c693dbd44609ce/transformed/material-1.4.0-api.jar;C:/Users/Mario/.gradle/caches/transforms-3/85f62056449df1ab9a8147361ea80de9/transformed/appcompat-1.3.1-api.jar;C:/Users/Mario/.gradle/caches/transforms-3/589309515bef733a270320e764c3a287/transformed/legacy-support-v4-1.0.0-api.jar;C:/Users/Mario/.gradle/caches/transforms-3/debbf10110611711bf272a59a1797692/transformed/jetified-viewpager2-1.0.0-api.jar;C:/Users/Mario/.gradle/caches/transforms-3/0f25cd17151222fa7fe391ace2b00492/transformed/navigation-fragment-2.3.5-api.jar;C:/Users/Mario/.gradle/caches/transforms-3/07b7066c29917271fa4db9b0ab2f1954/transformed/fragment-1.3.6-api.jar;C:/Users/Mario/.gradle/caches/transforms-3/d1140c5f5a2b984d5059f512ae40e60f/transformed/navigation-runtime-2.3.5-api.jar;C:/Users/Mario/.gradle/caches/transforms-3/83b6e605655f68876093e09c40ef0266/transformed/jetified-activity-1.2.4-api.jar;C:/Users/Mario/.gradle/caches/transforms-3/456828fd924a00dffa8a73a4f8b6fcee/transformed/jetified-appcompat-resources-1.3.1-api.jar;C:/Users/Mario/.gradle/caches/transforms-3/5e17085782002fab0b9d60fc668193a6/transformed/legacy-support-core-ui-1.0.0-api.jar;C:/Users/Mario/.gradle/caches/transforms-3/4c51e0fa34c9788754ff42818ee2eb08/transformed/drawerlayout-1.1.1-api.jar;C:/Users/Mario/.gradle/caches/transforms-3/6e3e3e82b77a8e680d130ab70d0cdb58/transformed/coordinatorlayout-1.1.0-api.jar;C:/Users/Mario/.gradle/caches/transforms-3/a4de269de77d0c574b260da1647fdc26/transformed/dynamicanimation-1.0.0-api.jar;C:/Users/Mario/.gradle/caches/transforms-3/8de63b2309b12e424502dada1cf76708/transformed/recyclerview-1.1.0-api.jar;C:/Users/Mario/.gradle/caches/transforms-3/5051cb9e17b3301effdcc9b6ec46e39c/transformed/transition-1.3.0-api.jar;C:/Users/Mario/.gradle/caches/transforms-3/da340f6ab05ed17909b99725b7759dbe/transformed/vectordrawable-animated-1.1.0-api.jar;C:/Users/Mario/.gradle/caches/transforms-3/680d015c35caa5eb1a0e026490994d17/transformed/vectordrawable-1.1.0-api.jar;C:/Users/Mario/.gradle/caches/transforms-3/c0fafb791e6f6d18ee7d256e54fe8089/transformed/media-1.0.0-api.jar;C:/Users/Mario/.gradle/caches/transforms-3/daa79a049c39f6de183b8817acc9d8e3/transformed/legacy-support-core-utils-1.0.0-api.jar;C:/Users/Mario/.gradle/caches/transforms-3/5636acb927bf9efa34930c66092b6c49/transformed/viewpager-1.0.0-api.jar;C:/Users/Mario/.gradle/caches/transforms-3/5c77f61f3a704431918edd79bc5c672c/transformed/loader-1.0.0-api.jar;C:/Users/Mario/.gradle/caches/transforms-3/452726f3ede4b4d2e1326f5549f8f502/transformed/slidingpanelayout-1.0.0-api.jar;C:/Users/Mario/.gradle/caches/transforms-3/7cbe4f748bc91820da8bef34d59a1142/transformed/customview-1.1.0-api.jar;C:/Users/Mario/.gradle/caches/transforms-3/c0df70bdad4468a7c676727e884ab2ea/transformed/swiperefreshlayout-1.0.0-api.jar;C:/Users/Mario/.gradle/caches/transforms-3/46430478d91285f314ba104a5c5f8c7f/transformed/asynclayoutinflater-1.0.0-api.jar;C:/Users/Mario/.gradle/caches/transforms-3/e70d382c5efce2391ac2b67d7e6b6941/transformed/core-1.6.0-api.jar;C:/Users/Mario/.gradle/caches/transforms-3/a4543eabe2c94fd2c58ee645f13ec6e7/transformed/cursoradapter-1.0.0-api.jar;C:/Users/Mario/.gradle/caches/transforms-3/670669d10271d550d1cbab153a8ac5d2/transformed/jetified-lifecycle-viewmodel-savedstate-2.3.1-api.jar;C:/Users/Mario/.gradle/caches/transforms-3/e4041e29dc136dd172695d3d0a17c74b/transformed/jetified-savedstate-1.1.0-api.jar;C:/Users/Mario/.gradle/caches/transforms-3/9f04cecb9d66e792fe7a30d451da8728/transformed/cardview-1.0.0-api.jar;C:/Users/Mario/.gradle/caches/transforms-3/49a94befbbb57e6a1e71956b03c1bd62/transformed/jetified-lifecycle-runtime-ktx-2.2.0-api.jar;C:/Users/Mario/.gradle/caches/transforms-3/4c55ed64f9bace7dc7bd6f8e2c590096/transformed/lifecycle-runtime-2.3.1-api.jar;C:/Users/Mario/.gradle/caches/transforms-3/1b686ecde5ef7cd533713109d380aa69/transformed/jetified-room-ktx-2.3.0-api.jar;C:/Users/Mario/.gradle/caches/transforms-3/9ce65e46fc179842bada1f2b80503e87/transformed/room-runtime-2.3.0-api.jar;C:/Users/Mario/.gradle/caches/modules-2/files-2.1/androidx.room/room-common/2.3.0/11e5b5194cb53b2c5ebfa57710a1a74c67cb3335/room-common-2.3.0.jar;C:/Users/Mario/.gradle/caches/transforms-3/0054411a46abaf0721f913c201f1e754/transformed/sqlite-framework-2.1.0-api.jar;C:/Users/Mario/.gradle/caches/transforms-3/a520dd936bda32a95e0da3ac4bca1017/transformed/sqlite-2.1.0-api.jar;C:/Users/Mario/.gradle/caches/transforms-3/51967ac828c17f30bef5003173a30bcb/transformed/jetified-lifecycle-viewmodel-ktx-2.3.1-api.jar;C:/Users/Mario/.gradle/caches/transforms-3/7b9d735df432cc6f03575456aaa7d52e/transformed/lifecycle-viewmodel-2.3.1-api.jar;C:/Users/Mario/.gradle/caches/transforms-3/21752347207e11d4e80c9281ba7ce7f8/transformed/versionedparcelable-1.1.1-api.jar;C:/Users/Mario/.gradle/caches/transforms-3/ef086af527be261882332dcf594e1ba2/transformed/jetified-collection-ktx-1.1.0.jar;C:/Users/Mario/.gradle/caches/modules-2/files-2.1/androidx.collection/collection/1.1.0/1f27220b47669781457de0d600849a5de0e89909/collection-1.1.0.jar;C:/Users/Mario/.gradle/caches/transforms-3/a49ed0802fbdf3476b68727a90877cef/transformed/jetified-lifecycle-livedata-ktx-2.3.1-api.jar;C:/Users/Mario/.gradle/caches/transforms-3/c6c637a983b0ac49ba0d0f50a9691e43/transformed/lifecycle-livedata-2.3.1-api.jar;C:/Users/Mario/.gradle/caches/transforms-3/04f758f56e8ffe12df488521388343d2/transformed/jetified-lifecycle-livedata-core-ktx-2.3.1-api.jar;C:/Users/Mario/.gradle/caches/transforms-3/fd261f09487b1d46961df0d6a7518cef/transformed/lifecycle-livedata-core-2.3.1-api.jar;C:/Users/Mario/.gradle/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-common/2.3.1/fc466261d52f4433863642fb40d12441ae274a98/lifecycle-common-2.3.1.jar;C:/Users/Mario/.gradle/caches/transforms-3/281b6b6d8372252d53dc24ab71e9f193/transformed/core-runtime-2.1.0-api.jar;C:/Users/Mario/.gradle/caches/modules-2/files-2.1/androidx.arch.core/core-common/2.1.0/b3152fc64428c9354344bd89848ecddc09b6f07e/core-common-2.1.0.jar;C:/Users/Mario/.gradle/caches/transforms-3/6f1bcab9275cbb1f09eb600b9818791c/transformed/documentfile-1.0.0-api.jar;C:/Users/Mario/.gradle/caches/transforms-3/ac181cbe8957c01bcfbd20eeddb82e35/transformed/localbroadcastmanager-1.0.0-api.jar;C:/Users/Mario/.gradle/caches/transforms-3/a934e29d5ba573e8415cf26a1218ee0c/transformed/print-1.0.0-api.jar;C:/Users/Mario/.gradle/caches/transforms-3/41d2fd1f6c8f5e9245bd5fc5440e7d57/transformed/interpolator-1.0.0-api.jar;C:/Users/Mario/.gradle/caches/transforms-3/c4270a6c46bc34474239418a145bef8f/transformed/navigation-common-ktx-2.3.5-api.jar;C:/Users/Mario/.gradle/caches/transforms-3/2ae3a517614fdcae0153e956d39b4276/transformed/navigation-common-2.3.5-api.jar;C:/Users/Mario/.gradle/caches/modules-2/files-2.1/androidx.annotation/annotation/1.2.0/57136ff68ee784c6e19db34ed4a175338fadfde1/annotation-1.2.0.jar;C:/Users/Mario/.gradle/caches/transforms-3/f9168e5fc4644dc68145fa01afeda82b/transformed/jetified-moshi-kotlin-1.9.3.jar;C:/Users/Mario/.gradle/caches/transforms-3/ff59aa7e2c0ff92d20c2c1dbeae3b872/transformed/jetified-kotlin-stdlib-jdk7-1.5.31.jar;C:/Users/Mario/.gradle/caches/transforms-3/fdfdfbca987533041a0b191c7b055ac8/transformed/jetified-kotlinx-coroutines-android-1.4.1.jar;C:/Users/Mario/.gradle/caches/transforms-3/3873eba12354d7f79a99a03bd686f3af/transformed/jetified-kotlin-reflect-1.3.50.jar;C:/Users/Mario/.gradle/caches/transforms-3/da4a7164ef62461935965726a40fff28/transformed/jetified-kotlinx-coroutines-core-jvm-1.4.1.jar;C:/Users/Mario/.gradle/caches/transforms-3/770c0b7077cee50568d99b09c907eef7/transformed/jetified-kotlin-stdlib-1.5.31.jar;C:/Users/Mario/.gradle/caches/transforms-3/23b81848784257120314f2e56c557e2f/transformed/jetified-annotations-13.0.jar;C:/Users/Mario/.gradle/caches/transforms-3/475636567699da7084508e06292bbb32/transformed/jetified-kotlin-stdlib-common-1.5.31.jar;C:/Users/Mario/.gradle/caches/transforms-3/a1a98edbacda1dcf9c6dae102a053c89/transformed/jetified-annotation-experimental-1.1.0-api.jar;C:/Users/Mario/.gradle/caches/transforms-3/2d35d999f88efd6f6ffbe4fda6013fc3/transformed/constraintlayout-2.1.0-api.jar;C:/Users/Mario/.gradle/caches/transforms-3/44b89ab2b52dacaf98781aed457f7019/transformed/jetified-converter-moshi-2.9.0.jar;C:/Users/Mario/.gradle/caches/transforms-3/70765528ede26a2cd4130f7132afb818/transformed/jetified-converter-scalars-2.9.0.jar;C:/Users/Mario/.gradle/caches/transforms-3/be99c0ebd5fa1a297d3f87db12a1de5a/transformed/jetified-retrofit-2.9.0.jar;C:/Users/Mario/.gradle/caches/transforms-3/9575b4e4835af3a6fb008ed4afcc507d/transformed/jetified-okhttp-3.14.9.jar;C:/Users/Mario/.gradle/caches/transforms-3/82af8a9029f3b9c4c2407fb584d388ae/transformed/jetified-moshi-1.9.3.jar;C:/Users/Mario/.gradle/caches/transforms-3/8e0ef263bfa689735e6cda0a36558ae8/transformed/jetified-okio-1.17.2.jar;C:/Users/Mario/AppData/Local/Android/Sdk/platforms/android-30/android.jar;C:/Users/Mario/AppData/Local/Android/Sdk/build-tools/30.0.2/core-lambda-stubs.jar" />
++          <option name="classpath" value="$MODULE_DIR$/../../../app/build/intermediates/compile_and_runtime_not_namespaced_r_class_jar/debug/R.jar;C:/Users/Mario/.gradle/caches/transforms-3/277e9b6a21224c0ee5baacb369c356c3/transformed/jetified-viewbinding-7.0.2-api.jar;C:/Users/Mario/.gradle/caches/transforms-3/9dee69a408c136131ebae7ff2929aa44/transformed/jetified-kotlin-stdlib-jdk8-1.5.31.jar;C:/Users/Mario/.gradle/caches/transforms-3/3131b73c18f88fcfaaaefce6f8954131/transformed/navigation-fragment-ktx-2.3.5-api.jar;C:/Users/Mario/.gradle/caches/transforms-3/1fe8b763a57c59e3e3df0771325c2077/transformed/jetified-fragment-ktx-1.2.4-api.jar;C:/Users/Mario/.gradle/caches/transforms-3/e81184f23f7486582214a50636f077ae/transformed/navigation-ui-ktx-2.3.5-api.jar;C:/Users/Mario/.gradle/caches/transforms-3/e01c8fd5c77f74aa0430640cabe79a57/transformed/navigation-runtime-ktx-2.3.5-api.jar;C:/Users/Mario/.gradle/caches/transforms-3/9a4f5387fd8d00a57264b075fb1b88b0/transformed/jetified-activity-ktx-1.1.0-api.jar;C:/Users/Mario/.gradle/caches/transforms-3/687f04ad778180bbb39c3b1344e5b80f/transformed/jetified-core-ktx-1.6.0-api.jar;C:/Users/Mario/.gradle/caches/transforms-3/1b1aabafd2cefafbe41daf7d1067afe0/transformed/navigation-ui-2.3.5-api.jar;C:/Users/Mario/.gradle/caches/transforms-3/8bb1dee0aa512f84e6c693dbd44609ce/transformed/material-1.4.0-api.jar;C:/Users/Mario/.gradle/caches/transforms-3/85f62056449df1ab9a8147361ea80de9/transformed/appcompat-1.3.1-api.jar;C:/Users/Mario/.gradle/caches/transforms-3/7d1d534cafdb2a3ddd3eeef5123be822/transformed/jetified-lifecycle-runtime-ktx-2.3.1-api.jar;C:/Users/Mario/.gradle/caches/transforms-3/bd3100c4df9cdc9e26fc1f1c93adb62e/transformed/jetified-firebase-auth-common-9.8.0-api.jar;C:/Users/Mario/.gradle/caches/transforms-3/2e6046c89fded6ccb6a85d5e86edf8f6/transformed/jetified-firebase-auth-module-9.8.0-api.jar;C:/Users/Mario/.gradle/caches/transforms-3/8d279799c9bed7690b24dfbcbac18b89/transformed/jetified-play-services-base-9.8.0-api.jar;C:/Users/Mario/.gradle/caches/transforms-3/f5ccbdaadcc9031cff6699c8b5b3f140/transformed/jetified-firebase-common-9.8.0-api.jar;C:/Users/Mario/.gradle/caches/transforms-3/d810a08d1e13d4ca9788a97fc3ab2659/transformed/jetified-play-services-tasks-9.8.0-api.jar;C:/Users/Mario/.gradle/caches/transforms-3/c46200372258c5d4a6cddad0ca884dfb/transformed/jetified-play-services-basement-9.8.0-api.jar;C:/Users/Mario/.gradle/caches/transforms-3/589309515bef733a270320e764c3a287/transformed/legacy-support-v4-1.0.0-api.jar;C:/Users/Mario/.gradle/caches/transforms-3/debbf10110611711bf272a59a1797692/transformed/jetified-viewpager2-1.0.0-api.jar;C:/Users/Mario/.gradle/caches/transforms-3/0f25cd17151222fa7fe391ace2b00492/transformed/navigation-fragment-2.3.5-api.jar;C:/Users/Mario/.gradle/caches/transforms-3/07b7066c29917271fa4db9b0ab2f1954/transformed/fragment-1.3.6-api.jar;C:/Users/Mario/.gradle/caches/transforms-3/d1140c5f5a2b984d5059f512ae40e60f/transformed/navigation-runtime-2.3.5-api.jar;C:/Users/Mario/.gradle/caches/transforms-3/83b6e605655f68876093e09c40ef0266/transformed/jetified-activity-1.2.4-api.jar;C:/Users/Mario/.gradle/caches/transforms-3/456828fd924a00dffa8a73a4f8b6fcee/transformed/jetified-appcompat-resources-1.3.1-api.jar;C:/Users/Mario/.gradle/caches/transforms-3/5e17085782002fab0b9d60fc668193a6/transformed/legacy-support-core-ui-1.0.0-api.jar;C:/Users/Mario/.gradle/caches/transforms-3/4c51e0fa34c9788754ff42818ee2eb08/transformed/drawerlayout-1.1.1-api.jar;C:/Users/Mario/.gradle/caches/transforms-3/6e3e3e82b77a8e680d130ab70d0cdb58/transformed/coordinatorlayout-1.1.0-api.jar;C:/Users/Mario/.gradle/caches/transforms-3/a4de269de77d0c574b260da1647fdc26/transformed/dynamicanimation-1.0.0-api.jar;C:/Users/Mario/.gradle/caches/transforms-3/8de63b2309b12e424502dada1cf76708/transformed/recyclerview-1.1.0-api.jar;C:/Users/Mario/.gradle/caches/transforms-3/5051cb9e17b3301effdcc9b6ec46e39c/transformed/transition-1.3.0-api.jar;C:/Users/Mario/.gradle/caches/transforms-3/da340f6ab05ed17909b99725b7759dbe/transformed/vectordrawable-animated-1.1.0-api.jar;C:/Users/Mario/.gradle/caches/transforms-3/680d015c35caa5eb1a0e026490994d17/transformed/vectordrawable-1.1.0-api.jar;C:/Users/Mario/.gradle/caches/transforms-3/c0fafb791e6f6d18ee7d256e54fe8089/transformed/media-1.0.0-api.jar;C:/Users/Mario/.gradle/caches/transforms-3/daa79a049c39f6de183b8817acc9d8e3/transformed/legacy-support-core-utils-1.0.0-api.jar;C:/Users/Mario/.gradle/caches/transforms-3/5636acb927bf9efa34930c66092b6c49/transformed/viewpager-1.0.0-api.jar;C:/Users/Mario/.gradle/caches/transforms-3/5c77f61f3a704431918edd79bc5c672c/transformed/loader-1.0.0-api.jar;C:/Users/Mario/.gradle/caches/transforms-3/452726f3ede4b4d2e1326f5549f8f502/transformed/slidingpanelayout-1.0.0-api.jar;C:/Users/Mario/.gradle/caches/transforms-3/7cbe4f748bc91820da8bef34d59a1142/transformed/customview-1.1.0-api.jar;C:/Users/Mario/.gradle/caches/transforms-3/c0df70bdad4468a7c676727e884ab2ea/transformed/swiperefreshlayout-1.0.0-api.jar;C:/Users/Mario/.gradle/caches/transforms-3/46430478d91285f314ba104a5c5f8c7f/transformed/asynclayoutinflater-1.0.0-api.jar;C:/Users/Mario/.gradle/caches/transforms-3/e70d382c5efce2391ac2b67d7e6b6941/transformed/core-1.6.0-api.jar;C:/Users/Mario/.gradle/caches/transforms-3/a4543eabe2c94fd2c58ee645f13ec6e7/transformed/cursoradapter-1.0.0-api.jar;C:/Users/Mario/.gradle/caches/transforms-3/670669d10271d550d1cbab153a8ac5d2/transformed/jetified-lifecycle-viewmodel-savedstate-2.3.1-api.jar;C:/Users/Mario/.gradle/caches/transforms-3/e4041e29dc136dd172695d3d0a17c74b/transformed/jetified-savedstate-1.1.0-api.jar;C:/Users/Mario/.gradle/caches/transforms-3/9f04cecb9d66e792fe7a30d451da8728/transformed/cardview-1.0.0-api.jar;C:/Users/Mario/.gradle/caches/transforms-3/4c55ed64f9bace7dc7bd6f8e2c590096/transformed/lifecycle-runtime-2.3.1-api.jar;C:/Users/Mario/.gradle/caches/transforms-3/1b686ecde5ef7cd533713109d380aa69/transformed/jetified-room-ktx-2.3.0-api.jar;C:/Users/Mario/.gradle/caches/transforms-3/9ce65e46fc179842bada1f2b80503e87/transformed/room-runtime-2.3.0-api.jar;C:/Users/Mario/.gradle/caches/modules-2/files-2.1/androidx.room/room-common/2.3.0/11e5b5194cb53b2c5ebfa57710a1a74c67cb3335/room-common-2.3.0.jar;C:/Users/Mario/.gradle/caches/transforms-3/0054411a46abaf0721f913c201f1e754/transformed/sqlite-framework-2.1.0-api.jar;C:/Users/Mario/.gradle/caches/transforms-3/a520dd936bda32a95e0da3ac4bca1017/transformed/sqlite-2.1.0-api.jar;C:/Users/Mario/.gradle/caches/transforms-3/51967ac828c17f30bef5003173a30bcb/transformed/jetified-lifecycle-viewmodel-ktx-2.3.1-api.jar;C:/Users/Mario/.gradle/caches/transforms-3/7b9d735df432cc6f03575456aaa7d52e/transformed/lifecycle-viewmodel-2.3.1-api.jar;C:/Users/Mario/.gradle/caches/transforms-3/21752347207e11d4e80c9281ba7ce7f8/transformed/versionedparcelable-1.1.1-api.jar;C:/Users/Mario/.gradle/caches/transforms-3/ef086af527be261882332dcf594e1ba2/transformed/jetified-collection-ktx-1.1.0.jar;C:/Users/Mario/.gradle/caches/modules-2/files-2.1/androidx.collection/collection/1.1.0/1f27220b47669781457de0d600849a5de0e89909/collection-1.1.0.jar;C:/Users/Mario/.gradle/caches/transforms-3/a49ed0802fbdf3476b68727a90877cef/transformed/jetified-lifecycle-livedata-ktx-2.3.1-api.jar;C:/Users/Mario/.gradle/caches/transforms-3/c6c637a983b0ac49ba0d0f50a9691e43/transformed/lifecycle-livedata-2.3.1-api.jar;C:/Users/Mario/.gradle/caches/transforms-3/04f758f56e8ffe12df488521388343d2/transformed/jetified-lifecycle-livedata-core-ktx-2.3.1-api.jar;C:/Users/Mario/.gradle/caches/transforms-3/fd261f09487b1d46961df0d6a7518cef/transformed/lifecycle-livedata-core-2.3.1-api.jar;C:/Users/Mario/.gradle/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-common/2.3.1/fc466261d52f4433863642fb40d12441ae274a98/lifecycle-common-2.3.1.jar;C:/Users/Mario/.gradle/caches/transforms-3/281b6b6d8372252d53dc24ab71e9f193/transformed/core-runtime-2.1.0-api.jar;C:/Users/Mario/.gradle/caches/modules-2/files-2.1/androidx.arch.core/core-common/2.1.0/b3152fc64428c9354344bd89848ecddc09b6f07e/core-common-2.1.0.jar;C:/Users/Mario/.gradle/caches/transforms-3/6f1bcab9275cbb1f09eb600b9818791c/transformed/documentfile-1.0.0-api.jar;C:/Users/Mario/.gradle/caches/transforms-3/ac181cbe8957c01bcfbd20eeddb82e35/transformed/localbroadcastmanager-1.0.0-api.jar;C:/Users/Mario/.gradle/caches/transforms-3/a934e29d5ba573e8415cf26a1218ee0c/transformed/print-1.0.0-api.jar;C:/Users/Mario/.gradle/caches/transforms-3/41d2fd1f6c8f5e9245bd5fc5440e7d57/transformed/interpolator-1.0.0-api.jar;C:/Users/Mario/.gradle/caches/transforms-3/c4270a6c46bc34474239418a145bef8f/transformed/navigation-common-ktx-2.3.5-api.jar;C:/Users/Mario/.gradle/caches/transforms-3/2ae3a517614fdcae0153e956d39b4276/transformed/navigation-common-2.3.5-api.jar;C:/Users/Mario/.gradle/caches/modules-2/files-2.1/androidx.annotation/annotation/1.2.0/57136ff68ee784c6e19db34ed4a175338fadfde1/annotation-1.2.0.jar;C:/Users/Mario/.gradle/caches/transforms-3/30749c463bd6616f9b9f5692e35f3127/transformed/jetified-converter-gson-2.9.0.jar;C:/Users/Mario/.gradle/caches/transforms-3/be99c0ebd5fa1a297d3f87db12a1de5a/transformed/jetified-retrofit-2.9.0.jar;C:/Users/Mario/.gradle/caches/transforms-3/38040af8ff12dd65c185250c9afa8d52/transformed/jetified-okhttp-4.9.0.jar;C:/Users/Mario/.gradle/caches/transforms-3/fdfdfbca987533041a0b191c7b055ac8/transformed/jetified-kotlinx-coroutines-android-1.4.1.jar;C:/Users/Mario/.gradle/caches/transforms-3/ff59aa7e2c0ff92d20c2c1dbeae3b872/transformed/jetified-kotlin-stdlib-jdk7-1.5.31.jar;C:/Users/Mario/.gradle/caches/transforms-3/aa7a2835ae6e8fdd8d653483508e8b19/transformed/jetified-okio-jvm-2.8.0.jar;C:/Users/Mario/.gradle/caches/transforms-3/da4a7164ef62461935965726a40fff28/transformed/jetified-kotlinx-coroutines-core-jvm-1.4.1.jar;C:/Users/Mario/.gradle/caches/transforms-3/770c0b7077cee50568d99b09c907eef7/transformed/jetified-kotlin-stdlib-1.5.31.jar;C:/Users/Mario/.gradle/caches/transforms-3/23b81848784257120314f2e56c557e2f/transformed/jetified-annotations-13.0.jar;C:/Users/Mario/.gradle/caches/transforms-3/475636567699da7084508e06292bbb32/transformed/jetified-kotlin-stdlib-common-1.5.31.jar;C:/Users/Mario/.gradle/caches/transforms-3/a1a98edbacda1dcf9c6dae102a053c89/transformed/jetified-annotation-experimental-1.1.0-api.jar;C:/Users/Mario/.gradle/caches/transforms-3/2d35d999f88efd6f6ffbe4fda6013fc3/transformed/constraintlayout-2.1.0-api.jar;C:/Users/Mario/.gradle/caches/transforms-3/9246b48894bff4b4481406c792eb0e45/transformed/jetified-gson-2.8.6.jar;C:/Users/Mario/AppData/Local/Android/Sdk/platforms/android-31/android.jar;C:/Users/Mario/AppData/Local/Android/Sdk/build-tools/30.0.2/core-lambda-stubs.jar" />
+           <option name="noStdlib" value="true" />
+           <option name="noReflect" value="true" />
+           <option name="moduleName" value="app_debug" />
+@@ -92,7 +92,7 @@
+       <excludeFolder url="file://$MODULE_DIR$/../../../app/.gradle" />
+       <excludeFolder url="file://$MODULE_DIR$/../../../app/build" />
+     </content>
+-    <orderEntry type="jdk" jdkName="Android API 30 Platform" jdkType="Android SDK" />
++    <orderEntry type="jdk" jdkName="Android API 31 Platform" jdkType="Android SDK" />
+     <orderEntry type="sourceFolder" forTests="false" />
+     <orderEntry type="library" scope="TEST" name="Gradle: junit:junit:4.13.2" level="project" />
+     <orderEntry type="module-library">
+@@ -136,20 +136,17 @@
+     <orderEntry type="library" name="Gradle: androidx.lifecycle:lifecycle-common:2.3.1" level="project" />
+     <orderEntry type="library" name="Gradle: androidx.arch.core:core-common:2.1.0" level="project" />
+     <orderEntry type="library" name="Gradle: androidx.annotation:annotation:1.2.0" level="project" />
+-    <orderEntry type="library" name="Gradle: com.squareup.moshi:moshi-kotlin:1.9.3" level="project" />
+-    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.5.31" level="project" />
++    <orderEntry type="library" name="Gradle: com.squareup.retrofit2:converter-gson:2.9.0" level="project" />
++    <orderEntry type="library" name="Gradle: com.squareup.retrofit2:retrofit:2.9.0" level="project" />
++    <orderEntry type="library" name="Gradle: com.squareup.okhttp3:okhttp:4.9.0" level="project" />
+     <orderEntry type="library" name="Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-android:1.4.1" level="project" />
+-    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-reflect:1.3.50" level="project" />
++    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.5.31" level="project" />
++    <orderEntry type="library" name="Gradle: com.squareup.okio:okio:2.8.0" level="project" />
+     <orderEntry type="library" name="Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core-jvm:1.4.1" level="project" />
+     <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib:1.5.31" level="project" />
+     <orderEntry type="library" name="Gradle: org.jetbrains:annotations:13.0" level="project" />
+     <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-common:1.5.31" level="project" />
+-    <orderEntry type="library" name="Gradle: com.squareup.retrofit2:converter-moshi:2.9.0" level="project" />
+-    <orderEntry type="library" name="Gradle: com.squareup.retrofit2:converter-scalars:2.9.0" level="project" />
+-    <orderEntry type="library" name="Gradle: com.squareup.retrofit2:retrofit:2.9.0" level="project" />
+-    <orderEntry type="library" name="Gradle: com.squareup.okhttp3:okhttp:3.14.9" level="project" />
+-    <orderEntry type="library" name="Gradle: com.squareup.moshi:moshi:1.9.3" level="project" />
+-    <orderEntry type="library" name="Gradle: com.squareup.okio:okio:1.17.2" level="project" />
++    <orderEntry type="library" name="Gradle: com.google.code.gson:gson:2.8.6" level="project" />
+     <orderEntry type="library" name="Gradle: androidx.databinding:viewbinding:7.0.2@aar" level="project" />
+     <orderEntry type="library" name="Gradle: androidx.navigation:navigation-fragment-ktx:2.3.5@aar" level="project" />
+     <orderEntry type="library" name="Gradle: androidx.fragment:fragment-ktx:1.2.4@aar" level="project" />
+@@ -160,6 +157,13 @@
+     <orderEntry type="library" name="Gradle: androidx.navigation:navigation-ui:2.3.5@aar" level="project" />
+     <orderEntry type="library" name="Gradle: com.google.android.material:material:1.4.0@aar" level="project" />
+     <orderEntry type="library" name="Gradle: androidx.appcompat:appcompat:1.3.1@aar" level="project" />
++    <orderEntry type="library" name="Gradle: androidx.lifecycle:lifecycle-runtime-ktx:2.3.1@aar" level="project" />
++    <orderEntry type="library" name="Gradle: com.google.firebase:firebase-auth-common:9.8.0@aar" level="project" />
++    <orderEntry type="library" name="Gradle: com.google.firebase:firebase-auth-module:9.8.0@aar" level="project" />
++    <orderEntry type="library" name="Gradle: com.google.android.gms:play-services-base:9.8.0@aar" level="project" />
++    <orderEntry type="library" name="Gradle: com.google.firebase:firebase-common:9.8.0@aar" level="project" />
++    <orderEntry type="library" name="Gradle: com.google.android.gms:play-services-tasks:9.8.0@aar" level="project" />
++    <orderEntry type="library" name="Gradle: com.google.android.gms:play-services-basement:9.8.0@aar" level="project" />
+     <orderEntry type="library" name="Gradle: androidx.legacy:legacy-support-v4:1.0.0@aar" level="project" />
+     <orderEntry type="library" name="Gradle: androidx.viewpager2:viewpager2:1.0.0@aar" level="project" />
+     <orderEntry type="library" name="Gradle: androidx.navigation:navigation-fragment:2.3.5@aar" level="project" />
+@@ -188,7 +192,6 @@
+     <orderEntry type="library" name="Gradle: androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1@aar" level="project" />
+     <orderEntry type="library" name="Gradle: androidx.savedstate:savedstate:1.1.0@aar" level="project" />
+     <orderEntry type="library" name="Gradle: androidx.cardview:cardview:1.0.0@aar" level="project" />
+-    <orderEntry type="library" name="Gradle: androidx.lifecycle:lifecycle-runtime-ktx:2.2.0@aar" level="project" />
+     <orderEntry type="library" name="Gradle: androidx.lifecycle:lifecycle-runtime:2.3.1@aar" level="project" />
+     <orderEntry type="library" name="Gradle: androidx.room:room-ktx:2.3.0@aar" level="project" />
+     <orderEntry type="library" name="Gradle: androidx.room:room-runtime:2.3.0@aar" level="project" />
+Index: .idea/misc.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"DesignSurface\">\r\n    <option name=\"filePathToZoomLevelMap\">\r\n      <map>\r\n        <entry key=\"..\\:/Android/TravelManagement/app/src/main/res/drawable/ic_plus.xml\" value=\"0.35\" />\r\n        <entry key=\"..\\:/Android/TravelManagement/app/src/main/res/layout/content_main.xml\" value=\"0.24230072463768115\" />\r\n        <entry key=\"..\\:/Android/TravelManagement/app/src/main/res/layout/viaje_edit_fragment.xml\" value=\"0.268\" />\r\n        <entry key=\"..\\:/Android/TravelManagement/app/src/main/res/layout/viaje_fragment.xml\" value=\"0.24230072463768115\" />\r\n        <entry key=\"..\\:/Android/TravelManagement/app/src/main/res/layout/viaje_row.xml\" value=\"0.1\" />\r\n        <entry key=\"..\\:/Android/TravelManagement/app/src/main/res/layout/viajes_fragment.xml\" value=\"0.24270833333333333\" />\r\n        <entry key=\"..\\:/Android/TravelManagement/app/src/main/res/layout/viajes_list_fragment.xml\" value=\"0.14942528735632185\" />\r\n        <entry key=\"..\\:/Android/TravelManagement/app/src/main/res/menu/menu_main.xml\" value=\"0.24270833333333333\" />\r\n        <entry key=\"..\\:/Users/Jesus Abreu/AndroidStudioProjects/JesusAbreuGonzalez/TravelManagement/app/src/main/res/drawable-v24/ic_launcher_foreground.xml\" value=\"0.37864583333333335\" />\r\n        <entry key=\"..\\:/Users/Jesus Abreu/AndroidStudioProjects/JesusAbreuGonzalez/TravelManagement/app/src/main/res/layout/activity_main.xml\" value=\"0.3129528985507246\" />\r\n        <entry key=\"..\\:/Users/Jesus Abreu/AndroidStudioProjects/JesusAbreuGonzalez/TravelManagement/app/src/main/res/layout/content_main.xml\" value=\"0.3129528985507246\" />\r\n        <entry key=\"..\\:/Users/Jesus Abreu/AndroidStudioProjects/JesusAbreuGonzalez/TravelManagement/app/src/main/res/layout/estado_viaje_fragment.xml\" value=\"0.4\" />\r\n        <entry key=\"..\\:/Users/Jesus Abreu/AndroidStudioProjects/JesusAbreuGonzalez/TravelManagement/app/src/main/res/layout/estado_viaje_row.xml\" value=\"0.3129528985507246\" />\r\n        <entry key=\"..\\:/Users/Jesus Abreu/AndroidStudioProjects/JesusAbreuGonzalez/TravelManagement/app/src/main/res/layout/viaje_edit_fragment.xml\" value=\"0.3129528985507246\" />\r\n        <entry key=\"..\\:/Users/Jesus Abreu/AndroidStudioProjects/JesusAbreuGonzalez/TravelManagement/app/src/main/res/layout/viaje_row.xml\" value=\"0.3129528985507246\" />\r\n        <entry key=\"..\\:/Users/Jesus Abreu/AndroidStudioProjects/JesusAbreuGonzalez/TravelManagement/app/src/main/res/layout/viajes_list_fragment.xml\" value=\"0.3129528985507246\" />\r\n        <entry key=\"..\\:/Users/Jesus Abreu/AndroidStudioProjects/JesusAbreuGonzalez/TravelManagement/app/src/main/res/menu/menu_main.xml\" value=\"0.3625\" />\r\n        <entry key=\"..\\:/Users/Jesus Abreu/Desktop/New folder (3)/TravelManagement/app/src/main/res/layout/estado_viaje_fragment.xml\" value=\"0.3625\" />\r\n        <entry key=\"..\\:/Users/Mario/AndroidStudioProjects/TravelManagement/app/src/main/res/layout/activity_main.xml\" value=\"0.17760416666666667\" />\r\n        <entry key=\"..\\:/Users/Mario/AndroidStudioProjects/TravelManagement/app/src/main/res/layout/balance_viaje_row.xml\" value=\"0.25\" />\r\n        <entry key=\"..\\:/Users/Mario/AndroidStudioProjects/TravelManagement/app/src/main/res/layout/balances_de_viaje_fragment.xml\" value=\"0.25\" />\r\n        <entry key=\"..\\:/Users/Mario/AndroidStudioProjects/TravelManagement/app/src/main/res/layout/content_main.xml\" value=\"0.17760416666666667\" />\r\n        <entry key=\"..\\:/Users/Mario/AndroidStudioProjects/TravelManagement/app/src/main/res/layout/fragment_balances_de_viajes.xml\" value=\"0.14270833333333333\" />\r\n        <entry key=\"..\\:/Users/Mario/AndroidStudioProjects/TravelManagement/app/src/main/res/layout/viaje_edit_fragment.xml\" value=\"0.17760416666666667\" />\r\n        <entry key=\"..\\:/Users/Mario/AndroidStudioProjects/TravelManagement/app/src/main/res/layout/viaje_row.xml\" value=\"0.17760416666666667\" />\r\n        <entry key=\"..\\:/Users/Mario/AndroidStudioProjects/TravelManagement/app/src/main/res/layout/viajes_list_fragment.xml\" value=\"0.17760416666666667\" />\r\n        <entry key=\"..\\:/Users/Mario/AndroidStudioProjects/TravelManagement/app/src/main/res/menu/menu_main.xml\" value=\"0.14270833333333333\" />\r\n        <entry key=\"..\\:/Users/yoelvis/AndroidStudioProjects/TravelManagement/app/src/main/res/layout/balance_viaje_row.xml\" value=\"0.12681159420289856\" />\r\n        <entry key=\"..\\:/Users/yoelvis/AndroidStudioProjects/TravelManagement/app/src/main/res/layout/balances_de_viaje_fragment.xml\" value=\"0.12681159420289856\" />\r\n        <entry key=\"..\\:/Users/yoelvis/AndroidStudioProjects/TravelManagement/app/src/main/res/layout/facturas_pendiente_fragment.xml\" value=\"0.22\" />\r\n      </map>\r\n    </option>\r\n  </component>\r\n  <component name=\"ProjectRootManager\" version=\"2\" languageLevel=\"JDK_11\" default=\"true\" project-jdk-name=\"Android Studio default JDK\" project-jdk-type=\"JavaSDK\">\r\n    <output url=\"file://$PROJECT_DIR$/build/classes\" />\r\n  </component>\r\n  <component name=\"ProjectType\">\r\n    <option name=\"id\" value=\"Android\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/misc.xml b/.idea/misc.xml
+--- a/.idea/misc.xml	(revision fee0afbee0ee4383e5ed2ad646dbc39f76335a50)
++++ b/.idea/misc.xml	(date 1638581525096)
+@@ -24,6 +24,8 @@
+         <entry key="..\:/Users/Mario/AndroidStudioProjects/TravelManagement/app/src/main/res/layout/activity_main.xml" value="0.17760416666666667" />
+         <entry key="..\:/Users/Mario/AndroidStudioProjects/TravelManagement/app/src/main/res/layout/balance_viaje_row.xml" value="0.25" />
+         <entry key="..\:/Users/Mario/AndroidStudioProjects/TravelManagement/app/src/main/res/layout/balances_de_viaje_fragment.xml" value="0.25" />
++        <entry key="..\:/Users/Mario/AndroidStudioProjects/TravelManagement/app/src/main/res/layout/cliente_row.xml" value="0.2234375" />
++        <entry key="..\:/Users/Mario/AndroidStudioProjects/TravelManagement/app/src/main/res/layout/clientes_fragment.xml" value="0.2234375" />
+         <entry key="..\:/Users/Mario/AndroidStudioProjects/TravelManagement/app/src/main/res/layout/content_main.xml" value="0.17760416666666667" />
+         <entry key="..\:/Users/Mario/AndroidStudioProjects/TravelManagement/app/src/main/res/layout/fragment_balances_de_viajes.xml" value="0.14270833333333333" />
+         <entry key="..\:/Users/Mario/AndroidStudioProjects/TravelManagement/app/src/main/res/layout/viaje_edit_fragment.xml" value="0.17760416666666667" />
+Index: .idea/navEditor.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"navEditor-manualLayoutAlgorithm2\">\r\n    <option name=\"myPositions\">\r\n      <map>\r\n        <entry key=\"nav_graph.xml\">\r\n          <value>\r\n            <LayoutPositions>\r\n              <option name=\"myPositions\">\r\n                <map>\r\n                  <entry key=\"estadoViajeFragment\">\r\n                    <value>\r\n                      <LayoutPositions>\r\n                        <option name=\"myPosition\">\r\n                          <Point>\r\n                            <option name=\"x\" value=\"443\" />\r\n                            <option name=\"y\" value=\"-926\" />\r\n                          </Point>\r\n                        </option>\r\n                      </LayoutPositions>\r\n                    </value>\r\n                  </entry>\r\n                  <entry key=\"gastoViajeFragment2\">\r\n                    <value>\r\n                      <LayoutPositions>\r\n                        <option name=\"myPosition\">\r\n                          <Point>\r\n                            <option name=\"x\" value=\"716\" />\r\n                            <option name=\"y\" value=\"-978\" />\r\n                          </Point>\r\n                        </option>\r\n                      </LayoutPositions>\r\n                    </value>\r\n                  </entry>\r\n                  <entry key=\"viajeEditFragment\">\r\n                    <value>\r\n                      <LayoutPositions>\r\n                        <option name=\"myPosition\">\r\n                          <Point>\r\n                            <option name=\"x\" value=\"158\" />\r\n                            <option name=\"y\" value=\"-735\" />\r\n                          </Point>\r\n                        </option>\r\n                      </LayoutPositions>\r\n                    </value>\r\n                  </entry>\r\n                  <entry key=\"viajesListFragment\">\r\n                    <value>\r\n                      <LayoutPositions>\r\n                        <option name=\"myPosition\">\r\n                          <Point>\r\n                            <option name=\"x\" value=\"-337\" />\r\n                            <option name=\"y\" value=\"-716\" />\r\n                          </Point>\r\n                        </option>\r\n                        <option name=\"myPositions\">\r\n                          <map>\r\n                            <entry key=\"action_viajesListFragment_to_viajeEditFragment\">\r\n                              <value>\r\n                                <LayoutPositions />\r\n                              </value>\r\n                            </entry>\r\n                          </map>\r\n                        </option>\r\n                      </LayoutPositions>\r\n                    </value>\r\n                  </entry>\r\n                </map>\r\n              </option>\r\n            </LayoutPositions>\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/navEditor.xml b/.idea/navEditor.xml
+--- a/.idea/navEditor.xml	(revision fee0afbee0ee4383e5ed2ad646dbc39f76335a50)
++++ b/.idea/navEditor.xml	(date 1638582582070)
+@@ -8,59 +8,123 @@
+             <LayoutPositions>
+               <option name="myPositions">
+                 <map>
++                  <entry key="action_clientesFragment_to_facturasPendienteFragment">
++                    <value>
++                      <LayoutPositions />
++                    </value>
++                  </entry>
++                  <entry key="balancesDeViajeFragment">
++                    <value>
++                      <LayoutPositions>
++                        <option name="myPosition">
++                          <Point>
++                            <option name="x" value="288" />
++                            <option name="y" value="-1516" />
++                          </Point>
++                        </option>
++                        <option name="myPositions">
++                          <map>
++                            <entry key="action_balancesDeViajeFragment_to_estadoViajeFragment">
++                              <value>
++                                <LayoutPositions />
++                              </value>
++                            </entry>
++                          </map>
++                        </option>
++                      </LayoutPositions>
++                    </value>
++                  </entry>
++                  <entry key="clientesFragment">
++                    <value>
++                      <LayoutPositions>
++                        <option name="myPosition">
++                          <Point>
++                            <option name="x" value="185" />
++                            <option name="y" value="-482" />
++                          </Point>
++                        </option>
++                        <option name="myPositions">
++                          <map>
++                            <entry key="action_clientesFragment_to_seguimientoClienteFragment">
++                              <value>
++                                <LayoutPositions />
++                              </value>
++                            </entry>
++                          </map>
++                        </option>
++                      </LayoutPositions>
++                    </value>
++                  </entry>
+                   <entry key="estadoViajeFragment">
+                     <value>
+                       <LayoutPositions>
+                         <option name="myPosition">
+                           <Point>
+-                            <option name="x" value="443" />
+-                            <option name="y" value="-926" />
++                            <option name="x" value="298" />
++                            <option name="y" value="-1160" />
+                           </Point>
+                         </option>
++                        <option name="myPositions">
++                          <map>
++                            <entry key="action_estadoViajeFragment_to_gastoViajeFragment">
++                              <value>
++                                <LayoutPositions />
++                              </value>
++                            </entry>
++                            <entry key="action_estadoViajeFragment_to_viajeEditFragment">
++                              <value>
++                                <LayoutPositions />
++                              </value>
++                            </entry>
++                          </map>
++                        </option>
+                       </LayoutPositions>
+                     </value>
+                   </entry>
+-                  <entry key="gastoViajeFragment2">
++                  <entry key="facturasPendienteFragment">
+                     <value>
+                       <LayoutPositions>
+                         <option name="myPosition">
+                           <Point>
+-                            <option name="x" value="716" />
+-                            <option name="y" value="-978" />
++                            <option name="x" value="673" />
++                            <option name="y" value="-838" />
+                           </Point>
+                         </option>
+                       </LayoutPositions>
+                     </value>
+                   </entry>
+-                  <entry key="viajeEditFragment">
++                  <entry key="gastoViajeFragment">
+                     <value>
+                       <LayoutPositions>
+                         <option name="myPosition">
+                           <Point>
+-                            <option name="x" value="158" />
+-                            <option name="y" value="-735" />
++                            <option name="x" value="429" />
++                            <option name="y" value="-838" />
+                           </Point>
+                         </option>
+                       </LayoutPositions>
+                     </value>
+                   </entry>
+-                  <entry key="viajesListFragment">
++                  <entry key="seguimientoClienteFragment">
+                     <value>
+                       <LayoutPositions>
+                         <option name="myPosition">
+                           <Point>
+-                            <option name="x" value="-337" />
+-                            <option name="y" value="-716" />
++                            <option name="x" value="429" />
++                            <option name="y" value="-482" />
+                           </Point>
+                         </option>
+-                        <option name="myPositions">
+-                          <map>
+-                            <entry key="action_viajesListFragment_to_viajeEditFragment">
+-                              <value>
+-                                <LayoutPositions />
+-                              </value>
+-                            </entry>
+-                          </map>
++                      </LayoutPositions>
++                    </value>
++                  </entry>
++                  <entry key="viajeEditFragment">
++                    <value>
++                      <LayoutPositions>
++                        <option name="myPosition">
++                          <Point>
++                            <option name="x" value="558" />
++                            <option name="y" value="-1202" />
++                          </Point>
+                         </option>
+                       </LayoutPositions>
+                     </value>
+Index: local.properties
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>## This file must *NOT* be checked into Version Control Systems,\r\n# as it contains information specific to your local configuration.\r\n#\r\n# Location of the SDK. This is only used by Gradle.\r\n# For customization when using a Version Control System, please read the\r\n# header note.\r\n#Wed Nov 17 19:38:33 BOT 2021\r\nsdk.dir=C\\:\\\\Users\\\\Enel\\\\AppData\\\\Local\\\\Android\\\\Sdk\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>windows-1252
+===================================================================
+diff --git a/local.properties b/local.properties
+--- a/local.properties	(revision fee0afbee0ee4383e5ed2ad646dbc39f76335a50)
++++ b/local.properties	(date 1638580901391)
+@@ -5,4 +5,4 @@
+ # For customization when using a Version Control System, please read the
+ # header note.
+ #Wed Nov 17 19:38:33 BOT 2021
+-sdk.dir=C\:\\Users\\Enel\\AppData\\Local\\Android\\Sdk
++sdk.dir=C\:\\Users\\Mario\\AppData\\Local\\Android\\Sdk
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AndroidLayouts\">\r\n    <shared>\r\n      <config />\r\n    </shared>\r\n  </component>\r\n  <component name=\"AndroidLogFilters\">\r\n    <option name=\"TOOL_WINDOW_CONFIGURED_FILTER\" value=\"Show only selected application\" />\r\n  </component>\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"NONE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"8aec2e47-1f54-4550-acd2-d9af867769cf\" name=\"Default Changelist\" comment=\"Agregando seguimiento_cliente_fragment.xml y SeguimientoClienteFragment.kt\">\r\n      <change beforePath=\"$PROJECT_DIR$/.gradle/7.0.2/executionHistory/executionHistory.bin\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.gradle/7.0.2/executionHistory/executionHistory.bin\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.gradle/7.0.2/executionHistory/executionHistory.lock\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.gradle/7.0.2/executionHistory/executionHistory.lock\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.gradle/7.0.2/fileHashes/fileHashes.bin\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.gradle/7.0.2/fileHashes/fileHashes.bin\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.gradle/7.0.2/fileHashes/fileHashes.lock\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.gradle/7.0.2/fileHashes/fileHashes.lock\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.gradle/7.0.2/fileHashes/resourceHashesCache.bin\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.gradle/7.0.2/fileHashes/resourceHashesCache.bin\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.gradle/7.0.2/javaCompile/classAnalysis.bin\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.gradle/7.0.2/javaCompile/classAnalysis.bin\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.gradle/7.0.2/javaCompile/jarAnalysis.bin\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.gradle/7.0.2/javaCompile/jarAnalysis.bin\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.gradle/7.0.2/javaCompile/javaCompile.lock\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.gradle/7.0.2/javaCompile/javaCompile.lock\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.gradle/7.0.2/javaCompile/taskHistory.bin\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.gradle/7.0.2/javaCompile/taskHistory.bin\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.gradle/checksums/checksums.lock\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.gradle/checksums/checksums.lock\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"ExecutionTargetManager\" SELECTED_TARGET=\"device_and_snapshot_combo_box_target[R58M63TX9EL]\" />\r\n  <component name=\"ExternalProjectsData\">\r\n    <projectState path=\"$PROJECT_DIR$\">\r\n      <ProjectState />\r\n    </projectState>\r\n  </component>\r\n  <component name=\"ExternalProjectsManager\">\r\n    <system id=\"GRADLE\">\r\n      <state>\r\n        <projects_view>\r\n          <tree_state>\r\n            <expand>\r\n              <path>\r\n                <item name=\"\" type=\"6a2764b6:ExternalProjectsStructure$RootNode\" />\r\n                <item name=\"Travel Management\" type=\"f1a62948:ProjectNode\" />\r\n              </path>\r\n              <path>\r\n                <item name=\"\" type=\"6a2764b6:ExternalProjectsStructure$RootNode\" />\r\n                <item name=\"Travel Management\" type=\"f1a62948:ProjectNode\" />\r\n                <item name=\"app\" type=\"2d1252cf:ModuleNode\" />\r\n              </path>\r\n              <path>\r\n                <item name=\"\" type=\"6a2764b6:ExternalProjectsStructure$RootNode\" />\r\n                <item name=\"Travel Management\" type=\"f1a62948:ProjectNode\" />\r\n                <item name=\"app\" type=\"2d1252cf:ModuleNode\" />\r\n                <item name=\"Dependencies\" type=\"6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode\" />\r\n              </path>\r\n            </expand>\r\n            <select />\r\n          </tree_state>\r\n        </projects_view>\r\n      </state>\r\n    </system>\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Kotlin Interface\" />\r\n        <option value=\"resourceFile\" />\r\n        <option value=\"layoutResourceFile\" />\r\n        <option value=\"Class\" />\r\n        <option value=\"Kotlin Class\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_BRANCH_BY_REPOSITORY\">\r\n      <map>\r\n        <entry key=\"$PROJECT_DIR$\" value=\"master\" />\r\n      </map>\r\n    </option>\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"GitSEFilterConfiguration\">\r\n    <file-type-list>\r\n      <filtered-out-file-type name=\"LOCAL_BRANCH\" />\r\n      <filtered-out-file-type name=\"REMOTE_BRANCH\" />\r\n      <filtered-out-file-type name=\"TAG\" />\r\n      <filtered-out-file-type name=\"COMMIT_BY_MESSAGE\" />\r\n    </file-type-list>\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"1yZA8ZJDHBurURUHo51Q2DQmiRT\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\">\r\n    <ConfirmationsSetting value=\"2\" id=\"Add\" />\r\n  </component>\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">\r\n    <property name=\"DEBUGGABLE_DEVICE\" value=\"Pixel_2_XL_API_28 [emulator-5554]\" />\r\n    <property name=\"DEBUGGABLE_PROCESS\" value=\"com.sagrd.travelmanagement\" />\r\n    <property name=\"DEBUGGER_ID\" value=\"Auto\" />\r\n    <property name=\"RunOnceActivity.OpenProjectViewOnStart\" value=\"true\" />\r\n    <property name=\"RunOnceActivity.ShowReadmeOnStart\" value=\"true\" />\r\n    <property name=\"SHARE_PROJECT_CONFIGURATION_FILES\" value=\"true\" />\r\n    <property name=\"SHOW_ALL_PROCESSES\" value=\"false\" />\r\n    <property name=\"android-custom-viewC:/Users/Jesus Abreu/.gradle/caches/modules-2/files-2.1/com.google.android.material/material/1.4.0/51035a8f6342c20d4d8f242d100e6f25e0c271ac/material-1.4.0-sources.jar!/com/google/android/material/floatingactionbutton/FloatingActionButton.java_FloatingActionButton_DIMENSIONS\" value=\"1080&#10;1920\" />\r\n    <property name=\"android-custom-viewC:/Users/Jesus Abreu/.gradle/caches/modules-2/files-2.1/com.google.android.material/material/1.4.0/51035a8f6342c20d4d8f242d100e6f25e0c271ac/material-1.4.0-sources.jar!/com/google/android/material/floatingactionbutton/FloatingActionButton.java_SELECTED\" value=\"FloatingActionButton\" />\r\n    <property name=\"com.intellij.openapi.externalSystem.service.settings.ExternalSystemGroupConfigurable\" value=\"ALL\" />\r\n    <property name=\"dart.analysis.tool.window.visible\" value=\"false\" />\r\n    <property name=\"last_opened_file_path\" value=\"$USER_HOME$/AndroidStudioProjects/PrimerParcial\" />\r\n    <property name=\"settings.editor.selected.configurable\" value=\"reference.settingsdialog.project.gradle\" />\r\n    <property name=\"show.migrate.to.gradle.popup\" value=\"false\" />\r\n  </component>\r\n  <component name=\"RunManager\">\r\n    <configuration name=\"app\" type=\"AndroidRunConfigurationType\" factoryName=\"Android App\" activateToolWindowBeforeRun=\"false\">\r\n      <module name=\"Travel_Management.app\" />\r\n      <option name=\"DEPLOY\" value=\"true\" />\r\n      <option name=\"DEPLOY_APK_FROM_BUNDLE\" value=\"false\" />\r\n      <option name=\"DEPLOY_AS_INSTANT\" value=\"false\" />\r\n      <option name=\"ARTIFACT_NAME\" value=\"\" />\r\n      <option name=\"PM_INSTALL_OPTIONS\" value=\"\" />\r\n      <option name=\"ALL_USERS\" value=\"false\" />\r\n      <option name=\"ALWAYS_INSTALL_WITH_PM\" value=\"false\" />\r\n      <option name=\"DYNAMIC_FEATURES_DISABLED_LIST\" value=\"\" />\r\n      <option name=\"ACTIVITY_EXTRA_FLAGS\" value=\"\" />\r\n      <option name=\"MODE\" value=\"default_activity\" />\r\n      <option name=\"CLEAR_LOGCAT\" value=\"false\" />\r\n      <option name=\"SHOW_LOGCAT_AUTOMATICALLY\" value=\"false\" />\r\n      <option name=\"SKIP_NOOP_APK_INSTALLATIONS\" value=\"true\" />\r\n      <option name=\"FORCE_STOP_RUNNING_APP\" value=\"true\" />\r\n      <option name=\"TARGET_SELECTION_MODE\" value=\"DEVICE_AND_SNAPSHOT_COMBO_BOX\" />\r\n      <option name=\"SELECTED_CLOUD_MATRIX_CONFIGURATION_ID\" value=\"-1\" />\r\n      <option name=\"SELECTED_CLOUD_MATRIX_PROJECT_ID\" value=\"\" />\r\n      <option name=\"DEBUGGER_TYPE\" value=\"Auto\" />\r\n      <Auto>\r\n        <option name=\"USE_JAVA_AWARE_DEBUGGER\" value=\"false\" />\r\n        <option name=\"SHOW_STATIC_VARS\" value=\"true\" />\r\n        <option name=\"WORKING_DIR\" value=\"\" />\r\n        <option name=\"TARGET_LOGGING_CHANNELS\" value=\"lldb process:gdb-remote packets\" />\r\n        <option name=\"SHOW_OPTIMIZED_WARNING\" value=\"true\" />\r\n      </Auto>\r\n      <Hybrid>\r\n        <option name=\"USE_JAVA_AWARE_DEBUGGER\" value=\"false\" />\r\n        <option name=\"SHOW_STATIC_VARS\" value=\"true\" />\r\n        <option name=\"WORKING_DIR\" value=\"\" />\r\n        <option name=\"TARGET_LOGGING_CHANNELS\" value=\"lldb process:gdb-remote packets\" />\r\n        <option name=\"SHOW_OPTIMIZED_WARNING\" value=\"true\" />\r\n      </Hybrid>\r\n      <Java />\r\n      <Native>\r\n        <option name=\"USE_JAVA_AWARE_DEBUGGER\" value=\"false\" />\r\n        <option name=\"SHOW_STATIC_VARS\" value=\"true\" />\r\n        <option name=\"WORKING_DIR\" value=\"\" />\r\n        <option name=\"TARGET_LOGGING_CHANNELS\" value=\"lldb process:gdb-remote packets\" />\r\n        <option name=\"SHOW_OPTIMIZED_WARNING\" value=\"true\" />\r\n      </Native>\r\n      <Profilers>\r\n        <option name=\"ADVANCED_PROFILING_ENABLED\" value=\"false\" />\r\n        <option name=\"STARTUP_PROFILING_ENABLED\" value=\"false\" />\r\n        <option name=\"STARTUP_CPU_PROFILING_ENABLED\" value=\"false\" />\r\n        <option name=\"STARTUP_CPU_PROFILING_CONFIGURATION_NAME\" value=\"Sample Java Methods\" />\r\n        <option name=\"STARTUP_NATIVE_MEMORY_PROFILING_ENABLED\" value=\"false\" />\r\n        <option name=\"NATIVE_MEMORY_SAMPLE_RATE_BYTES\" value=\"2048\" />\r\n      </Profilers>\r\n      <option name=\"DEEP_LINK\" value=\"\" />\r\n      <option name=\"ACTIVITY_CLASS\" value=\"\" />\r\n      <option name=\"SEARCH_ACTIVITY_IN_GLOBAL_SCOPE\" value=\"false\" />\r\n      <option name=\"SKIP_ACTIVITY_VALIDATION\" value=\"false\" />\r\n      <method v=\"2\">\r\n        <option name=\"Android.Gradle.BeforeRunTask\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"8aec2e47-1f54-4550-acd2-d9af867769cf\" name=\"Default Changelist\" comment=\"\" />\r\n      <created>1632448577790</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1632448577790</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"SUBIENDO EL PROYECTO\">\r\n      <created>1633568833249</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1633568833249</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"SUBIENDO EL PROYECTO\">\r\n      <created>1633568915932</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1633568915932</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00003\" summary=\"Creando proyecto\">\r\n      <created>1636772020192</created>\r\n      <option name=\"number\" value=\"00003\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1636772020192</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00004\" summary=\"Agregando EstadoViajeFragment.kt y EstadoViajeViewModel.kt\">\r\n      <created>1636772688125</created>\r\n      <option name=\"number\" value=\"00004\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1636772688125</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00005\" summary=\"Agregando seguimiento_cliente_fragment.xml y SeguimientoClienteFragment.kt\">\r\n      <created>1637099343150</created>\r\n      <option name=\"number\" value=\"00005\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00005\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1637099343150</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"6\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State />\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n    <option name=\"oldMeFiltersMigrated\" value=\"true\" />\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <ignored-roots>\r\n      <path value=\"$PROJECT_DIR$/..\" />\r\n    </ignored-roots>\r\n    <MESSAGE value=\"SUBIENDO EL PROYECTO\" />\r\n    <MESSAGE value=\"Creando proyecto\" />\r\n    <MESSAGE value=\"Agregando EstadoViajeFragment.kt y EstadoViajeViewModel.kt\" />\r\n    <MESSAGE value=\"Agregando seguimiento_cliente_fragment.xml y SeguimientoClienteFragment.kt\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"Agregando seguimiento_cliente_fragment.xml y SeguimientoClienteFragment.kt\" />\r\n  </component>\r\n  <component name=\"XDebuggerManager\">\r\n    <watches-manager>\r\n      <configuration name=\"Remote\">\r\n        <watch expression=\"viewModel.response\" language=\"kotlin\" />\r\n      </configuration>\r\n    </watches-manager>\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision fee0afbee0ee4383e5ed2ad646dbc39f76335a50)
++++ b/.idea/workspace.xml	(date 1638581899326)
+@@ -24,16 +24,47 @@
+       <change beforePath="$PROJECT_DIR$/.gradle/7.0.2/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.0.2/javaCompile/taskHistory.bin" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_runtime_ktx_2_2_0_aar.xml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_moshi_moshi_1_9_3.xml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_moshi_moshi_kotlin_1_9_3.xml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_okhttp3_okhttp_3_14_9.xml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_okio_okio_1_17_2.xml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_retrofit2_converter_moshi_2_9_0.xml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_retrofit2_converter_scalars_2_9_0.xml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_reflect_1_3_50.xml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/modules/app/Travel_Management.app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/app/Travel_Management.app.iml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/navEditor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/navEditor.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_11_13_2021_12_11_AM_[Default_Changelist]/shelved.patch" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_11_13_2021_12_11_AM__Default_Changelist_.xml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Default_Changelist_.xml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sagrd/travelmanagement/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/sagrd/travelmanagement/MainActivity.kt" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sagrd/travelmanagement/adapters/BalanceViajeAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/sagrd/travelmanagement/adapters/BalanceViajeAdapter.kt" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sagrd/travelmanagement/adapters/ClientesAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/sagrd/travelmanagement/adapters/ClientesAdapter.kt" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sagrd/travelmanagement/adapters/VentaAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/sagrd/travelmanagement/adapters/VentaAdapter.kt" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sagrd/travelmanagement/data/ClientesDao.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/sagrd/travelmanagement/data/ClientesDao.kt" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sagrd/travelmanagement/model/Cliente.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/sagrd/travelmanagement/model/Cliente.kt" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sagrd/travelmanagement/network/TravelApi.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/sagrd/travelmanagement/network/TravelApi.kt" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sagrd/travelmanagement/repository/ClientesRepository.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/sagrd/travelmanagement/repository/ClientesRepository.kt" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sagrd/travelmanagement/ui/ClientesFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/sagrd/travelmanagement/ui/ClientesFragment.kt" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sagrd/travelmanagement/ui/ClientesViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/sagrd/travelmanagement/ui/ClientesViewModel.kt" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sagrd/travelmanagement/ui/balanceviaje/BalancesDeViajeViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/sagrd/travelmanagement/ui/balanceviaje/BalancesDeViajeViewModel.kt" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sagrd/travelmanagement/ui/estadoviaje/EstadoViajeFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/sagrd/travelmanagement/ui/estadoviaje/EstadoViajeFragment.kt" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sagrd/travelmanagement/ui/estadoviaje/EstadoViajeViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/sagrd/travelmanagement/ui/estadoviaje/EstadoViajeViewModel.kt" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/balance_viaje_row.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/balance_viaje_row.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/facturas_pendiente_fragment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/facturas_pendiente_fragment.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/app/src/main/res/menu/menu_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/menu/menu_main.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/app/src/main/res/navigation/nav_graph.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/navigation/nav_graph.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/local.properties" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+     <option name="LAST_RESOLUTION" value="IGNORE" />
+   </component>
+-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[R58M63TX9EL]" />
++  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[C:\Users\Mario\.android\avd\Nexus_5X_API_28.avd]" />
+   <component name="ExternalProjectsData">
+     <projectState path="$PROJECT_DIR$">
+       <ProjectState />
+@@ -77,11 +108,14 @@
+         <option value="Kotlin Class" />
+       </list>
+     </option>
++  </component>
++  <component name="Git.Merge.Settings">
++    <option name="BRANCH" value="jesus" />
+   </component>
+   <component name="Git.Settings">
+     <option name="RECENT_BRANCH_BY_REPOSITORY">
+       <map>
+-        <entry key="$PROJECT_DIR$" value="master" />
++        <entry key="$PROJECT_DIR$" value="enmanuel" />
+       </map>
+     </option>
+     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+@@ -93,6 +127,18 @@
+       <filtered-out-file-type name="TAG" />
+       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+     </file-type-list>
++  </component>
++  <component name="GithubProjectSettings">
++    <option name="CREATE_PULL_REQUEST_DEFAULT_BRANCH" value="Mario1/12/2021" />
++    <option name="CREATE_PULL_REQUEST_DEFAULT_REPO_USER" value="enelramon" />
++    <option name="CREATE_PULL_REQUEST_DEFAULT_REPO_NAME" value="TravelManagement" />
++  </component>
++  <component name="GithubPullRequestsUISettings">
++    <option name="hiddenUrls">
++      <set>
++        <option value="https://github.com/enelramon/TravelManagement" />
++      </set>
++    </option>
+   </component>
+   <component name="ProjectId" id="1yZA8ZJDHBurURUHo51Q2DQmiRT" />
+   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+@@ -114,7 +160,7 @@
+     <property name="android-custom-viewC:/Users/Jesus Abreu/.gradle/caches/modules-2/files-2.1/com.google.android.material/material/1.4.0/51035a8f6342c20d4d8f242d100e6f25e0c271ac/material-1.4.0-sources.jar!/com/google/android/material/floatingactionbutton/FloatingActionButton.java_SELECTED" value="FloatingActionButton" />
+     <property name="com.intellij.openapi.externalSystem.service.settings.ExternalSystemGroupConfigurable" value="ALL" />
+     <property name="dart.analysis.tool.window.visible" value="false" />
+-    <property name="last_opened_file_path" value="$USER_HOME$/AndroidStudioProjects/PrimerParcial" />
++    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
+     <property name="show.migrate.to.gradle.popup" value="false" />
+   </component>
+@@ -222,7 +268,14 @@
+       <option name="project" value="LOCAL" />
+       <updated>1637099343150</updated>
+     </task>
+-    <option name="localTasksCounter" value="6" />
++    <task id="LOCAL-00006" summary="lista la ventana principal y el menu">
++      <created>1638413568974</created>
++      <option name="number" value="00006" />
++      <option name="presentableId" value="LOCAL-00006" />
++      <option name="project" value="LOCAL" />
++      <updated>1638413568974</updated>
++    </task>
++    <option name="localTasksCounter" value="7" />
+     <servers />
+   </component>
+   <component name="Vcs.Log.Tabs.Properties">
+@@ -245,7 +298,8 @@
+     <MESSAGE value="Creando proyecto" />
+     <MESSAGE value="Agregando EstadoViajeFragment.kt y EstadoViajeViewModel.kt" />
+     <MESSAGE value="Agregando seguimiento_cliente_fragment.xml y SeguimientoClienteFragment.kt" />
+-    <option name="LAST_COMMIT_MESSAGE" value="Agregando seguimiento_cliente_fragment.xml y SeguimientoClienteFragment.kt" />
++    <MESSAGE value="lista la ventana principal y el menu" />
++    <option name="LAST_COMMIT_MESSAGE" value="lista la ventana principal y el menu" />
+   </component>
+   <component name="XDebuggerManager">
+     <watches-manager>

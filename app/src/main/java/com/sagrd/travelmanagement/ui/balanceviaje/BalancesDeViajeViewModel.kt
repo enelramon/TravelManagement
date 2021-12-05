@@ -3,22 +3,22 @@ package com.sagrd.travelmanagement.ui.balanceviaje
 import android.app.Application
 import android.util.Log
 import androidx.lifecycle.*
-import com.sagrd.travelmanagement.model.Cliente
+import com.sagrd.travelmanagement.model.Clientes
 import com.sagrd.travelmanagement.network.RetrofitInstance
 import kotlinx.coroutines.launch
 import java.lang.IllegalArgumentException
 
 class BalancesDeViajeViewModel(app: Application) : ViewModel() {
     // TODO: Implement the ViewModel
-    private var _lista = MutableLiveData<List<Cliente>>()
+    private var _lista = MutableLiveData<List<Clientes>>()
 
-    val lista : LiveData<List<Cliente>>
+    val lista : LiveData<List<Clientes>>
         get() = _lista
 
     init {
         try {
             viewModelScope.launch {
-                //_lista.value = RetrofitInstance.api.getClientes()
+                _lista.value = RetrofitInstance.api.getClientes()
             }
         }catch (E : Exception){
             Log.e("ERROR","Fallo al obtener clientes del api")
@@ -34,5 +34,4 @@ class BalancesDeViajeViewModel(app: Application) : ViewModel() {
             throw IllegalArgumentException("Unable to construct viewmodel")
         }
     }
-
 }

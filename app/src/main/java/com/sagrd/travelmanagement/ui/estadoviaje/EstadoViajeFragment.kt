@@ -9,6 +9,7 @@ import android.view.ViewGroup
 import androidx.core.view.isVisible
 import androidx.lifecycle.Observer
 import androidx.navigation.fragment.findNavController
+import com.google.android.material.dialog.MaterialAlertDialogBuilder
 import com.sagrd.travelmanagement.R
 import com.sagrd.travelmanagement.adapters.ViajeAdapter
 import com.sagrd.travelmanagement.adapters.documentosAdapter
@@ -43,7 +44,6 @@ class EstadoViajeFragment : Fragment() {
             adapter.submitList(it)
             binding.estadoViajeRecyclerView.adapter = adapter
         })
-
         return binding.root
     }
 
@@ -53,7 +53,6 @@ class EstadoViajeFragment : Fragment() {
         binding.gastoButton.setOnClickListener{
             findNavController().navigate(R.id.action_estadoViajeFragment_to_gastoViajeFragment)
         }
-
         binding.viajeButton.setOnClickListener{
             findNavController().navigate(R.id.viajeEditFragment)
         }
@@ -72,6 +71,12 @@ class EstadoViajeFragment : Fragment() {
             }
             contador++
         }
+
+        if( arguments?.getInt("clienteId") != null)
+            binding.idjesus.setText(arguments?.getLong("clienteId").toString())
+
+
+
     }
 
     override fun onDestroyView() {

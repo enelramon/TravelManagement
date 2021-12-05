@@ -35,7 +35,7 @@ class MainActivity : AppCompatActivity() {
         val navController = findNavController(R.id.nav_host_fragment_content_main)
 
         appBarConfiguration = AppBarConfiguration(
-            setOf( R.id.viajeEditFragment, R.id.estadoViajeFragment, R.id.gastoViajeFragment
+            setOf( R.id.balancesDeViajeFragment
             ), drawerLayout
         )
 
@@ -66,13 +66,5 @@ class MainActivity : AppCompatActivity() {
                 || super.onSupportNavigateUp()
     }
 
-    fun showDatePickerDialog(v: View) {
-        val newFragment = DatePickerFragment()
-        newFragment.show(supportFragmentManager, "datePicker")
 
-//        val binding: SeguimientoClienteFragmentBinding? = null
-//        val fecha: DatePickerFragment? = null
-//        binding?.fechaTextView?.text = newFragment.onDateSet(newFragment.calendar, newFragment.ano,newFragment.mes, newFragment.dia).toString()
-
-    }
 }

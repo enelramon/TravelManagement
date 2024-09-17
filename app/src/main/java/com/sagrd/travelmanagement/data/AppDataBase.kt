@@ -21,6 +21,8 @@ abstract class AppDataBase : RoomDatabase() {
 
     abstract val viajeDao: ViajeDao
     abstract val gastoDao: GastoDao
+    abstract val seguimientoDao : SeguimientoDao
+
     companion object {
         @Volatile
         private var INSTANCE: AppDataBase? = null

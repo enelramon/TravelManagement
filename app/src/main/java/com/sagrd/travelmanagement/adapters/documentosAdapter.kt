@@ -5,9 +5,9 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.sagrd.travelmanagement.databinding.EstadoViajeRowBinding
 import com.sagrd.travelmanagement.model.Documentos
-import com.sagrd.travelmanagement.model.Gasto
 import java.text.SimpleDateFormat
 import java.util.*
+import kotlin.math.round
 
 class documentosAdapter(): RecyclerView.Adapter<documentosAdapter.DocumentoViewHolder>() {
     private var documentosList = emptyList<Documentos>()
@@ -38,12 +38,11 @@ class documentosAdapter(): RecyclerView.Adapter<documentosAdapter.DocumentoViewH
         RecyclerView.ViewHolder(binding.root) {
 
         fun bind(item: Documentos) {
-            val fecha = SimpleDateFormat("dd-M-yyyy")
-            val fecha3 = fecha.format(Date())
-            binding.fechaTextView.text = fecha3.toString()
+            val fechaFormateada = item.fecha.replaceRange(9,item.fecha.length,"")
+            binding.fechaTextView.text = fechaFormateada
             binding.conceptoTextView.text = item.concepto
-            binding.montoTextView.text = item.monto.toString()
-            binding.balanceTextView.text = item.balance.toString()
+            binding.montoTextView.text = round(item.monto).toString()
+            binding.balanceTextView.text = round(item.balance).toString()
         }
     }
 }

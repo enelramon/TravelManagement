@@ -49,7 +49,8 @@ class SeguimientoClienteFragment : Fragment() {
                 .get(SeguimientoClienteViewModel::class.java)
 
         binding.guardarButton.setOnClickListener{
-            viewModel.Post(LlenaClase())
+            val int = arguments?.getLong("clienteId")!!.toInt()
+            viewModel.Post(LlenaClase(int))
             it.showMessage("Guardado")
         }
 
@@ -72,7 +73,7 @@ class SeguimientoClienteFragment : Fragment() {
         }
     }
 
-    fun LlenaClase() : Seguimiento {
+    fun LlenaClase(id: Int) : Seguimiento {
         val formatoFecha = SimpleDateFormat("yyyy-M-dd")
         val fecha = formatoFecha.format(Date())
 
@@ -89,21 +90,11 @@ class SeguimientoClienteFragment : Fragment() {
         return Seguimiento(
             0,
             fecha.toString()+"T01:00:00",
-            1,
+            id.toLong(),
             binding.ComentarioTextInputEditText.text.toString(),
             opcion,
             opcion2,
             binding.fechaTextView.text.toString() + "T01:00:00"
         )
-
-//        return Seguimiento(
-//            0,
-//            "2021-11-29T03:41:43.628Z",
-//            1,
-//            "Hola",
-//            1,
-//            1,
-//            "2021-11-29T01:00:00.628Z"
-//        )
     }
 }

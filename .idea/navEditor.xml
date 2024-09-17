@@ -8,6 +8,58 @@
             <LayoutPositions>
               <option name="myPositions">
                 <map>
+                  <entry key="action_clientesFragment_to_facturasPendienteFragment">
+                    <value>
+                      <LayoutPositions />
+                    </value>
+                  </entry>
+                  <entry key="balancesDeViajeFragment">
+                    <value>
+                      <LayoutPositions>
+                        <option name="myPosition">
+                          <Point>
+                            <option name="x" value="457" />
+                            <option name="y" value="-548" />
+                          </Point>
+                        </option>
+                        <option name="myPositions">
+                          <map>
+                            <entry key="action_balancesDeViajeFragment_to_estadoViajeFragment">
+                              <value>
+                                <LayoutPositions />
+                              </value>
+                            </entry>
+                          </map>
+                        </option>
+                      </LayoutPositions>
+                    </value>
+                  </entry>
+                  <entry key="clientesFragment">
+                    <value>
+                      <LayoutPositions>
+                        <option name="myPosition">
+                          <Point>
+                            <option name="x" value="-296" />
+                            <option name="y" value="-325" />
+                          </Point>
+                        </option>
+                        <option name="myPositions">
+                          <map>
+                            <entry key="action_clientesFragment_to_facturasPendienteFragment2">
+                              <value>
+                                <LayoutPositions />
+                              </value>
+                            </entry>
+                            <entry key="action_clientesFragment_to_seguimientoClienteFragment">
+                              <value>
+                                <LayoutPositions />
+                              </value>
+                            </entry>
+                          </map>
+                        </option>
+                      </LayoutPositions>
+                    </value>
+                  </entry>
                   <entry key="estadoViajeFragment">
                     <value>
                       <LayoutPositions>
@@ -17,16 +69,54 @@
                             <option name="y" value="-926" />
                           </Point>
                         </option>
+                        <option name="myPositions">
+                          <map>
+                            <entry key="action_estadoViajeFragment_to_gastoViajeFragment">
+                              <value>
+                                <LayoutPositions />
+                              </value>
+                            </entry>
+                            <entry key="action_estadoViajeFragment_to_viajeEditFragment">
+                              <value>
+                                <LayoutPositions />
+                              </value>
+                            </entry>
+                          </map>
+                        </option>
                       </LayoutPositions>
                     </value>
                   </entry>
-                  <entry key="gastoViajeFragment2">
+                  <entry key="facturasPendienteFragment">
                     <value>
                       <LayoutPositions>
                         <option name="myPosition">
                           <Point>
-                            <option name="x" value="716" />
-                            <option name="y" value="-978" />
+                            <option name="x" value="-55" />
+                            <option name="y" value="-194" />
+                          </Point>
+                        </option>
+                      </LayoutPositions>
+                    </value>
+                  </entry>
+                  <entry key="gastoViajeFragment">
+                    <value>
+                      <LayoutPositions>
+                        <option name="myPosition">
+                          <Point>
+                            <option name="x" value="762" />
+                            <option name="y" value="-788" />
+                          </Point>
+                        </option>
+                      </LayoutPositions>
+                    </value>
+                  </entry>
+                  <entry key="seguimientoClienteFragment">
+                    <value>
+                      <LayoutPositions>
+                        <option name="myPosition">
+                          <Point>
+                            <option name="x" value="-55" />
+                            <option name="y" value="-486" />
                           </Point>
                         </option>
                       </LayoutPositions>
@@ -40,27 +130,6 @@
                             <option name="x" value="158" />
                             <option name="y" value="-735" />
                           </Point>
-                        </option>
-                      </LayoutPositions>
-                    </value>
-                  </entry>
-                  <entry key="viajesListFragment">
-                    <value>
-                      <LayoutPositions>
-                        <option name="myPosition">
-                          <Point>
-                            <option name="x" value="-337" />
-                            <option name="y" value="-716" />
-                          </Point>
-                        </option>
-                        <option name="myPositions">
-                          <map>
-                            <entry key="action_viajesListFragment_to_viajeEditFragment">
-                              <value>
-                                <LayoutPositions />
-                              </value>
-                            </entry>
-                          </map>
                         </option>
                       </LayoutPositions>
                     </value>

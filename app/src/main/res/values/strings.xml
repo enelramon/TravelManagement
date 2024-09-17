@@ -32,6 +32,11 @@
     <string name="contin_a">Continúa</string>
     <string name="llamada">Llamada</string>
     <string name="comentario">comentario</string>
+    <string name="BalanceDeViajes">Balance De Viajes</string>
+    <string name="clientes">Clientes</string>
+    <string name="viajes">Viajes</string>
+
+    <string name="clienteFramen">Clientes </string>
 
     <string-array name="estado">
         <item>Continúa</item>
